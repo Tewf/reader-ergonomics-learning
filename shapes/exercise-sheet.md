@@ -65,6 +65,7 @@ every problem offers a hint before its answer and its solution, all folded.
 | Check | What it verifies | Kind |
 |---|---|---|
 | `sheet` | every item carries a declared type; the first item of each type is a worked example | exact |
+| `sheet` | each type has a Complete item in its own part, between the example and the problems | heuristic, a warning: fading helps novices and reverses for experts |
 | `sheet` | every problem folds its answer and its solution; a hint comes before them | exact |
 | `sheet` | a Mixed review holds problems of at least `mixed_types` types | heuristic, PROVISIONAL threshold |
 | `sheet` | no type has more than `max_block` problems in its own part | heuristic, PROVISIONAL threshold |

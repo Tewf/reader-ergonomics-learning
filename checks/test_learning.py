@@ -78,6 +78,12 @@ GOOD_SHEET = """# A sheet
 
 1. **Step:** done.
 
+### Complete (T1): finish
+
+<details><summary>Answer</summary>
+The last step.
+</details>
+
 ### Problem (T1): try
 
 <details><summary>Hint</summary>
@@ -91,6 +97,12 @@ An answer.
 ## Part two
 
 ### Worked example (T2): solved
+
+### Complete (T2): finish
+
+<details><summary>Answer</summary>
+The last step.
+</details>
 
 ### Problem (T2): try
 
@@ -234,6 +246,12 @@ class Sheet(unittest.TestCase):
     def test_type_opens_without_example(self):
         text = GOOD_SHEET.replace("### Worked example (T2): solved\n\n", "")
         self.assertTrue(any("T2 opens without a worked example" in m for m in messages(self.run_on(text), "error")))
+
+    def test_type_without_completion_problem(self):
+        text = GOOD_SHEET.replace("### Complete (T1): finish\n\n<details><summary>Answer</summary>\nThe last step.\n</details>\n\n", "")
+        found = self.run_on(text)
+        self.assertTrue(any("T1 goes from its worked example to whole problems" in m for m in messages(found, "warning")))
+        self.assertFalse(any("T2 goes from" in m for m in messages(found)))
 
     def test_problem_without_answer(self):
         text = GOOD_SHEET.replace("<details><summary>Answer</summary>\nAn answer.\n</details>\n\n## Part two", "## Part two")

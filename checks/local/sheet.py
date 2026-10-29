@@ -8,6 +8,8 @@ outside fenced blocks and inline code.
 - types: a `types_headings` section lists ids as `- **T1** ...` (exact);
 - typed: every item names a type, and the type is listed (exact);
 - example first: the first item of each type is a worked example (exact): the order measured for novices;
+- faded: each type has a completion problem in its own part (heuristic, a warning: fading is measured for novices
+  and reverses for experts, so a sheet for experts may leave it out);
 - folded: every problem and completion problem folds an answer or a solution (exact);
 - hint first: in a problem that has both, the hint fold comes before the answer and the solution (exact);
 - hinted: a problem has a hint (heuristic: a hint on paper is a convention; hints are measured only in software);
@@ -70,7 +72,7 @@ def check_text(path: str, text: str, settings: dict) -> list[Finding]:
         found.append(Finding(NAME, path, 1, "no type listed as `- **T1** ...` under Types: name each type of problem"))
     mixed = markup.named(all_sections, settings.get("mixed_headings", ["Mixed review"]))
     in_mixed = lambda section: any(m.start <= section.line - 1 < m.end for m in mixed)
-    first_item, block_problems, mixed_types = {}, {}, set()
+    first_item, block_problems, mixed_types, completed = {}, {}, set(), set()
     for section in all_sections:
         kind = kind_of(section.title, kinds)
         if not kind:
@@ -86,6 +88,8 @@ def check_text(path: str, text: str, settings: dict) -> list[Finding]:
             mixed_types.add(item_type)
         else:
             first_item.setdefault(item_type, (kind, section.line))
+            if kind == "complete":
+                completed.add(item_type)
             if kind == "problem":
                 block_problems[item_type] = block_problems.get(item_type, 0) + 1
         if kind in ("problem", "complete"):
@@ -94,6 +98,11 @@ def check_text(path: str, text: str, settings: dict) -> list[Finding]:
         if kind != "example":
             found.append(Finding(NAME, path, line, f"type {item_type} opens without a worked example: solve its "
                                                    "first problem in full before asking for one"))
+    for item_type, (kind, line) in first_item.items():
+        if kind == "example" and item_type not in completed:
+            found.append(Finding(NAME, path, line, f"type {item_type} goes from its worked example to whole problems "
+                                                   "with no completion problem: fading the steps helps novices",
+                                 "warning"))
     for item_type, line in types.items():
         if item_type not in first_item and item_type not in mixed_types:
             found.append(Finding(NAME, path, line, f"type {item_type} is listed and has no item", "warning"))
