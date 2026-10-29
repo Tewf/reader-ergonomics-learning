@@ -11,7 +11,7 @@ Levels: **MA** meta-analysis, **SR** systematic review, **R** review without poo
 | Melton 1978; Hamilton 1985 | behavioural objectives; adjunct questions and objectives | effects depend on awareness, clarity, difficulty, number and position of objectives (Melton, abstract) | R |
 | Tippett 2010 | refutation text, two decades | refutation text is more likely than expository text to produce conceptual change; no developmental trend (abstract) | R |
 | Guzzetti 1993 | conceptual change, reading and science education | effective interventions share one element: they produce conceptual conflict (abstract; no number read) | MA |
-| Schroeder 2022 | refutation text, between-subjects | g = 0.41 over 44 comparisons, n = 3,869, consistent across contexts (secondary) | MA |
+| Schroeder 2022 | refutation text, between-subjects | g = 0.41 over 44 comparisons, n = 3,869, consistent and robust across contexts; against expository text alone g = 0.36, k = 30 (Table 3; read in full, PMC8784251) | MA |
 | Danielson 2025 | refutation text, preregistered | 71 articles, 111 samples, 294 effect sizes; a consistent advantage, no moderator among 26 (secondary) | MA |
 | Zengilowski 2021 | refutation text, critical | single topics, the role of testing and durability beyond an immediate posttest are unresolved (abstract) | R |
 | Konrad 2009; Larwin 2012; Larwin 2013; Biggers 2020 | guided notes | positive, larger in school-age samples; numbers in strand 6 | MA; SR |

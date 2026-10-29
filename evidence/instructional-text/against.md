@@ -29,7 +29,7 @@ This file gathers the evidence against the rules on the apparatus of a study tex
 
 - Most studies test one topic, often right after reading, with a pretest that may prime the answer (Zengilowski 2021).
 - A refutation text alone is not enough and needs discussion (Guzzetti 2000), so a printed misconception box may do less than the classroom studies show.
-- Effect sizes differ widely across pools: g = 0.41 between subjects (Schroeder 2022) against 1.18 for conceptual change texts (Armagan 2017), both secondary; the reasons were not read.
+- Effect sizes differ widely across pools: g = 0.41 between subjects (Schroeder 2022, read in full) against 1.18 for conceptual change texts (Armagan 2017, secondary); the reasons were not read.
 - Pictures added to make a refutation text engaging hurt it (Jin 2024, secondary).
 - One answer to the pretest worry: a four-group design found no inflation from pretesting (Jin 2025b, 113 participants recruited online, secondary).
 
