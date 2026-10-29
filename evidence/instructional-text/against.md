@@ -23,7 +23,7 @@ This file gathers the evidence against the rules on the apparatus of a study tex
 
 - Glossaries and in-text glosses were the least effective gloss forms for word learning (Yanagisawa 2020, second language, secondary).
 - Marginal glosses in first-language college reading may be of limited use (Stewart 1991, secondary).
-- The summary studies are small and old: three groups (Hartley 1979), 40 students (Cook 1981), 40 students (van der Meij 2012).
+- The summary studies are small and old: three groups (Hartley 1979), 40 students (Cook 1981), 40 students (van der Meij 2012), all read by abstract (secondary).
 
 ## Refutation text
 
@@ -31,11 +31,11 @@ This file gathers the evidence against the rules on the apparatus of a study tex
 - A refutation text alone is not enough and needs discussion (Guzzetti 2000), so a printed misconception box may do less than the classroom studies show.
 - Effect sizes differ widely across pools: g = 0.41 between subjects (Schroeder 2022) against 1.18 for conceptual change texts (Armagan 2017), both secondary; the reasons were not read.
 - Pictures added to make a refutation text engaging hurt it (Jin 2024, secondary).
-- One answer to the pretest worry: a four-group design found no inflation from pretesting (Jin 2025b, 113 online adults, secondary).
+- One answer to the pretest worry: a four-group design found no inflation from pretesting (Jin 2025b, 113 participants recruited online, secondary).
 
 ## Guided notes, study guides, crib sheets
 
-- The guided-notes pools mix designs and outcomes: effects ranged from -2.21 to 10.39 in one pool, and on exam scores the mean was negative, d = -0.75 (Larwin 2012, read).
+- The guided-notes pools mix designs and outcomes: effects ranged from -2.21 to 10.39 in one pool, and on exam scores the mean was negative, d = -0.75, from special-education samples only (Larwin 2012, read).
 - The college pool is heterogeneous, Q(26) = 158.99, and 13 of its 27 effects are under 0.5 (Larwin 2013, read).
 - Against the instructor's full notes, the gain of guided notes falls to d = 0.27 (Larwin 2013).
 - A provided concept-list study guide lowered exam scores against students making their own (Cushen 2019, secondary).

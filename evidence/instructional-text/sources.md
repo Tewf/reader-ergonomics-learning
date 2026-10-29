@@ -15,7 +15,8 @@ The pool of the instructional-text review: how it narrowed, then one row per sou
 
 - Formal:
   - 29,189 records were returned: ERIC 3,835 over 43 strings, Semantic Scholar 25,354 over 24 strings; the two overlap.
-  - 1,103 titles were screened: 668 in ERIC (the top 20 per string, fewer where fewer came back) and 435 in Semantic Scholar (the top 20 by citations).
+  - 1,103 titles were screened: 668 in ERIC and 435 in Semantic Scholar (the top 20 by citations).
+  - The audit found that the rule as stated, the top 20 ERIC records per string, gives 727 over the protocol's table, so 1,162 in all. The count of 668 was kept as recorded; the difference was not resolved.
   - 69 were included as new; none of them is in the five bibliographies of the reader-ergonomics repositories.
   - Works already reviewed elsewhere are linked, not counted (frame.md, last table).
 - Grey:
@@ -45,7 +46,7 @@ Levels as in review.md. "abstract" means only the abstract was read; "read" mean
 | Hamilton 1985 | formal | lead (ERIC) | R, abstract | review 0; position |
 | Tippett 2010 | formal | F11 | R, abstract | review 0; position |
 | Guzzetti 1993 | formal | lead (ERIC) | MA, abstract | review 0 |
-| Schroeder 2022 | formal | F11 | MA, abstract (secondary) | review 0; state-of-the-art; position; against; baseline |
+| Schroeder 2022 | formal | F11 | MA, read (full text, PMC8784251) | review 0; state-of-the-art; position; against; baseline |
 | Danielson 2025 | formal | snowball, F35 | MA, abstract (secondary) | review 0; state-of-the-art; position |
 | Zengilowski 2021 | formal | F11 | R, abstract | review 0; state-of-the-art; against; baseline |
 | Konrad 2009 | formal | F14 | MA, abstract | review 0, 6 |

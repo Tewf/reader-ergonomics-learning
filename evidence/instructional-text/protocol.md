@@ -163,5 +163,5 @@ Strings IT1 to IT13 ran on 2026-10-29, one reviewer, grey tier 2, by the [shared
 - Most formal sources were read by abstract only; publisher pages of SAGE, Springer, Elsevier and Taylor and Francis refused access without a login, and none was used.
 - One Semantic Scholar string was refused three times (F4); Semantic Scholar counts are not phrase-exact.
 - The ERIC relevance order and the web engine's ranking are not documented and may change.
-- Archived copies exist for six practice pages (references.md); OpenStax, OSCQR and Teaching Tech Together had none on the day.
+- Archived copies exist for six practice pages (the [bibliography](../bibliography.md)); OpenStax, OSCQR and Teaching Tech Together had none on the day.
 - This search did not find an experiment that removes one aid from a real textbook; that is not proof none exists.

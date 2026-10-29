@@ -23,7 +23,7 @@ This file reads the literature on questions written into study material, by stra
 
 - Agarwal 2019: middle-school and college students; higher-order and mixed quizzes raised delayed higher-order test scores, fact quizzes did not (abstract).
 - Jensen 2014: two sections of one biology course, a semester of low-level or high-level quizzes and exams; the high-level section scored higher on both low-level and high-level final items (abstract).
-- McDaniel 2013 (middle school) and Collins 2018 (college): application quiz questions raised exam scores on application and on definition items; definition questions did not help application questions (abstracts).
+- McDaniel 2013 (middle school): application quiz questions raised exam scores on application and on definition items. Collins 2018 (college): application quizzes raised application items and matched factual quizzes on definitions (abstracts).
 - Butler 2010 and Rohrer 2010: repeated testing improved new inferential questions a week later, and transfer map questions a day later in children (abstracts).
 - Pan 2018 moderators: transfer grows with response congruency (d = 0.28 without, 0.58 with), elaborated retrieval practice and initial test accuracy (full text).
 - Self-explanation and error-finding questions are core results (Bisra 2018; Alemdag 2025); no study here compared them with application questions inside one text.
@@ -98,12 +98,12 @@ This file reads the literature on questions written into study material, by stra
 
 | Who | Since | Form | Evidence of use |
 |---|---|---|---|
-| OpenStax, Psychology 2e (Spielman 2020) | 2020 | per chapter: 15 four-option review questions, one with "all of the above"; 8 critical thinking questions; no answer on the page | OpenStax reach, owner's page, example only (OpenStax 2026c) |
+| OpenStax, Psychology 2e (Spielman 2020) | 2020 | chapter 1: 15 four-option review questions, one with "all of the above", and 8 critical thinking questions, no answer on the page; chapters 2 and 3 hold 24 and 20 review questions | OpenStax reach, owner's page, example only (OpenStax 2026c) |
 | The Carpentries | page of 2025-08-05; 2026-10-06 | challenges with hint and solution blocks in accordions; instructors trained to write MCQs whose wrong answers each diagnose a misconception (Carpentries 2025p; Carpentries 2026p) | lesson template; reach in the instructional-text review |
 | Moodle quiz | page of 2025-07-16 | deferred feedback, immediate feedback, interactive with multiple tries, certainty-based marking (Moodle 2025) | 12,654,431,762 quiz questions on 144,984 registered sites (Moodle 2026, undated) |
-| NBME | sixth edition | item-writing guide for medical schools; text behind a form, not opened (NBME 2026) | decades of exam items, by its own account |
+| NBME | sixth edition | item-writing guide for medical schools; text behind a form, not opened (NBME 2026, example only) | decades of exam items, by its own account |
 | Teaching centres | 2013 | stem a question, plausible distractors from common errors, options parallel in grammar and length, negation avoided or emphasised, no "all" or "none of the above" (Brame 2013) | archived page |
-| IES practice guide | 2007 | quizzing to re-expose content: strong evidence; deep explanatory questions: strong; prequestions: minimal (Pashler 2007) | federal guide |
+| IES practice guide | 2007 | quizzing to re-expose content: strong evidence; deep explanatory questions: strong; prequestions: low (Pashler 2007) | federal guide |
 
 - Test banks sold with textbooks: 75% of auditing test-bank questions broke a guideline (Hansen 1997); 2,233 violations among 2,913 nursing test-bank questions, 47.3% at knowledge level (Masters 2001).
 

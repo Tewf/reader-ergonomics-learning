@@ -24,7 +24,7 @@ Levels: **MA** meta-analysis, **SR** systematic review, **R** review without poo
 
 ## 1. Seminal works
 
-- Hartley 1978, a book read through its ERIC record (grey tier 1): guidelines for writers and typographers, with texts shown before and after revision. Hartley 1977 gives fifty guidelines in three groups (prose, tables and graphs, typography).
+- Hartley 1978, a book read through its ERIC record (grey tier 1): guidelines for writers and typographers, with texts shown before and after revision. Hartley 1977 gives fifty guidelines (abstract) in three groups (prose, tables and graphs, typography).
 - Mager 1962 (grey tier 1, ERIC record): a programmed text that teaches to state objectives as observable behaviour, with conditions and a criterion of success.
 - Biggs 1996: **constructive alignment**, objectives, teaching and assessment built on the same verbs, illustrated with one teacher-education unit (abstract).
 - Cohen 1987: **instructional alignment** is claimed to give larger effects at lower cost than other constructs (abstract; the effect sizes were not read).
@@ -39,7 +39,7 @@ Levels: **MA** meta-analysis, **SR** systematic review, **R** review without poo
 | Gurung 2003 | more than 200 students: bold terms and practice questions used most; reported use and helpfulness do not relate to exam scores; rated helpfulness of key terms relates to worse scores (secondary) | C |
 | Gurung 2004 | 240 students: use of aids not positively related to any exam; a poor first exam raised summary use only a little (secondary) | C |
 | Gurung 2011; Landrum 2012 | perceived quality of aids, visuals and writing predicted how much was read and exam scores, varying by book; the link to grades is indirect (secondary) | C |
-| Gurung 2012 | textbook use against quiz scores across 35 institutions (secondary, a search summary); results not read | C |
+| Gurung 2012 | textbook use against quiz scores across 35 institutions: books differed in rated quality, not in quiz scores; grade point average and rated helpfulness predicted scores (abstract) | C |
 | Benbassat 2008 | 230 respondents say boxed text is rarely studied; in a test with 177 readers, boxed and plain text were skimmed alike (secondary) | D; E |
 
 - No experiment was found that removes one aid from a real textbook and measures learning.
@@ -57,13 +57,13 @@ Levels: **MA** meta-analysis, **SR** systematic review, **R** review without poo
 | Hailikari 2022 | students say teaching and assessment shaped their approach; the stated outcomes "did not seem" to matter much (abstract) | C |
 | Trigwell 2014; Wang 2013 | teachers experience alignment in qualitatively different ways (abstract); Wang 2013 located only | C |
 | Polikoff 2014 | teachers' alignment to standards had surprisingly weak links to their value-added scores (abstract) | C |
-| Lynch 2020; Hollowell 2017; Sadaf 2019 | rubric-based redesign: a pilot of two against two courses, all indicators better, none significant (Lynch); descriptive and perception studies | C; D |
+| Lynch 2020; Hollowell 2017; Sadaf 2019 | rubric-based redesign: a pilot of two against two courses, all indicators better, none significant (Lynch, abstract); descriptive and perception studies | C; D |
 
 ## 4. Summaries, key terms and glossaries (Q3)
 
 | Source | Finding | Level |
 |---|---|---|
-| Hartley 1979; Cook 1981 | an end summary gave better recall than a summary at the start or none; 40 students in Cook (abstracts) | E |
+| Hartley 1979; Cook 1981 | an end summary gave better recall than one at the start of the same page, or none; in Cook, 40 students, an opening summary on a separate page did as well (abstracts) | E |
 | Mayer 1996 | three experiments, 163 students: a summary of captions and simple drawings matched or beat the full text on recall and transfer (abstract) | E |
 | Reder 1980 | compares texts with their summaries; the author's copy is a scan without text, so no result is claimed | E |
 | van der Meij 2012 | numbered summaries inside the text against a structured abstract: recall d = 1.57, 40 students (secondary) | E |
@@ -79,7 +79,7 @@ Levels: **MA** meta-analysis, **SR** systematic review, **R** review without poo
 |---|---|---|
 | Guzzetti 2000 | a refutation text alone is not enough; discussion helps; only refutation text showed long-term effects (abstract) | R |
 | Diakidoy 2011 | against expository text, refutation raised inferences and delayed learning, not memory for the text (abstract) | E |
-| Jin 2025b | Solomon four-group design, 113 adults: refutation beat expository text, and a pretest did not inflate the effect (abstract) | E |
+| Jin 2025b | Solomon four-group design, 113 participants recruited online: refutation beat expository text, and a pretest did not inflate the effect (abstract) | E |
 | Jin 2024 | refutation helped; seductive pictures added to it hurt (abstract) | E |
 | Armagan 2017 | 42 conceptual change text studies, 1995-2010: overall effect 1.18 (secondary) | MA |
 
@@ -112,7 +112,7 @@ Levels: **MA** meta-analysis, **SR** systematic review, **R** review without poo
 | Who | Form | Evidence of use |
 |---|---|---|
 | OpenStax 2026b | objectives per section, bold terms defined in context, call-outs, section summaries, checks before exercises, answer key at the back | open textbook; adoption in state-of-the-art.md |
-| Carpentries 2026a | episode with required questions, objectives and key points; challenges with nested solutions | lesson template of 45 lessons (Carpentries 2025) |
+| Carpentries 2026a | episode with required questions, objectives and key points; challenges with nested solutions | 45 open lessons (Carpentries 2025) |
 | Carpentries 2026b; Wilson 2019 | outcomes, then assessments, then content; 3 to 5 episodes per hour (Wilson) | training curriculum; book |
 | Quality Matters 2026b | 8 general and 44 specific standards; objectives aligned with assessment, materials and activities; 85% to certify | rubric; adoption is the owner's claim |
 | SUNY 2026 (example only) | 50 standards in an open rubric, licensed CC BY 4.0 | no count given |

@@ -33,7 +33,7 @@ This file names the baseline that a proposed exercise-set shape must beat, and h
 | Help use and copying | order of opening hint, answer, solution; abnormally short attempts | Roll 2011; Palazzo 2010; Chen 2022 |
 
 - Design: classes randomised to B1 or the shape, same problems, same teachers where possible; at least several weeks of sets, as in Rohrer 2015 (about three months) and Rohrer 2014 (nine weeks).
-- Effect sizes: Cohen's d or Hedges' g per outcome, with the class as a level in a two-level model, as Roschelle 2016 did.
+- Effect sizes: Cohen's d or Hedges' g per outcome, with the school or the class as the second level of a two-level model; Roschelle 2016 used schools.
 - Moderators to record: prior knowledge (expertise reversal, Tetzlaff 2025 in the core; Likourezos 2019), subject outside mathematics (Perry 2021).
 - The cumulative end-of-year test belongs in the design: the one year-long trial found a short-term gain and no cumulative one (van der Haar 2023).
 

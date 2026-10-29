@@ -6,8 +6,8 @@ This file names the baseline that a proposed shape for questions in study materi
 
 | Id | Baseline | Why this one |
 |---|---|---|
-| **B1**, to beat | a self-test of short-answer questions on recall, one per key idea, each followed by its correct answer once the learner has answered | the standard condition of the research: cued recall with feedback has the largest lab effect, g = 0.61 (Rowland 2014), and feedback lifts classroom quizzes from 0.374 to 0.537 (Yang 2021) |
-| **B0**, the practice control | end-of-chapter review questions as a textbook prints them: four-option multiple choice, mostly recall, answers away from the questions or absent | most adopted: 15 four-option items per chapter in Spielman 2020; 93% of course items at the two lowest levels (Momsen 2010) |
+| **B1**, to beat | a self-test of short-answer questions on recall, one per key idea, each followed by its correct answer once the learner has answered | the standard condition of the research: cued recall as the initial test gives g = 0.61 in the lab (Rowland 2014, to be checked in the paper), and feedback lifts classroom quizzes from 0.374 to 0.537 (Yang 2021) |
+| **B0**, the practice control | end-of-chapter review questions as a textbook prints them: four-option multiple choice, mostly recall, answers away from the questions or absent | most adopted: 15 to 24 four-option items per chapter in Spielman 2020 (chapters 1 to 3); 93% of course items at the two lowest levels (Momsen 2010) |
 
 - The shapes must beat B1: beating B0 is cheap, since B0 often lacks feedback and higher-order items, and B1 already supplies both repairs the evidence names.
 - B0 stays in every comparison as the condition learners actually meet.

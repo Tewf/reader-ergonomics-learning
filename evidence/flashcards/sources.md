@@ -146,15 +146,15 @@ Subtotals in the order of the [shared rules](../README.md#rules-the-four-reviews
 | MESE 2014 | grey tier 2 | FC1 | 13.5 of 20 (2 / 4 / 3.5 / 1 / 0.5 / 1.5 / 0.5 / 0.5) | review 8; against |
 | MESE 2024 | grey tier 2 | FC1 | 10.5 of 20 (1.5 / 3 / 3.5 / 1 / 0 / 1 / 0 / 0.5) | review 8 |
 | AcSE 2016 | grey tier 2 | FC3 | 13 of 20 (2 / 3 / 3.5 / 1 / 0.5 / 1.5 / 1 / 0.5) | review 8 |
-| AcSE 2023 | grey tier 2 | FC9 | 11 of 20 (2 / 3 / 3.5 / 1 / 0 / 1 / 0 / 0.5) | review 8 |
+| AcSE 2023 | grey tier 2 | FC9 | 11 of 20 (2 / 3 / 3.5 / 1 / 0 / 1 / 0 / 0.5); second rater 8.5, so example only | review 8 (example only) |
 | AcSE 2024 | grey tier 2 | FC3 | 12.5 of 20 (1.5 / 3 / 3.5 / 1 / 0.5 / 1.5 / 1 / 0.5) | review 8; against |
 
 ## Result of the scoring
 
 - 31 grey sources scored: 12 from the web, 19 Q/A threads.
-- 5 fall below 10 of 20: Anki 2026b, Wyner 2014, Wikipedia 2026e, LLSE 2016g and PNSE 2016; they appear only as examples of practice.
+- 6 are examples of practice only. Anki 2026b, Wyner 2014, Wikipedia 2026e, LLSE 2016g and PNSE 2016 fall below 10 of 20; AcSE 2023 fell below it for the second rater (8.5 against 11).
 - LLSE 2016f sits exactly at 10 and stays in.
 - The highest scores go to two practitioner essays that report their own data and limits (Matuschak 2019, 16; Nielsen 2018, 15.5).
 - Personal essays score 0 on outlet (tier 3), so their totals rest on authority, method and novelty.
 - GitHub 2026h is the reviewer's own count of public listings, not a source, so it is not scored.
-- One scorer; no second rater on this topic.
+- A blind second rater scored every fifth grey source of the four reviews; the agreement is in the [evidence README](../README.md).

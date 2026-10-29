@@ -123,7 +123,7 @@ Scheduling algorithms are not a question here; they are linked to the core's ben
 | G7 | spaced repetition flashcard app users quit abandon retention rate data | 18 | 0 (no published rate) |
 | P | direct visits: SuperMemo, Matuschak, Nielsen (two essays), Numinous Productions, Anki manual (three pages), Gwern, Control-Alt-Backspace, Quizlet (refused), Google Play (unreadable), TechCrunch (read, not included), Mobile Marketing (refused), Wikipedia (counted under G1), an ETH Zurich repository page (server error), medRxiv (refused; the abstract read through Crossref), the public GitHub API | 18 | 10 |
 
-- Searches made only to reach a formal text (Kornell 2009 and Pan 2023b full texts, not found) are not grey strings and are not counted.
+- Searches made only to reach a formal text (Kornell 2009 full text, not found; Pan 2023b, whose first author's copy the audit later found) are not grey strings and are not counted.
 
 ### Q/A sites
 

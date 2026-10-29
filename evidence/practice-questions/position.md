@@ -13,7 +13,7 @@ This file says what is known about questions in study material, what is not, whe
 
 - Answering questions on a text beats rereading it, and transfers to new application and inference questions, d = 0.40 overall (Pan 2018; core for the base effect).
 - Higher-order questions raise higher-order scores, and in two classroom studies lower-order scores too; fact questions do not raise higher-order scores (Agarwal 2019; Jensen 2014; McDaniel 2013).
-- In classrooms, multiple choice teaches about as much as short answer when feedback follows (Yang 2021); in the lab, recall formats teach more (Rowland 2014).
+- In classrooms, recognition (mostly multiple choice) teaches about as much as recall (mostly short answer) when feedback follows (Yang 2021); in the lab, recall formats teach more (Rowland 2014).
 - Multiple-choice items with competitive wrong options induce retrieval and teach the facts behind them (Little 2012; Little 2014).
 - Wrong options can be learned as facts, and feedback cuts that cost (Roediger 2005; Butler 2008).
 - Feedback with more information has larger effects (Wisniewski 2020), and an explanation helps new questions more than the bare answer (Butler 2013).
@@ -45,7 +45,7 @@ This file says what is known about questions in study material, what is not, whe
 
 ## Where evidence is ignored by practice
 
-- Textbook review questions and course exams sit mostly at low cognitive levels (Momsen 2010: 93%; Tarrant 2006: over 90%; Masters 2001: 47.3% at knowledge level), though higher-order questions teach more (Agarwal 2019; Jensen 2014).
+- Course exams and test banks sit mostly at low cognitive levels (Momsen 2010: 93%; Tarrant 2006: over 90%). Also, 47.3% of test-bank items ask for knowledge only (Masters 2001), though higher-order questions teach more (Agarwal 2019; Jensen 2014).
 - Practice items still use "all of the above" (Spielman 2020, chapter 1, question 1) against every guideline read (Brame 2013; WashU 2018).
 - Test banks sold with textbooks break guidelines in most questions (Hansen 1997: 75%).
 - Answer keys printed for odd-numbered problems only are explained by teachers through grading and reuse, not learning (MathEd 2017q).

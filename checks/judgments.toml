@@ -17,58 +17,9 @@ answer = "One role: the repeatable record of this review's search, as its openin
 
 [[answer]]
 check = "logical-lines"
-path = "evidence/exercise-sets/review.md"
-question = "90 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "0926524ecf57"
-answer = "One role: the reading log of the literature, which opens by saying it `reads the literature on how a set of exercises is ordered and supported`. Its sections, from `0. Existing reviews` to `8. Q/A sites`, are the strands. It stays whole."
-
-[[answer]]
-check = "logical-lines"
 path = "evidence/exercise-sets/sources.md"
 question = "162 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
 file = "3d202b27a029"
-answer = "One role: the pool of the review, counted then listed, as it says: `how it narrowed, then one row per source`. `Flow` counts it; `Formal sources` and `Grey sources, scored` list it, one row per source. It stays whole."
-
-[[answer]]
-check = "logical-lines"
-path = "evidence/flashcards/protocol.md"
-question = "146 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "a6b103d5f474"
-answer = "One role: the repeatable record of this review's search, as its opening says: `Every search, count and rule of the flashcards review`. Its sections `4. Formal search`, `5. Grey search` and `6. Stopping rule` are steps of that one search, and its tables are data. It stays whole."
-
-[[answer]]
-check = "logical-lines"
-path = "evidence/flashcards/review.md"
-question = "83 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "ac2855af3ed7"
-answer = "One role: the reading log of the literature, which opens by saying it `reads the literature on how flashcards are written, made, used and kept`. Its sections, from `0. Existing reviews` to `8. Practice and adoption (Q6)`, are the strands. It stays whole."
-
-[[answer]]
-check = "logical-lines"
-path = "evidence/flashcards/sources.md"
-question = "142 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "8b677afc7c2a"
-answer = "One role: the pool of the review, counted then listed, as it says: `how it narrowed, then one row per source`. `Flow` counts it; `Formal sources` and `Grey sources, scored` list it, one row per source. It stays whole."
-
-[[answer]]
-check = "logical-lines"
-path = "evidence/instructional-text/protocol.md"
-question = "127 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "39e7b1951aad"
-answer = "One role: the repeatable record of this review's search, as its opening says: `Every search, count and rule of the instructional-text review`. Its sections `4. Formal search`, `5. Grey search` and `6. Stopping rule` are steps of that one search, and its tables are data. It stays whole."
-
-[[answer]]
-check = "logical-lines"
-path = "evidence/instructional-text/review.md"
-question = "91 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "75de68f4feac"
-answer = "One role: the reading log of the literature, which opens by saying it `reads the literature on the apparatus of an explanatory study text`. Its sections, from `0. Existing reviews` to `8. Practice`, are the strands. It stays whole."
-
-[[answer]]
-check = "logical-lines"
-path = "evidence/instructional-text/sources.md"
-question = "137 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "d6eb155b5d60"
 answer = "One role: the pool of the review, counted then listed, as it says: `how it narrowed, then one row per source`. `Flow` counts it; `Formal sources` and `Grey sources, scored` list it, one row per source. It stays whole."
 
 [[answer]]
@@ -79,109 +30,11 @@ file = "d6280bdd45bf"
 answer = "One role: the repeatable record of this review's search, as its opening says: `Every search, count and rule of the practice-questions review`. Its sections `4. Formal search`, `5. Grey search` and `6. Stopping rule` are steps of that one search, and its tables are data. It stays whole."
 
 [[answer]]
-check = "logical-lines"
-path = "evidence/practice-questions/review.md"
-question = "87 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "8e220ec1f3a1"
-answer = "One role: the reading log of the literature, which opens by saying it `reads the literature on questions written into study material`. Its sections, from `0. Existing reviews` to `8. Q/A sites`, are the strands. It stays whole."
-
-[[answer]]
-check = "logical-lines"
-path = "evidence/practice-questions/sources.md"
-question = "149 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "8cdc5c1b26e1"
-answer = "One role: the pool of the review, counted then listed, as it says: `how it narrowed, then one row per source`. `Flow` counts it; `Formal sources` and `Grey sources, scored` list it, one row per source. It stays whole."
-
-[[answer]]
-check = "figures-present"
-path = "evidence/exercise-sets/against.md"
-question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
-file = "d8a0f7fd9721"
-answer = "No: under headings such as `Interleaving at the sheet level does not always win` and `The Saxon case`, each bullet is a separate counter-finding with its source, and no relation among them would gain from a drawing."
-
-[[answer]]
-check = "figures-present"
-path = "evidence/exercise-sets/review.md"
-question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
-file = "0926524ecf57"
-answer = "Not now: it is a log by strand, from `0. Existing reviews` to `8. Q/A sites`, one finding per bullet, and its effect sizes come from separate studies on separate scales. A forest plot of the measured effects may come with the audit, once each number is checked."
-
-[[answer]]
-check = "figures-present"
-path = "evidence/flashcards/against.md"
-question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
-file = "106b0da9d9d2"
-answer = "No: each section, such as `Whether learner-made cards win` or `Whether the mnemonic medium works`, holds separate counter-findings with their sources; no relation among them would gain from a drawing."
-
-[[answer]]
-check = "figures-present"
-path = "evidence/flashcards/review.md"
-question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
-file = "ac2855af3ed7"
-answer = "Not now: it is a log by strand, from `2. Card formulation (Q1)` to `8. Practice and adoption (Q6)`, one finding per bullet. A figure of the measured effects may come with the audit, once each number is checked."
-
-[[answer]]
-check = "figures-present"
-path = "evidence/instructional-text/against.md"
-question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
-file = "7c84622ae603"
-answer = "No: under headings such as `Aids that learners value and that do not pay` and `Refutation text`, each bullet is a separate counter-finding with its source; no relation among them would gain from a drawing."
-
-[[answer]]
-check = "paraphrase"
-path = "evidence/exercise-sets/review.md"
-question = "says nearly what evidence/practice-questions/review.md (line 112) says, similarity 0.96: one fact in two places?"
-file = "0926524ecf57"
-answer = "No: the two Q/A strands open with the same sentence frame, but the facts differ. Here it is `29 threads, 10 under 10 of 20`; in practice-questions, 15 threads and none under the threshold. Each count belongs to its own review."
-
-[[answer]]
 check = "document-mode"
 path = "evidence/exercise-sets/position.md"
 question = "reads about equally as reference and how-to: one mode per document?"
 file = "d7cc3ae5c219"
 answer = "Reference: statements sorted under `Known`, `Not known` and `Where practice runs ahead of the evidence`, looked up by question. It gives no steps; its proposals are graded elsewhere."
-
-[[answer]]
-check = "document-mode"
-path = "evidence/exercise-sets/state-of-the-art.md"
-question = "reads about equally as reference and how-to: one mode per document?"
-file = "93cdcb91c6ce"
-answer = "Reference: `Records per sub-question`, then `Adoption counts, descriptive, read 2026-10-29` and the bounds, consulted by sub-question. It gives no steps."
-
-[[answer]]
-check = "document-mode"
-path = "evidence/flashcards/protocol.md"
-question = "reads about equally as reference and how-to: one mode per document?"
-file = "a6b103d5f474"
-answer = "How-to, for a reviewer who repeats the search: it follows the order of the work, `4. Formal search`, `5. Grey search`, `6. Stopping rule`, `7. Selection`. Its tables are the data each step produced, so the file is not split between modes."
-
-[[answer]]
-check = "document-mode"
-path = "evidence/flashcards/state-of-the-art.md"
-question = "reads about equally as reference and how-to: one mode per document?"
-file = "8922d166a9aa"
-answer = "Reference: `Records` per sub-question, `Adoption counts, descriptive, taken 2026-10-29`, `Upper bounds (achieved)` and `Lower bounds (not yet shown)`, consulted rather than followed."
-
-[[answer]]
-check = "document-mode"
-path = "evidence/instructional-text/against.md"
-question = "reads about equally as tutorial and how-to: one mode per document?"
-file = "7c84622ae603"
-answer = "Reference: counter-evidence looked up by part of the apparatus, under `Objectives and alignment`, `Refutation text` and `Explained solutions`. It teaches no skill and gives no steps."
-
-[[answer]]
-check = "document-mode"
-path = "evidence/instructional-text/baseline.md"
-question = "reads about equally as tutorial and how-to: one mode per document?"
-file = "f1f48da0a716"
-answer = "How-to, for whoever runs the comparison: `The named baselines`, then `How a comparison would be measured` and `A checklist in the baseline's own terms`. The checklist is the procedure; the rest names its inputs."
-
-[[answer]]
-check = "document-mode"
-path = "evidence/instructional-text/position.md"
-question = "reads about equally as reference and how-to: one mode per document?"
-file = "34520ae3928c"
-answer = "Reference: statements sorted under `Known`, `Not known` and `Where evidence is ignored by practice`, looked up by question. It gives no steps."
 
 [[answer]]
 check = "document-mode"
@@ -198,27 +51,6 @@ file = "a65da4b2a6d7"
 answer = "How-to, for whoever runs the comparison: `The named baselines`, a `Candidate variant to test`, then `How a comparison would be measured`. The reference parts are the inputs of that one procedure."
 
 [[answer]]
-check = "document-mode"
-path = "evidence/practice-questions/position.md"
-question = "reads about equally as explanation and reference: one mode per document?"
-file = "a59f32cb48e8"
-answer = "Reference: findings sorted under `Known`, `Known with caveat`, `Not known` and `What this repository adds`, looked up by question. Each finding is one line, not an argument."
-
-[[answer]]
-check = "logical-lines"
-path = "README.fr.md"
-question = "82 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "b215d97e4472"
-answer = "One role: the French front page, kept in step with `README.md`, which tells a reader what this repository is, from `Périmètre` to `Suite`. It stays whole."
-
-[[answer]]
-check = "logical-lines"
-path = "README.md"
-question = "81 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "1af8915816f9"
-answer = "One role: the front page, which tells a reader what this repository is, from `Where it sits` to `Next`. One line past the trigger, it stays whole."
-
-[[answer]]
 check = "co-change"
 path = ".github/workflows/checks.yml"
 question = "changed together with AGENTS.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
@@ -233,8 +65,183 @@ file = "f9007a71cfc0"
 answer = "Neither: this file checks out the standard's stylesheet at the pinned release (`# v1.3.1`), and AGENTS.md names the same release; decision 0003 pins both by commit, so a move of the pin touches both, on purpose."
 
 [[answer]]
+check = "logical-lines"
+path = "README.fr.md"
+question = "82 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "32560a6a763f"
+answer = "One role: the French front page, kept in step with `README.md`, which tells a reader what this repository is, from `Périmètre` to `Suite`. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "README.md"
+question = "81 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "5212b420c7a0"
+answer = "One role: the front page, which tells a reader what this repository is, from `Where it sits` to `Next`. One line past the trigger, it stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/README.md"
+question = "95 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "3a5d95a3cc80"
+answer = "One role: the index of the four reviews, which opens by listing them under `Contents` and then gives what they share, from `Rules the four reviews share` to `Audit` and `Second rater`. Each part is about all four reviews at once. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/exercise-sets/review.md"
+question = "90 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "a885e39a0074"
+answer = "One role: the reading log of the literature, which opens by saying it `reads the literature on how a set of exercises is ordered and supported`. Its sections, from `0. Existing reviews` to `8. Q/A sites`, are the strands. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/flashcards/protocol.md"
+question = "146 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "ceaf46bf167f"
+answer = "One role: the repeatable record of this review's search, as its opening says: `Every search, count and rule of the flashcards review`. Its sections `4. Formal search`, `5. Grey search` and `6. Stopping rule` are steps of that one search, and its tables are data. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/flashcards/review.md"
+question = "83 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "b64338aed68d"
+answer = "One role: the reading log of the literature, which opens by saying it `reads the literature on how flashcards are written, made, used and kept`. Its sections, from `0. Existing reviews` to `8. Practice and adoption (Q6)`, are the strands. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/flashcards/sources.md"
+question = "142 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "36166ff638fc"
+answer = "One role: the pool of the review, counted then listed, as it says: `how it narrowed, then one row per source`. `Flow` counts it; `Formal sources` and `Grey sources, scored` list it, one row per source. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/instructional-text/protocol.md"
+question = "127 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "e4e15ef7fc6c"
+answer = "One role: the repeatable record of this review's search, as its opening says: `Every search, count and rule of the instructional-text review`. Its sections `4. Formal search`, `5. Grey search` and `6. Stopping rule` are steps of that one search, and its tables are data. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/instructional-text/review.md"
+question = "91 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "3774c05f28c7"
+answer = "One role: the reading log of the literature, which opens by saying it `reads the literature on the apparatus of an explanatory study text`. Its sections, from `0. Existing reviews` to `8. Practice`, are the strands. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/instructional-text/sources.md"
+question = "138 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "73620e99d3ef"
+answer = "One role: the pool of the review, counted then listed, as it says: `how it narrowed, then one row per source`. `Flow` counts it; `Formal sources` and `Grey sources, scored` list it, one row per source. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/practice-questions/review.md"
+question = "87 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "3bb42d8d5084"
+answer = "One role: the reading log of the literature, which opens by saying it `reads the literature on questions written into study material`. Its sections, from `0. Existing reviews` to `8. Q/A sites`, are the strands. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/practice-questions/sources.md"
+question = "149 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "e4b2bc7feadb"
+answer = "One role: the pool of the review, counted then listed, as it says: `how it narrowed, then one row per source`. `Flow` counts it; `Formal sources` and `Grey sources, scored` list it, one row per source. It stays whole."
+
+[[answer]]
+check = "figures-present"
+path = "evidence/exercise-sets/against.md"
+question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
+file = "f5c5c2a8ef3f"
+answer = "No: under headings such as `Interleaving at the sheet level does not always win` and `The Saxon case`, each bullet is a separate counter-finding with its source, and no relation among them would gain from a drawing."
+
+[[answer]]
+check = "figures-present"
+path = "evidence/exercise-sets/review.md"
+question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
+file = "a885e39a0074"
+answer = "Not now: it is a log by strand, from `0. Existing reviews` to `8. Q/A sites`, one finding per bullet, and its effect sizes come from separate studies on separate scales. A forest plot of the measured effects may come with the audit, once each number is checked."
+
+[[answer]]
+check = "figures-present"
+path = "evidence/flashcards/against.md"
+question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
+file = "f3186eaf8227"
+answer = "No: each section, such as `Whether learner-made cards win` or `Whether the mnemonic medium works`, holds separate counter-findings with their sources; no relation among them would gain from a drawing."
+
+[[answer]]
+check = "figures-present"
+path = "evidence/flashcards/review.md"
+question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
+file = "b64338aed68d"
+answer = "Not now: it is a log by strand, from `2. Card formulation (Q1)` to `8. Practice and adoption (Q6)`, one finding per bullet. A figure of the measured effects may come with the audit, once each number is checked."
+
+[[answer]]
+check = "figures-present"
+path = "evidence/instructional-text/against.md"
+question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
+file = "395a9a0a4116"
+answer = "No: under headings such as `Aids that learners value and that do not pay` and `Refutation text`, each bullet is a separate counter-finding with its source; no relation among them would gain from a drawing."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/exercise-sets/review.md"
+question = "says nearly what evidence/practice-questions/review.md (line 112) says, similarity 0.96: one fact in two places?"
+file = "a885e39a0074"
+answer = "No: the two Q/A strands open with the same sentence frame, but the facts differ. Here it is `29 threads, 10 under 10 of 20`; in practice-questions, 15 threads and none under the threshold. Each count belongs to its own review."
+
+[[answer]]
 check = "document-mode"
 path = "README.fr.md"
 question = "reads about equally as explanation and how-to: one mode per document?"
-file = "b215d97e4472"
+file = "32560a6a763f"
 answer = "One mode: the front page, read to learn what the repository is and is not, in `Périmètre` and `Où il se place`. The how-to is the two commands of `Le vérifier`, which the standard's README shape asks every front page to carry."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/exercise-sets/state-of-the-art.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "73628914dee8"
+answer = "Reference: `Records per sub-question`, then `Adoption counts, descriptive, read 2026-10-29` and the bounds, consulted by sub-question. It gives no steps."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/flashcards/protocol.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "ceaf46bf167f"
+answer = "How-to, for a reviewer who repeats the search: it follows the order of the work, `4. Formal search`, `5. Grey search`, `6. Stopping rule`, `7. Selection`. Its tables are the data each step produced, so the file is not split between modes."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/flashcards/state-of-the-art.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "e92b86e4680f"
+answer = "Reference: `Records` per sub-question, `Adoption counts, descriptive, taken 2026-10-29`, `Upper bounds (achieved)` and `Lower bounds (not yet shown)`, consulted rather than followed."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/instructional-text/against.md"
+question = "reads about equally as tutorial and how-to: one mode per document?"
+file = "395a9a0a4116"
+answer = "Reference: counter-evidence looked up by part of the apparatus, under `Objectives and alignment`, `Refutation text` and `Explained solutions`. It teaches no skill and gives no steps."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/instructional-text/baseline.md"
+question = "reads about equally as tutorial and how-to: one mode per document?"
+file = "03a0dff1be2e"
+answer = "How-to, for whoever runs the comparison: `The named baselines`, then `How a comparison would be measured` and `A checklist in the baseline's own terms`. The checklist is the procedure; the rest names its inputs."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/instructional-text/position.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "ddb5175f2816"
+answer = "Reference: statements sorted under `Known`, `Not known` and `Where evidence is ignored by practice`, looked up by question. It gives no steps."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/practice-questions/position.md"
+question = "reads about equally as explanation and reference: one mode per document?"
+file = "cb9477039278"
+answer = "Reference: findings sorted under `Known`, `Known with caveat`, `Not known` and `What this repository adds`, looked up by question. Each finding is one line, not an argument."

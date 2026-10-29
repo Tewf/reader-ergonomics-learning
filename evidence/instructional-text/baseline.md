@@ -6,8 +6,8 @@ This file names the baseline a proposed shape of study text must beat, and says 
 
 | Document | Baseline | Why this one |
 |---|---|---|
-| A section or chapter studied alone | the open-textbook section with its usual apparatus, as OpenStax prints it: objectives first, key terms in bold defined in context, a section summary, a concept check before the exercises, answers in a key at the back (OpenStax 2026b) | it is the apparatus learners meet and value (Weiten 1999; Marek 1999); open textbooks of this kind teach as much as commercial ones (Clinton 2019, k = 22, N = 100,012), so it stands for both |
-| A lesson for one sitting | the Carpentries episode: questions and objectives at the top, challenges with nested solutions, key points at the end (Carpentries 2026a) | a template with required parts, used across 45 lessons and 4,980 workshops (Carpentries 2025) |
+| A section or chapter studied alone | the open-textbook section with its usual apparatus, as OpenStax prints it: objectives first, key terms in bold defined in context, a section summary, a concept check before the exercises, answers in a key at the back (OpenStax 2026b) | it is the apparatus learners meet and value (Weiten 1999, secondary); open textbooks teach as much as commercial ones (Clinton 2019, k = 22, N = 100,012), so it stands for both |
+| A lesson for one sitting | the Carpentries episode: questions and objectives at the top, challenges with nested solutions, key points at the end (Carpentries 2026a) | a template with required parts; the project counts 45 lessons and 4,980 workshops since 2012 (Carpentries 2025) |
 
 - The first is the primary baseline: it is what a learner studying alone holds.
 - The plain linear text of the core's [learning-science baseline](https://github.com/Tewf/reader-ergonomics/blob/d17ee8e9bc07e0bd06e8ec7734cecd570b4e3b37/evidence/learning-science/baseline.md) is the floor below both.

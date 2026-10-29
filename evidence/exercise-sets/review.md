@@ -8,10 +8,10 @@ This file reads the literature on how a set of exercises is ordered and supporte
 - Firth 2021: systematic review of interleaving for concept learning; 26 studies, 17 meta-analysed; memory g up to 0.65, transfer up to 0.66; laboratory studies of undergraduates dominate (secondary).
 - Chen 2021: a systematic review arguing that spacing works through rest from effort and interleaving through discriminative contrast, two mechanisms (abstract).
 - Murray 2025: meta-analysis for mathematics; spaced against massed practice g = 0.28 (27 studies, 53 effects), 0.24 inside courses (17 studies), 0.43 for material taught in isolation (secondary).
-- Perry 2021 (EEF, grey tier 1, read first-hand): among studies run in schools, 12 on interleaving, mostly mathematics, five delivered by teachers. Also: 22 on worked examples, all mathematics and science, 7 on incorrect or incomplete examples, 8 delivered by regular teachers.
+- Perry 2021 (EEF, grey tier 1, read first-hand): among studies run in schools, 12 on interleaving, 11 of them in mathematics, about five delivered by teachers or with their involvement. Also: 22 on worked examples, all mathematics and science, 7 on incorrect or incomplete examples, 8 delivered by regular teachers.
 - Atkinson 2000 turns worked-example research into design principles; Muldner 2022 reviews worked examples in programming and counts Parsons puzzles as incomplete examples (both abstract).
 - Du 2020: Parsons problems come in many variants, and their effect remains uncertain for lack of replicated studies; Ericson 2022 reviews the variants and claimed benefits and designs studies to test them (both abstract).
-- Homework: Cooper 2006, every design 1987 to 2003 flawed, a consistent positive influence, stronger in grades 7 to 12 (secondary). Also: Bas 2017, d = 0.229 (secondary); Fan 2017, a 30-year meta-analysis for mathematics and science (title and venue only).
+- Homework: Cooper 2006, every design 1987 to 2003 flawed, a consistent positive influence; in the correlational studies, the correlation was stronger in grades 7 to 12 (secondary). Also: Bas 2017, d = 0.229 (secondary); Fan 2017, a 30-year meta-analysis for mathematics and science (title and venue only).
 - Bishop 2024: online against paper homework, 18 studies, effect 0.06 (CI -0.19 to 0.32), not significant (secondary).
 - Aleven 2003: learners in interactive environments do not use on-demand help effectively (secondary); Aleven 2016 updates it (strand 5).
 - Linked from the core: Brunmair 2019 (interleaving g = 0.42), Renkl 2004 (fading), Barbieri 2023 (worked examples), Costa 2022 (4C/ID).
@@ -21,7 +21,7 @@ This file reads the literature on how a set of exercises is ordered and supporte
 
 - Sweller 1985: worked examples as a substitute for part of algebra problem solving (title and venue only); the IES guide describes an algebra study of four example-problem pairs against eight problems (Pashler 2007).
 - van Merriënboer 1990: the **completion strategy**, modifying and extending given programs, against writing new ones, in high school (abstract; the result is not stated there).
-- Paas 1992: worked and completion problems beat conventional problems for transfer in statistics, completion most (46 students, secondary).
+- Paas 1992: worked and completion problems beat conventional problems for transfer in statistics, worked problems most, by the author's abstract; ERIC's summary says the reverse (46 students, secondary).
 - Rohrer 2007: the standard textbook set (one lesson's problems) against the shuffled set (problems from many lessons); spaced and mixed both won at one week (secondary).
 - Parsons 2006 introduced the puzzle format for first programming courses; Bjork 1994 named **desirable difficulties** (both title and venue only).
 
@@ -40,7 +40,7 @@ This file reads the literature on how a set of exercises is ordered and supporte
 - Hartwig 2022: 193 and 175 undergraduates mostly judged the least spaced, least interleaved schedules most effective (secondary).
 - Null and mixed classroom results are in [against](against.md): Nigeria (van der Haar 2023), calculus (Gorgievski 2024), statistics (Crissinger 2015), STEM quizzes (Bego 2024).
 - Saxon Math builds on daily cumulative mixed practice: its grade 7 text holds 1,491 blocked and 3,016 interleaved problems (Rohrer 2020b, read first-hand).
-  - First grade: Saxon and Math Expressions 0.30 SD above Investigations, 0.24 SD above SFAW (Agodini 2010, secondary); WWC 2017 found mixed effects (5 studies, 8,855 students), WWC 2016 none for Algebra I (198 students).
+  - First grade: Saxon and Math Expressions 0.30 SD above Investigations, 0.24 SD above SFAW (Agodini 2010, secondary); WWC 2017 found mixed effects (5 studies, 8,855 students). WWC 2016 found none for Algebra I (198 students) (both secondary).
   - These test a whole curriculum, not mixed review alone.
 
 ## 3. Q2: from worked example to problem
@@ -96,11 +96,11 @@ This file reads the literature on how a set of exercises is ordered and supporte
 Graded convention, untested, unless a study measured the effect. Counts are in [state of the art](state-of-the-art.md).
 
 - Textbooks: blocked sets with a short mixed review dominate; 9.7% of 13,505 problems in six texts were interleaved (Rohrer 2020b).
-- OER textbooks print answers to odd-numbered exercises only: OpenStax Calculus volume 1, chapter 1, answers exercises 1 to 309 and 311 to 335 at odd numbers (OpenStax 2026).
+- OER textbooks print answers to odd-numbered exercises only: OpenStax Calculus volume 1, chapter 1, answers odd-numbered exercises only, 1 to 335, except 147 to 153 (OpenStax 2026).
 - Online homework: WeBWorK (since 1994, over 35,000 problems; WeBWorK 2026). ASSISTments claims over a million students since 2019 (ASSISTments 2026, example only), and its skill builders end on a streak of correct answers, three in the trial's example (Roschelle 2016).
 - Programming: Project Euler says solving one problem opens a harder one, and counts 151,219 members with 25 or more solved (Project Euler 2026, example only); Runestone e-books embed Parsons problems (CSEd 2017d).
 - Guidance: IES (Pashler 2007) and EEF (Perry 2021) recommend examples alternated with problems; NCETM 2020 recommends variation sets.
-- Solution sites: Chegg reported 3.6 million subscription subscribers at the end of 2024, down 21% in a year (Chegg 2025).
+- Solution sites: Chegg reported 3.6 million subscription subscribers in the fourth quarter of 2024, down 21% year over year (Chegg 2025).
 
 ## 8. Q/A sites
 

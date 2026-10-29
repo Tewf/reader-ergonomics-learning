@@ -128,8 +128,8 @@ Subtotals in the order of the [shared rules](../README.md#rules-the-four-reviews
 | Spielman 2020 | grey tier 1 | P | 15 of 20 (3.5 / 4 / 3.5 / 1 / 0.5 / 0.5 / 1 / 1) | review 7; state-of-the-art; position; baseline |
 | Brame 2013 | grey tier 2 | P | 15 of 20 (3.5 / 4 / 3.5 / 1 / 1 / 0.5 / 1 / 0.5) | review 7; position; baseline |
 | Carpentries 2026p | grey tier 2 | P | 13 of 20 (3 / 3 / 3.5 / 1 / 0 / 1 / 1 / 0.5) | review 7; state-of-the-art; position |
-| Carpentries 2025p | grey tier 2 | G1 | 12.5 of 20 (3.5 / 3.5 / 3.5 / 1 / 0.5 / 1.5 / 0.5 / 0.5) | review 7; position |
-| NBME 2026 | grey tier 1 | P | 12 of 20 (4 / 2.5 / 3 / 0 / 0 / 0.5 / 1 / 1) | review 7; state-of-the-art; against |
+| Carpentries 2025p | grey tier 2 | G1 | 14.5 of 20 (3.5 / 3.5 / 3.5 / 1 / 0.5 / 1.5 / 0.5 / 0.5) | review 7; position |
+| NBME 2026 | grey tier 1 | P | 12 of 20 (4 / 2.5 / 3 / 0 / 0 / 0.5 / 1 / 1); second rater 6.5, so example only | review 7; state-of-the-art; against (example only) |
 | Moodle 2025 | grey tier 2 | P | 11.5 of 20 (2.5 / 2.5 / 3 / 1 / 0 / 1 / 1 / 0.5) | frame; review 7; state-of-the-art |
 | WashU 2018 | grey tier 2 | G2 | 11 of 20 (3 / 2.5 / 2.5 / 1 / 0.5 / 0.5 / 0.5 / 0.5) | review 3; against |
 | Moodle 2026 | grey tier 2 | P | 10.5 of 20 (3 / 2.5 / 2.5 / 0 / 0 / 1 / 1 / 0.5) | review 7; state-of-the-art; protocol; against |
@@ -153,7 +153,7 @@ Subtotals in the order of the [shared rules](../README.md#rules-the-four-reviews
 
 ## Result of the scoring
 
-- 23 new grey sources scored: 8 from the web and 15 Q/A threads; none falls below 10 of 20. Two carried sources keep the scores of their home review; OpenStax 2026c (8 of 20) is an example only.
+- 23 new grey sources scored: 8 from the web and 15 Q/A threads. None falls below 10 of 20 for the first rater; NBME 2026 fell below it for the second (6.5 against 12), so it is an example only. Two carried sources keep the scores of their home review; OpenStax 2026c (8 of 20) is an example only.
 - Academia 2016q and CSEd 2024p sit exactly at 10 and stay in.
 - Q/A threads were scored with the shared rules: authority from a moderated peer-voted site, the answerer's reputation on the day and any stated role; impact from views and the top answer's votes.
 - The highest scores go to the federal practice guide (Pashler 2007, scored in exercise-sets), a published open textbook (Spielman 2020) and a teaching-centre guide that cites its research (Brame 2013).

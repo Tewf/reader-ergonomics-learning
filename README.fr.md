@@ -11,8 +11,9 @@ ce que le genre change : comment chacun de ces documents est construit, et ce qu
 
 Cette page en anglais : [README.md](README.md). Les deux versions suivent le même état.
 
-> **État :** la revue de littérature est écrite (2026-10-29) : quatre revues multivocales, 420 sources, dans
-> [evidence](evidence/), pas encore auditées. Aucun gabarit et aucune vérification ne sont écrits. C'est une lecture informelle de la
+> **État :** la revue de littérature est écrite et auditée (2026-10-29) : quatre revues multivocales, 420 sources,
+> dans [evidence](evidence/) ; 304 lignes vérifiées dans leurs sources, un second évaluateur sur une source grise
+> sur cinq. Aucun gabarit et aucune vérification ne sont écrits. C'est une lecture informelle de la
 > recherche et de la pratique publiées : ni une norme officielle, ni une étude évaluée par des pairs, ni un résultat
 > nouveau, ni une prétention à l'état de l'art.
 >
@@ -76,12 +77,12 @@ Pourquoi quatre, et où chaque travail est passé en revue : [décision 0002](de
 
 Chaque ligne renvoie à la revue qui porte ses preuves ; « (secondary) » marque un chiffre lu seulement dans un résumé.
 
-| Document | Ce que les preuves établissent | Niveau | Ce qu'aucune étude n'a testé |
+| Document | Ce que les preuves établissent | Niveau | Ce que ces recherches n'ont pas trouvé testé |
 |---|---|---|---|
 | questions d'entraînement | le test se transfère aux questions d'application et d'inférence (d = 0,32) ; une correction plus informative a plus d'effet ; le moment de la correction ne change rien en moyenne (g = 0,03, secondary) | mesuré | où placer les réponses : repliées, en fin de chapitre, en fin d'ouvrage |
-| cartes mémoire | retirer une carte dès qu'elle est sue fait moins retenir ; un grand paquet bat plusieurs petits ; les cartes faites par l'apprenant battent les cartes toutes faites (d = 0,45, secondary), contesté pour le vocabulaire | mesuré ; le dernier contesté | un fait par carte ; texte à trous contre carte à question |
+| cartes mémoire | retirer une carte dès qu'elle est sue fait moins retenir ; un grand paquet bat plusieurs petits ; les cartes faites par l'apprenant battent les cartes toutes faites (d = 0,45, secondary), contesté pour le vocabulaire | mesuré ; le dernier contesté | un fait par carte ; texte à trous contre carte à question dans une application de répétition espacée |
 | séries d'exercices | mêler les types déjà vus aux devoirs a relevé les notes en classe, à distance (d = 0,79 à 30 jours) ; retirer peu à peu les étapes des exemples résolus bat les paires exemple-problème | mesuré, surtout en mathématiques | une feuille entière construite avec les parties mesurées ; quand donner les corrigés ; des indices sur papier |
-| texte explicatif | un texte qui énonce une idée fausse et la réfute bat l'exposé simple (g = 0,41, secondary) ; les notes guidées relèvent la réussite à l'université (d = 0,55) ; les manuels libres enseignent autant que les manuels commerciaux (g = 0,01) | mesuré | aligner les objectifs sur les vérifications, dans un essai contrôlé ; les fiches de révision |
+| texte explicatif | un texte qui énonce une idée fausse et la réfute bat l'exposé simple (g = 0,36 sur 30 comparaisons) ; les notes guidées relèvent la réussite à l'université (d = 0,55) ; les manuels libres enseignent autant que les manuels commerciaux (g = 0,01) | mesuré | aligner les objectifs sur les vérifications, dans un essai contrôlé ; les fiches de révision |
 
 Chaque revue se termine par des propositions de gabarits et de vérifications, chacune avec son niveau
 (`shapes-and-checks.md` dans chaque dossier). Ce sont des propositions : les gabarits seront écrits à partir d'elles.
@@ -117,8 +118,7 @@ Liés à un commit épinglé, jamais copiés ([one place per fact](https://githu
 
 ## Suite
 
-1. Faire vérifier chaque chiffre dans sa source par des agents qui ne l'ont pas écrit, et faire noter une source
-   grise sur cinq par un second évaluateur.
+1. Lire par l'université les cinq sources payantes, pour les lignes que l'audit n'a pas pu vérifier.
 2. Écrire les gabarits que les revues soutiennent, chacun dérivé du topic, et les vérifications qu'un programme peut y
    lancer.
 3. Les tester sur de vrais supports d'étude : les livres de solutions expliquées de

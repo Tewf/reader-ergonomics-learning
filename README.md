@@ -14,8 +14,9 @@ these documents is built, and what a program can check in it.
 
 This page in French: [README.fr.md](README.fr.md).
 
-> **Status:** the literature review is written (2026-10-29): four multivocal reviews, 420 sources, in
-> [evidence](evidence/), not yet audited. No shape and no check is written. It is an informal reading of published research and practice: not an
+> **Status:** the literature review is written and audited (2026-10-29): four multivocal reviews, 420 sources, in
+> [evidence](evidence/); 304 lines checked against their sources, a second rater on every fifth grey source. No
+> shape and no check is written. It is an informal reading of published research and practice: not an
 > official standard, not a peer-reviewed study, not a new result, and not a claim to the state of the art.
 >
 > **How it is made:** with Claude, an AI assistant by Anthropic, under the maintainer's direction, the way
@@ -77,12 +78,12 @@ Why four, and where each work is reviewed: [decision 0002](decisions/0002-four-r
 
 Each line links the review that holds its evidence; "(secondary)" marks a number read only in a summary.
 
-| Document | What the evidence settles | Grade | What no study has tested |
+| Document | What the evidence settles | Grade | What these searches did not find tested |
 |---|---|---|---|
 | practice questions | testing transfers to application and inference questions (d = 0.32); feedback with more information has larger effects; when feedback comes makes no average difference (g = 0.03, secondary) | measured | where the answers sit: folded, at the end of the chapter, at the back |
-| flashcards | dropping a card once it is recalled lowers retention; one large stack beats several small ones; learner-made cards beat premade ones (d = 0.45, secondary), contested for vocabulary | measured; the last contested | one fact per card; fill-in-the-blank against question cards |
+| flashcards | dropping a card once it is recalled lowers retention; one large stack beats several small ones; learner-made cards beat premade ones (d = 0.45, secondary), contested for vocabulary | measured; the last contested | one fact per card; fill-in-the-blank against question cards inside a spaced repetition app |
 | exercise sets | mixing earlier types into homework raised delayed classroom scores (d = 0.79 at 30 days); fading the steps of worked examples beats example-problem pairs | measured, mostly mathematics | a whole sheet built from the measured parts; when to release solutions; hints on paper |
-| instructional text | a text that states a misconception and refutes it beats plain exposition (g = 0.41, secondary); guided notes raise college achievement (d = 0.55); open textbooks teach as much as commercial ones (g = 0.01) | measured | aligning objectives with the checks, in a controlled trial; revision guides |
+| instructional text | a text that states a misconception and refutes it beats plain exposition (g = 0.36 over 30 comparisons); guided notes raise college achievement (d = 0.55); open textbooks teach as much as commercial ones (g = 0.01) | measured | aligning objectives with the checks, in a controlled trial; revision guides |
 
 Every review ends in proposals for the shapes and the checks, each with its grade (`shapes-and-checks.md` in each
 folder). They are proposals: the shapes will be written from them.
@@ -118,8 +119,7 @@ Linked at a pinned commit, never copied ([one place per fact](https://github.com
 
 ## Next
 
-1. Have every number checked against its source by agents that did not write it, and a second rater score every
-   fifth grey source.
+1. Read the five paywalled sources through the university, for the rows the audit could not verify.
 2. Write the shapes the reviews support, each derived from the topic, and the checks a program can run on them.
 3. Test them on real study material: the explained solution books of
    [University-Coursework](https://github.com/Tewf/University-Coursework).

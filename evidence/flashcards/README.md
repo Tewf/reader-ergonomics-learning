@@ -4,7 +4,7 @@ Question: how is a set of prompts for spaced review written and kept, so that re
 
 - This is a multivocal literature review (Garousi 2019) by one reviewer, searched on 2026-10-29.
 - It holds 69 formal sources, all new to the reader-ergonomics repositories.
-- It scores 31 grey sources out of 20 (12 from the web, 19 threads from Q/A sites); 5 fall below the threshold of 10 and are used as examples only.
+- It scores 31 grey sources out of 20 (12 from the web, 19 threads from Q/A sites); 6 are used as examples only, one of them after the second rater scored it below 10.
 - A number read only in an abstract or a summary is marked "(secondary)".
 - Whether retrieval and spacing work, and how a scheduler is chosen, is not reviewed here: see the [core learning-science review](https://github.com/Tewf/reader-ergonomics/blob/d17ee8e9bc07e0bd06e8ec7734cecd570b4e3b37/evidence/learning-science/review.md).
 
@@ -33,17 +33,17 @@ Question: how is a set of prompts for spaced review written and kept, so that re
 | One large stack beats several small ones, which mass the reviews; 72% of learners believed the opposite | measured (three experiments; secondary) | review.md 4 |
 | Learner-made cards beat premade cards under matched time: d = 0.45 for memory, 0.29 for application | measured, one paper of six experiments (secondary) | review.md 3 |
 | Premade word cards matched or beat self-made ones in two vocabulary studies and in a count of 32 word-card studies | supported with caveat (abstracts read; the count is not pooled) | review.md 0, 3; against.md |
-| Generating beats reading by about 0.40, depending on how constrained the generation is; for texts it failed to replicate in seven experiments | measured (meta-analyses), contested | review.md 3; against.md |
+| Generating beats reading by about 0.40 (secondary), depending on how constrained the generation is; for texts it failed to replicate in seven experiments | measured (meta-analyses), contested | review.md 3; against.md |
 | Medical students who use Anki score higher | supported with caveat (observational, self-selected) | review.md 3, 8 |
 | Related words learned together raise confusion errors, without always lowering scores | measured, second-language words only | review.md 5 |
 | With spacing equal, set size matters little | measured, one study (secondary) | review.md 5 |
 | Cards on concepts or application help some learners more than detail cards | supported with caveat (two studies, abstracts) | review.md 5 |
 | Pictures on cards help concrete words, and only once overconfidence is checked | supported with caveat (vocabulary experiments) | review.md 2 |
 | One idea per card, one answer, no yes or no prompt, no list answer | convention, untested (practitioner rules agree; no study found) | review.md 1, 2 |
-| Fill-in-the-blank sentences and flashcards gave equal gains at two weeks; cloze against question cards in a spaced program is untested | supported with caveat (one study) | review.md 2 |
-| Readers of an essay with embedded prompts showed long retention | measured, descriptive (the authors' own data, no control) | review.md 6 |
-| Generated cards held 1 error in 21 after tuning, with no exam difference | supported with caveat (preprint, self-selected) | review.md 7 |
-| 68.3% of 560 US medical students used Anki in 2020 | measured, descriptive (self-selected survey) | review.md 8 |
+| Fill-in-the-blank sentences and flashcards showed no overall difference at two weeks, massed or spaced (secondary); cloze against question cards inside a spaced repetition app was not found tested | supported with caveat (one study) | review.md 2 |
+| Readers of an essay with embedded prompts showed long retention | convention, untested (the authors' own data in an essay, no control) | review.md 6 |
+| Generated cards held 1 error in 21 after tuning, with no exam difference (secondary) | supported with caveat (preprint, self-selected) | review.md 7 |
+| 68.3% of 560 US medical students used Anki in 2020 (secondary) | measured, descriptive (self-selected survey) | review.md 8 |
 | Students self-test to check, not to learn, and space too little | measured, descriptive (surveys) | review.md 4 |
 
 ## Named baseline

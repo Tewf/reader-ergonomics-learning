@@ -55,13 +55,13 @@ This file gathers what cuts against the rules on exercise sets: null classroom r
 - Every homework design in the 1987 to 2003 syntheses had flaws (Cooper 2006, secondary).
 - The homework effect pooled over studies is small, d = 0.229 (Bas 2017, secondary).
 - Completing more homework correlated with worse exams for low-aptitude physics students (Kontur 2015); a comment found the reverse in two larger courses (Rieger 2016, secondary). The disagreement is about populations, not settled.
-- The share of students who did not benefit from homework rose from 14% to 55% in eleven years, with copying as the reported cause (Glass 2020, secondary). A remote physics course found no widespread copying (Chen 2022, secondary).
+- The share of students who did not benefit from homework rose from 14% (2008) to 55% (2017), and students who reported copying did not benefit (Glass 2020, secondary). A remote physics course found no widespread copying (Chen 2022, secondary).
 - Online homework did not beat paper homework over 18 studies (Bishop 2024, secondary); the ASSISTments gain (Roschelle 2016) bundles hints, feedback and teacher reports.
 - Open access to a model during practice raised practice grades and lowered later exam grades (Bastani 2025, secondary).
 
 ## The Saxon case
 
-- Saxon Math is built on daily cumulative mixed practice (Rohrer 2020b), yet the WWC found mixed effects in primary grades and no discernible effect for Algebra I (WWC 2017; WWC 2016).
+- Saxon Math is built on daily cumulative mixed practice (Rohrer 2020b). Yet the WWC found mixed effects in its primary courses, kindergarten to pre-algebra, and no discernible effect for Algebra I (WWC 2017; WWC 2016).
 - Its first-grade advantage over two curricula (Agodini 2010) disappeared against one of them by second grade (Agodini 2013, secondary).
 - A whole curriculum differs in much more than mixed review, so this neither confirms nor refutes interleaving.
 

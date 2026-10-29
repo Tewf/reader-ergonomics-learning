@@ -11,12 +11,12 @@ Each "not known" below is a statement about this search, not about the world.
 
 ## Known
 
-- Learners agree on which aids they value: bold terms, glossaries, summaries and self-tests (Weiten 1999; Marek 1999, secondary).
+- Learners agree on which aids they value: bold terms, glossaries, summaries and self-tests (Weiten 1999, secondary); Marek 1999 had students rate 15 aids.
 - Reported use of aids and their felt helpfulness do not predict exam scores (Gurung 2003; Gurung 2004, correlational).
 - Stated objectives direct reading time and recall toward what they name (Britton 1985; Duchastel 1979), with the trade-off measured in the core (Klauer 1984).
-- A text that states and refutes a misconception beats an expository text on that misconception (Schroeder 2022, g = 0.41; Danielson 2025; both secondary).
+- A text that states and refutes a misconception beats an expository text on that misconception (Schroeder 2022, g = 0.41 over all conditions, 0.36 against expository text, read in full; Danielson 2025, secondary).
 - Guided notes beat students' own notes in college, d = 0.78, and beat full instructor notes by less, d = 0.27 (Larwin 2013, read).
-- A short illustrated summary matched or beat the full text on recall and transfer in three experiments (Mayer 1996, secondary). An end summary helped recall more than an opening one in two small studies (Hartley 1979; Cook 1981).
+- A short illustrated summary matched or beat the full text on recall and transfer in three experiments (Mayer 1996, secondary). An end summary helped recall more than an opening one on the same page in two small studies (Hartley 1979; Cook 1981).
 - Printed explanations added to worked examples give little, and withholding them can teach concepts better (Wittwer 2010; Richey 2013).
 - Making a crib sheet does not teach the material, and expecting to use one lowers learning (Dickson 2008; Funk 2011).
 
@@ -27,7 +27,7 @@ Each "not known" below is a statement about this search, not about the world.
 - Whether an end glossary helps a first-language reader; the second-language evidence ranks glossaries among the weakest gloss forms (Yanagisawa 2020).
 - Whether the refutation effect lasts beyond the immediate test, and across topics (Zengilowski 2021).
 - Whether study guides help: one required guide helped (Dickson 2005b), a provided concept list hurt (Cushen 2019), and one comparison found no difference (Horner 2007).
-- Whether boxed features are read: readers say they skip them and skim them like the main text (Benbassat 2008, one study).
+- Whether boxed features are read: readers say they skip them and skim them like the main text (Benbassat 2008, one paper, two studies).
 - Whether revision guides, a large school genre in the United Kingdom, do anything: no study was found.
 
 ## Where practice runs ahead of the evidence
@@ -35,14 +35,14 @@ Each "not known" below is a statement about this search, not about the world.
 - Objectives open every OpenStax section and every Carpentries episode; their effect is measured for objectives in general (Klauer 1984), not for the template.
 - Rubric review of alignment certifies courses at 85% of points (Quality Matters 2026b); the outcome studies found are a non-significant pilot and descriptive reports (Lynch 2020; Hollowell 2017).
 - Backward design is taught as the lesson design process (Carpentries 2026b; Wilson 2019) on argument, not on a trial.
-- Bold key terms and glossaries are the aids students value most (Weiten 1999); their rated helpfulness went with worse scores in one course (Gurung 2003).
+- Bold key terms and glossaries are the aids students value most (Weiten 1999); the rated helpfulness of key terms went with worse exam scores (Gurung 2003, more than 200 students, secondary).
 - Solutions manuals print full explanations (OpenStax 2026b), where the experiments find printed explanations add little (Wittwer 2010).
 
 ## Where evidence is ignored by practice
 
 - Refutation text has two meta-analyses (Schroeder 2022; Danielson 2025); the templates read here have no misconception block.
 - Guided notes have meta-analytic support (Larwin 2013); neither template read here (OpenStax 2026b; Carpentries 2026a) offers a fill-in note form.
-- Textbook objectives use low-level verbs that do not match their own end-of-chapter tasks (Stokes 2010, 16 books): alignment is preached and not checked.
+- Textbook objectives use low-level verbs that do not match their own end-of-chapter tasks (Stokes 2010, 16 books, secondary): alignment is preached and not checked.
 - Seductive details cost learning (core: Sundararajan 2020); textbooks keep high-interest boxes, said to be tied to the section (OpenStax 2026b), with no test of whether readers treat them as relevant.
 
 ## What this repository adds

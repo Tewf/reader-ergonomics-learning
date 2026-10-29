@@ -8,7 +8,7 @@ Question: how are the questions inside study material written, placed and answer
 One reviewer searched on 2026-10-29, by the [shared method](../README.md#method).
 
 - It covers published research and public practice: testing-effect research, item writing, feedback research, question generation, open textbooks, quiz tools and lesson templates.
-- It holds 82 formal sources (73 new, 3 of them by title only) and 25 grey sources (23 new: 8 from the web, 15 Q/A threads). No new grey source falls below 10 of 20.
+- It holds 82 formal sources (73 new, 3 of them by title only) and 25 grey sources (23 new: 8 from the web, 15 Q/A threads). One new grey source, NBME 2026, is an example only: the second rater scored it 6.5, read by its landing page.
 - Whether testing works at all is held in the core and linked, not reviewed again.
 - A number read only in an abstract or summary is marked "(secondary)".
 
@@ -42,15 +42,15 @@ One reviewer searched on 2026-10-29, by the [shared method](../README.md#method)
 | Lures read on a multiple-choice test return as false answers; feedback reduces this | measured (abstracts) | review.md 2 |
 | Answering in one's head works (g = 0.23), and writing the answer beats it by a further g = 0.17 | measured (meta-analysis, secondary) | review.md 2 |
 | Three options are optimal for test quality | measured for tests, not for learning (secondary) | review.md 3 |
-| Item-writing flaws are frequent (about half of items) and some make items harder or slower | measured, descriptive | review.md 3 |
+| Item-writing flaws are frequent (about half of items, secondary) and some make items harder or slower | measured, descriptive | review.md 3 |
 | Item-writing guidelines rest on textbook consensus; nearly half of 43 rules had no study | measured, descriptive (secondary) | review.md 3 |
 | Feedback with more information has larger effects (high-information d = 0.99) | measured (meta-analysis, full text) | review.md 4 |
 | Explanation feedback beats the bare answer on new inference questions | measured, one study (secondary) | review.md 4 |
 | Feedback timing makes no average difference, g = 0.03 | measured (meta-analysis, secondary) | review.md 4 |
 | Peeking at the answer before responding reduces learning | supported with caveat (old studies, abstracts) | review.md 5 |
 | Where to place answers in a study text (folded, chapter end, back of book) | not known; convention, untested | review.md 5 |
-| Generated items match expert items after refinement and fall short without it; learning from them is untested | measured for item quality, mixed | review.md 6 |
-| Quiz tools offer deferred, immediate and multiple-try feedback, and hold billions of questions | measured, descriptive (owner's page) | review.md 7 |
+| Generated items match expert items after refinement and fall short without it (secondary); learning from them was not found tested | measured for item quality, mixed | review.md 6 |
+| Quiz tools offer deferred, immediate and multiple-try feedback, and hold billions of questions | convention (the owners' pages) | review.md 7 |
 
 ## Named baseline
 

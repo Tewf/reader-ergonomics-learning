@@ -14,7 +14,7 @@ Each "not known" below is a statement about this search, not about the world.
 
 - Learners drop cards once they can recall them, and dropping lowers retention (Kornell 2008; Karpicke 2009; Pyc 2011).
 - Learners split decks into small stacks and cram, against their own results (Kornell 2009; Hartwig 2012).
-- Learner-made cards beat premade cards under matched time in six experiments, for memory and application (Pan 2023b); two vocabulary studies and a synthesis of 32 word-card studies lean the other way ([against](against.md)).
+- Learner-made cards beat premade cards under matched time in five of six experiments, for memory and, in most, application (Pan 2023b). Yet two vocabulary studies and a synthesis of 32 word-card studies lean the other way ([against](against.md)).
 - Generating beats reading in general, about 0.40, with large variation (Bertsch 2007, secondary; McCurdy 2020).
 - Related words studied together cause confusion errors, though not always lower scores (Nakata 2019; Ishii 2015).
 - Cards written for concepts or application help some learners more than detail cards (Lin 2018; Senzaki 2017).

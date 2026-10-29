@@ -2,7 +2,7 @@
 
 Four literature reviews, one per kind of study document, each in the steps reader-ergonomics uses for its own
 [evidence](https://github.com/Tewf/reader-ergonomics/tree/d17ee8e9bc07e0bd06e8ec7734cecd570b4e3b37/evidence): frame,
-review, state of the art, position, the case against, baseline. Written on 2026-10-29; not yet audited.
+review, state of the art, position, the case against, baseline. Written and audited on 2026-10-29.
 
 ## Contents
 
@@ -23,8 +23,8 @@ standard.
 | formal, new | 73 | 69 | 78 | 69 | 289 |
 | grey, new | 23 | 31 | 39 | 27 | 120 |
 | of which Q/A threads | 15 | 19 | 29 | 14 | 77 |
-| grey below 10 of 20, examples only | 0 | 5 | 12 | 8 | 25 |
-| carried from a sibling review | 11 | 0 | 0 | 0 | 11 |
+| grey examples only (below 10 of 20 for either rater) | 1 | 6 | 12 | 8 | 27 |
+| carried from the core (9) or a sibling review (2) | 11 | 0 | 0 | 0 | 11 |
 | in the review | 107 | 100 | 117 | 96 | 420 |
 
 - Most formal sources were read by abstract; each review's `sources.md` says which were read in full.
@@ -93,16 +93,50 @@ Whether a technique works is reviewed in the standard
 ([decision 0001](../decisions/0001-take-the-document-not-the-technique.md)). These reviews link it, with one line of
 context, and add how the document delivers it.
 
-## Checked so far
+## Audit
+
+Every line carrying a number, and every claim graded measured, was checked against its primary source on 2026-10-29,
+one auditor per review, none of whom wrote it. Counts of each README and flow were checked by arithmetic.
+
+| Review | Rows | Correct | Imprecise | Wrong | Unverifiable | Repeats |
+|---|---|---|---|---|---|---|
+| practice-questions | 89 | 69 | 6 | 1 | 5 | 8 |
+| flashcards | 74 | 57 | 5 | 1 | 0 | 11 |
+| exercise-sets | 86 | 69 | 10 | 1 | 0 | 6 |
+| instructional-text | 55 | 41 | 9 | 1 | 0 | 4 |
+| all | 304 | 236 | 30 | 4 | 5 | 29 |
+
+- Every wrong and imprecise row is corrected; each wrong row was checked again in its source before the correction
+  was written, since a correction is a claim too.
+- The four wrong rows:
+  - the front page said no study had compared fill-in-the-blank with question cards, which Kim 2023 did;
+  - an indexer's summary of Paas 1992 reversed the author's own finding;
+  - one textbook's question count was given for every chapter, from its first;
+  - a count of screened titles disagrees with the review's own rule, and both are now stated.
+- The five unverifiable rows rest on Rowland 2014, Yang 2021 and Hattie 2007, which are behind publishers' paywalls;
+  they keep their marks until the papers are read through the university.
+- The audit also lowered three grades to what their evidence allows and restored missing "(secondary)" marks.
+- It found 28 rows of one protocol table shifted by the script that added the OpenAlex column; they were rebuilt
+  from the recorded counts.
+
+## Second rater
+
+A second rater re-scored, blind, every fifth grey source of the four reviews: 23 sources, all of them read.
+
+- Inclusion: the raters agreed on 21 of 23, Cohen's kappa 0.78, unstable at this size (bootstrap 0.43 to 1.00).
+- Totals: mean absolute difference 1.35 of 20, the second rater 0.61 points lower.
+- The raters differed most on methodology (1.07) and objectivity (0.65), least on outlet tier (0.02).
+- Two sources fell below 10 for the second rater, and are now examples of practice only: NBME 2026 (12 against 6.5,
+  read by its landing page) and AcSE 2023 (11 against 8.5).
+
+## Other checks
 
 - Every DOI in the four reviews resolved on Crossref on 2026-10-29. Where Crossref's year differs from a key's, the
   key gives the year of print and Crossref the year online.
-- Every key was checked by script against the five bibliographies of the family: no work here carries a key another
-  repository gives a different work. The one exception, Yang 2021, names the standard's work here and another work in
-  reader-ergonomics-presentations. That clash is between the two siblings.
+- Every key was checked by script against the five bibliographies of the family. No work here carries a key another
+  repository gives a different work, except Yang 2021. It names the standard's work here and another work in
+  reader-ergonomics-presentations, a clash between the two siblings.
 - One citation in reader-ergonomics was found wrong here and corrected there, in v1.3.1 (Dickson 2005).
-- Not done yet: the audit of every number against its source by agents that did not write it, and a second rater
-  on every fifth grey source.
 
 ## See also
 

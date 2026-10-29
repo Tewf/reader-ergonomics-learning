@@ -4,7 +4,7 @@ Question: how is a set of exercises ordered and supported, so that working throu
 
 - It is a multivocal literature review (Garousi 2019) by one reviewer, searched on 2026-10-29.
 - It holds 78 new formal sources and links 13 more already reviewed in the core repository.
-- It scores 39 grey sources out of 20 (10 from the web, 29 Q/A threads); 12 fall below the threshold of 10 and are used as examples only.
+- It scores 39 grey sources out of 20 (10 from the web and the What Works Clearinghouse, 29 Q/A threads); 12 fall below the threshold of 10 and are used as examples only.
 - It is not a standard, a new result, or a claim to the state of the art. A number read only in an abstract is marked "(secondary)".
 
 ## Files
@@ -32,7 +32,7 @@ Question: how is a set of exercises ordered and supported, so that working throu
 | A full year of interleaved sets raised short-term scores (0.29 SD) and not a cumulative test | measured, one cluster trial, working paper (secondary) | against.md |
 | Spacing a type across sets beats massing it in mathematics, less inside courses (g = 0.28; 0.24) | measured, meta-analysis (secondary) | review.md 0 |
 | 9.7% of 13,505 problems in six mathematics textbooks are interleaved | measured, descriptive | review.md 7 |
-| Students judge spaced and interleaved schedules least effective | measured, descriptive (secondary) | review.md 2 |
+| Most students judge the least spaced, least interleaved schedules most effective | measured, descriptive (secondary) | review.md 2 |
 | Nine problems of one type in one session did no better than three at one and four weeks | measured, one study (secondary) | review.md 6 |
 | Fading worked steps beats example-problem pairs on near transfer; adaptive fading beats fixed fading | measured (secondary) | review.md 3 |
 | Example-problem order beats problem-example in some studies and not in others | measured, contested | review.md 3; against.md |
@@ -41,7 +41,7 @@ Question: how is a set of exercises ordered and supported, so that working throu
 | Training help seeking changed help use, not learning | measured (secondary) | review.md 5 |
 | Open model access during practice lowered later exam grades by 17%; a hint-only tutor avoided most of the loss | measured, one field experiment (secondary) | review.md 5 |
 | Homework copying rises toward deadlines and goes with lower exam scores | measured, descriptive (secondary) | review.md 5 |
-| Online homework with hints and teacher reports raised a state test, g = 0.18 | measured, one randomised field trial (read in full) | review.md 6 |
+| Online homework with hints and teacher reports raised an end-of-year standardised test, g = 0.18 | measured, one randomised field trial (read in full) | review.md 6 |
 | Online and paper homework do not differ | measured, meta-analysis of 18 studies (secondary) | review.md 0 |
 | Odd-numbered answers only, solutions released after submission, variation sets, starred problems | convention, untested | review.md 7, 8 |
 | A set built from all the measured parts beats the blocked textbook set | convention, untested (a hypothesis to test) | position.md; baseline.md |

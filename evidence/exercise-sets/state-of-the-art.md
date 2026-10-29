@@ -9,14 +9,14 @@ Two records are kept apart: **most adopted** (what textbooks, sites and teachers
 | Q1 order of types in a set | blocked sets with a short mixed review: 9.7% of 13,505 textbook problems interleaved (Rohrer 2020b) | Rohrer 2020 (core): cluster trial, d = 0.83; Rohrer 2015: d = 0.79 at 30 days | unannounced delayed tests of mixed problems, classroom randomisation |
 | Q1 order across sets | one lesson per set; Saxon's daily cumulative practice as the exception (Rohrer 2020b) | Murray 2025: spaced against massed in mathematics, g = 0.28, 0.24 inside courses (secondary) | meta-analysis of 27 studies |
 | Q2 example to problem | textbook: worked examples in the lesson, then a block of problems | example-problem pairs over problems only (van Gog 2011, linked); fading over pairs (Renkl 2002; Atkinson 2003); adaptive fading over fixed (Salden 2009) | randomised experiments, near and far transfer |
-| Q2 completion and Parsons | Parsons problems in e-books (Runestone, CSEd 2017d); fading examples into problems endorsed (Pashler 2007) | Paas 1992 for completion; Ericson 2018 for Parsons: as effective as writing code, more efficient (abstract), with replication lacking (Du 2020) | transfer tests; time to solve |
+| Q2 completion and Parsons | Parsons problems in e-books (Runestone, CSEd 2017d); fading examples into problems endorsed (Pashler 2007) | Paas 1992 for worked and completion problems; Ericson 2018 for Parsons: as effective as writing code, more efficient (abstract), with replication lacking (Du 2020) | transfer tests; time to solve |
 | Q3 difficulty | starred or graded problems (MathEd 2014f); problems that open harder ones (Project Euler 2026, example only) | Jansen 2013b: higher preset success rate, more practice, larger gain (secondary) | adaptive practice, six weeks, 207 children |
 | Q3 variability | NCETM variation sets (NCETM 2020) | Paas 1994 (core); Likourezos 2019: helps the experienced, hurts novices (secondary) | transfer tests |
 | Q4 hints | on-demand hints in online homework (Roschelle 2016; ASSISTments 2026, example only) | Roll 2011 changed help use; Aleven 2016 no domain gain; Bastani 2025 hint-only tutor avoided harm (secondary) | classroom trials in tutors; field experiment, about 1,000 students |
 | Q4 solutions | odd-numbered answers at the back (OpenStax 2026); solutions manuals; publish after submission (MathEd 2017a) | Rystrom 2005, two cohorts: lower scores with the manual (secondary) | course quizzes and exams |
 | Q4 copying | sites selling solutions: Chegg 3.6 million subscribers at the end of 2024 (Chegg 2025) | Palazzo 2010: copying detected in logs went with a 2 SD decline in relative score on similar exam problems (secondary) | log analysis of an online tutor |
 | Q5 volume | about 15 exercises per section, three sections a week, in one calculus class (MathEd 2014g, example only) | Rohrer 2006: 9 problems no better than 3 in one session (secondary) | delayed tests at one and four weeks |
-| Q5 online homework | WeBWorK (since 1994; WeBWorK 2026), ASSISTments (owner's claim, example only) | Roschelle 2016: g = 0.18, 2,850 students, 43 schools | randomised field trial, state test |
+| Q5 online homework | WeBWorK (since 1994; WeBWorK 2026), ASSISTments (owner's claim, example only) | Roschelle 2016: g = 0.18, 2,850 students, 43 schools | randomised field trial, end-of-year standardised test |
 
 ## Adoption counts, descriptive, read 2026-10-29
 
@@ -35,7 +35,7 @@ Two records are kept apart: **most adopted** (what textbooks, sites and teachers
 ## Upper bounds (achieved)
 
 - Interleaving whole homework sets raised delayed unannounced test scores in middle-school classrooms, d = 0.79 to 1.05 (Rohrer 2015; Rohrer 2014, secondary) and d = 0.83 in a cluster trial (Rohrer 2020, core).
-- Online homework with hints and teacher reports raised a state test, g = 0.18 (Roschelle 2016).
+- Online homework with hints and teacher reports raised an end-of-year standardised test (TerraNova), g = 0.18 (Roschelle 2016).
 - Backward fading with principle prompts gave medium to large transfer without extra time (Atkinson 2003, secondary).
 - A hint-only generated tutor kept practice gains without the later loss that open access caused (Bastani 2025, secondary).
 

@@ -12,12 +12,12 @@ It covers null results, studies that contradict each other, failed replications,
 - The studies differ in material (text passages against word pairs) and in what making a card asked of the learner.
 - The generation effect itself is contested for texts: a meta-analysis found g = 0.41 (Schindler 2023, secondary), then the same team's seven experiments found no effect, some a disadvantage (Schindler 2025, secondary).
 - A direct replication found the classic text effect only in part, when generation was nearly perfect (Schindler 2024, secondary).
-- Its size depends on how constrained the generation is (McCurdy 2020); copying a definition onto a card may be a weak form of it (an inference).
+- Its size depends on how constrained the generation is (McCurdy 2020); copying a definition word for word gave no advantage, while copy-and-paste did (Pan 2023b, experiments 1 and 2).
 
 ## Whether flashcards help with authentic material
 
 - Flashcards did not beat free study on authentic course material (Lin 2018, experiment 1, secondary).
-- Premade psychiatry cards were liked by 87% of users and did not predict exam scores (Sun 2021b, secondary).
+- Premade psychiatry cards were found helpful by 87% of users and did not predict exam scores (Sun 2021b, secondary).
 - Repeated testing with electronic flashcards beat restudy at one week and not at six months (Schmidmaier 2011, secondary).
 - Commercial premade cards did not predict licensing scores where Anki cards, classed as user-made, did (Deng 2015).
 
@@ -27,7 +27,7 @@ It covers null results, studies that contradict each other, failed replications,
 - Lu 2021 respondents scored higher than non-respondents, 238.82 against 229.89 (d = 0.51), so the sample is skewed toward strong students.
 - Halperin 2024 recruited through social media and group chats; its 68.3% is not a national rate.
 - Ingebrigtsen 2025 randomised campuses, but compared users with non-users inside them; only one third used the cards.
-- Pan 2023b, Lin 2018, Senzaki 2017 and the vocabulary studies were read by abstract only.
+- Lin 2018, Senzaki 2017 and the vocabulary studies were read by abstract only; Pan 2023b was read in full by the audit, in the first author's copy.
 - Karrar 2026 compares cards plus a scheduler against usual teaching, so d = 2.48 cannot be credited to generated cards.
 
 ## Whether the practitioner rules are right

@@ -8,12 +8,12 @@ Two records are kept apart: **most adopted** (what textbooks and lessons do) and
 | Q2 objectives | objectives at the start of each section or episode (OpenStax 2026b; Carpentries 2026a) | Klauer 1984 (core); Britton 1985 | meta-analysis of objectives with texts; reading-time experiment |
 | Q2 alignment | rubric review of alignment (Quality Matters 2026b); backward design in lesson training (Carpentries 2026b) | none controlled; Larkin 2013, Lynch 2020 | one programme before and after; a pilot of two against two courses, not significant |
 | Q3 summaries | a section summary at the end (OpenStax 2026b); key points at the end of an episode (Carpentries 2026a) | Hartley 1979; Cook 1981; Mayer 1996; van der Meij 2012 | small experiments on recall and transfer |
-| Q3 glossaries | bold terms defined in context, plus a glossary | Yanagisawa 2020 (second-language only) | meta-regression of 42 studies on word learning |
+| Q3 glossaries | bold terms defined in context, plus a glossary | Yanagisawa 2020 (second-language only) | meta-regression of 42 studies on word learning (secondary) |
 | Q4 refutation | misconception notes in teaching guides; not counted | Schroeder 2022; Danielson 2025 | two meta-analyses, between-subjects experiments |
 | Q5 guided notes | instructor handouts; not counted | Larwin 2013 | meta-analysis, 12 college studies |
 | Q5 study guides | publisher study guides and instructor concept lists; not counted | Dickson 2005b; Cushen 2019 | classroom experiments, opposite results |
 | Q5 crib sheets | allowed in some exams (Academia 2018b) | Dickson 2005 (core); Dickson 2008; Funk 2011 | classroom experiments with surprise tests |
-| Q7 explained solutions | student and instructor solutions manuals (OpenStax 2026b) | Wittwer 2010 | meta-analysis of 21 experiments |
+| Q7 explained solutions | student and instructor solutions manuals (OpenStax 2026b) | Wittwer 2010 | meta-analysis of 21 experiments (secondary) |
 
 ## Adoption counts, descriptive
 

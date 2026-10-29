@@ -95,7 +95,7 @@ Whether retrieval and spacing work is settled in the [core review](https://githu
 - Repository stars: Anki 32,379, AnkiDroid 12,116, the FSRS add-on 4,119, Orbit 1,838 (GitHub 2026h, read 2026-10-29).
 - In 2020, 68.3% of 560 students from 102 US medical schools used Anki (Halperin 2024, self-selected, secondary).
 - Daily Anki users were 56% of 165 at one school (Wothe 2023, secondary), and about 70% of 60 used it at another (Harris 2022, secondary).
-- Anki users (Gilbert 2023) and heavier users (Levy 2023) scored higher in two more single-school cohorts (secondary).
+- Anki users scored higher in one more single-school cohort (Gilbert 2023); in another, heavier users scored higher on average, not significantly (Levy 2023, 45 students) (both secondary).
 - Of 57 Ottawa respondents, 98.2% used unofficial resources, student-made Anki decks among the most common (Makus 2023, secondary).
 - Quizlet's own page refused the request; an uncited figure gives 60 million monthly users in 2021 (Wikipedia 2026e, example only).
 - Guides add cost rules: memorise what would cost over 5 or 10 minutes to look up (Branwen 2019; Nielsen 2018).
@@ -111,5 +111,5 @@ Language Learning, Psychology and Neuroscience, Mathematics Educators and Academ
 - An old card costs little per review, yet 20,000 cards at 10 seconds is about 55.5 hours over a few years (LLSE 2016d); daily use and backlogs cost most (LLSE 2017a).
 - Premade parts that help recognise a word are fine; parts that help use it should be personal (LLSE 2016f).
 - Mathematics is compressed by problems and mental models more than by prompts (MESE 2014; MESE 2024).
-- Universities leave memorisation to students (AcSE 2016; AcSE 2024); sharing a set is fair, questions first (AcSE 2023).
+- Universities leave memorisation to students (AcSE 2016; AcSE 2024); sharing a set is fair, questions first (AcSE 2023, example only).
 - Examples only: a new card appears before it is learned, so learn it first (LLSE 2016g); a reversed sibling only shortens intervals (PNSE 2016).

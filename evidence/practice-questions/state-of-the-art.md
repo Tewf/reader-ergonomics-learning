@@ -24,7 +24,7 @@ This file names, for each sub-question, who holds the record and how it was meas
 |---|---|---|
 | Q1 level | lower-order items: 93% of 9,713 biology exam items at Bloom levels 1 and 2 | Momsen 2010 |
 | Q2 format | four-option multiple choice at the end of a chapter | Spielman 2020 |
-| Q3 writing | consensus guidelines (31 to 43 rules) and a medical-school guide | Haladyna 2002; Frey 2005; NBME 2026 |
+| Q3 writing | consensus guidelines (31 to 43 rules) and a medical-school guide | Haladyna 1989; Haladyna 2002; Frey 2005; NBME 2026 (example only) |
 | Q4 feedback | the quiz tool's setting: deferred, immediate, or multiple tries | Moodle 2025 |
 | Q5 answers | a solution folded under each challenge; answers away from the questions | Carpentries 2026p; Spielman 2020 |
 | Q7 generation | generated practice placed beside textbook text at scale | Johnson 2024 (vendor's authors) |
