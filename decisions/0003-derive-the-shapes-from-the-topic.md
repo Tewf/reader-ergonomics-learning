@@ -1,9 +1,9 @@
 # 0003: Derive the shapes from the topic, at pinned releases
 
 **Decision:** every shape of this repository will derive from the topic of reader-ergonomics-topic, and both parents
-are linked and run at a release's commit: reader-ergonomics v1.3.1 and reader-ergonomics-topic v0.4.0.
+are linked and run at a release's commit: reader-ergonomics v1.4.3 and reader-ergonomics-topic v0.4.0.
 
-**Status:** accepted, 2026-10-29. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/d17ee8e9bc07e0bd06e8ec7734cecd570b4e3b37/shapes/decision-record.md).
+**Status:** accepted, 2026-10-29. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/d48ffbe96aed32dd63e1974ee60f69472fe36932/shapes/decision-record.md).
 
 ## Context
 
@@ -13,14 +13,14 @@ are linked and run at a release's commit: reader-ergonomics v1.3.1 and reader-er
 - Its first derived shape was the decision record. Since v1.3.0 the standard holds a general one, which this
   repository's records follow.
 - The extension contract asks an extension to pin the standard by commit, never by tag
-  ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/d17ee8e9bc07e0bd06e8ec7734cecd570b4e3b37/extending.md)).
+  ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/d48ffbe96aed32dd63e1974ee60f69472fe36932/extending.md)).
 
 ## Decision
 
 - A lesson, an exercise sheet, a study guide or a deck will be a topic with blocks of its own.
 - Each block takes a name from the topic's table of accepted names, and each document links the shape it follows.
 - Links down to either parent carry the release's commit. CI checks out reader-ergonomics at
-  `d17ee8e` (v1.3.1).
+  `d48ffbe` (v1.4.3).
 - The topic check is not run here yet: it reads the shapes, and none is written. It joins CI with the first shape.
 
 ## Consequences

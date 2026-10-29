@@ -51,41 +51,6 @@ file = "a65da4b2a6d7"
 answer = "How-to, for whoever runs the comparison: `The named baselines`, a `Candidate variant to test`, then `How a comparison would be measured`. The reference parts are the inputs of that one procedure."
 
 [[answer]]
-check = "co-change"
-path = ".github/workflows/checks.yml"
-question = "changed together with AGENTS.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "733537b98341"
-answer = "Neither: they change together because each names the pinned release of reader-ergonomics, this file to check it out (`# v1.3.1`), AGENTS.md to link it and to extract it for a local run. Decision 0003 pins both by commit, so every move of the pin touches both, on purpose."
-
-[[answer]]
-check = "co-change"
-path = ".github/workflows/pages.yml"
-question = "changed together with AGENTS.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "f9007a71cfc0"
-answer = "Neither: this file checks out the standard's stylesheet at the pinned release (`# v1.3.1`), and AGENTS.md names the same release; decision 0003 pins both by commit, so a move of the pin touches both, on purpose."
-
-[[answer]]
-check = "logical-lines"
-path = "README.fr.md"
-question = "82 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "32560a6a763f"
-answer = "One role: the French front page, kept in step with `README.md`, which tells a reader what this repository is, from `Périmètre` to `Suite`. It stays whole."
-
-[[answer]]
-check = "logical-lines"
-path = "README.md"
-question = "81 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "5212b420c7a0"
-answer = "One role: the front page, which tells a reader what this repository is, from `Where it sits` to `Next`. One line past the trigger, it stays whole."
-
-[[answer]]
-check = "logical-lines"
-path = "evidence/README.md"
-question = "95 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "3a5d95a3cc80"
-answer = "One role: the index of the four reviews, which opens by listing them under `Contents` and then gives what they share, from `Rules the four reviews share` to `Audit` and `Second rater`. Each part is about all four reviews at once. It stays whole."
-
-[[answer]]
 check = "logical-lines"
 path = "evidence/exercise-sets/review.md"
 question = "90 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
@@ -98,13 +63,6 @@ path = "evidence/flashcards/protocol.md"
 question = "146 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
 file = "ceaf46bf167f"
 answer = "One role: the repeatable record of this review's search, as its opening says: `Every search, count and rule of the flashcards review`. Its sections `4. Formal search`, `5. Grey search` and `6. Stopping rule` are steps of that one search, and its tables are data. It stays whole."
-
-[[answer]]
-check = "logical-lines"
-path = "evidence/flashcards/review.md"
-question = "83 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "b64338aed68d"
-answer = "One role: the reading log of the literature, which opens by saying it `reads the literature on how flashcards are written, made, used and kept`. Its sections, from `0. Existing reviews` to `8. Practice and adoption (Q6)`, are the strands. It stays whole."
 
 [[answer]]
 check = "logical-lines"
@@ -171,13 +129,6 @@ answer = "No: each section, such as `Whether learner-made cards win` or `Whether
 
 [[answer]]
 check = "figures-present"
-path = "evidence/flashcards/review.md"
-question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
-file = "b64338aed68d"
-answer = "Not now: it is a log by strand, from `2. Card formulation (Q1)` to `8. Practice and adoption (Q6)`, one finding per bullet. A figure of the measured effects may come with the audit, once each number is checked."
-
-[[answer]]
-check = "figures-present"
 path = "evidence/instructional-text/against.md"
 question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
 file = "395a9a0a4116"
@@ -227,13 +178,6 @@ answer = "Reference: counter-evidence looked up by part of the apparatus, under 
 
 [[answer]]
 check = "document-mode"
-path = "evidence/instructional-text/baseline.md"
-question = "reads about equally as tutorial and how-to: one mode per document?"
-file = "03a0dff1be2e"
-answer = "How-to, for whoever runs the comparison: `The named baselines`, then `How a comparison would be measured` and `A checklist in the baseline's own terms`. The checklist is the procedure; the rest names its inputs."
-
-[[answer]]
-check = "document-mode"
 path = "evidence/instructional-text/position.md"
 question = "reads about equally as reference and how-to: one mode per document?"
 file = "ddb5175f2816"
@@ -245,3 +189,59 @@ path = "evidence/practice-questions/position.md"
 question = "reads about equally as explanation and reference: one mode per document?"
 file = "cb9477039278"
 answer = "Reference: findings sorted under `Known`, `Known with caveat`, `Not known` and `What this repository adds`, looked up by question. Each finding is one line, not an argument."
+
+[[answer]]
+check = "logical-lines"
+path = "README.fr.md"
+question = "82 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "5871f5cce6e4"
+answer = "One role: the French front page, kept in step with `README.md`, which tells a reader what this repository is, from `Périmètre` to `Suite`. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "README.md"
+question = "81 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "702b8f391885"
+answer = "One role: the front page, which tells a reader what this repository is, from `Where it sits` to `Next`. One line past the trigger, it stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/README.md"
+question = "95 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "52f1943450a9"
+answer = "One role: the index of the four reviews, which opens by listing them under `Contents` and then gives what they share, from `Rules the four reviews share` to `Audit` and `Second rater`. Each part is about all four reviews at once. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/flashcards/review.md"
+question = "83 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "72e3bc8801c0"
+answer = "One role: the reading log of the literature, which opens by saying it `reads the literature on how flashcards are written, made, used and kept`. Its sections, from `0. Existing reviews` to `8. Practice and adoption (Q6)`, are the strands. It stays whole."
+
+[[answer]]
+check = "figures-present"
+path = "evidence/flashcards/review.md"
+question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
+file = "72e3bc8801c0"
+answer = "Not now: it is a log by strand, from `2. Card formulation (Q1)` to `8. Practice and adoption (Q6)`, one finding per bullet. A figure of the measured effects may come with the audit, once each number is checked."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with AGENTS.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "5893ca15bac7"
+answer = "Neither: they change together because each names the pinned release of reader-ergonomics, this file to check it out (`# v1.4.3`), AGENTS.md to link it and to extract it for a local run. Decision 0003 pins both by commit, so every move of the pin touches both, on purpose."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/pages.yml"
+question = "changed together with AGENTS.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "13a4bbda31b1"
+answer = "Neither: this file checks out the standard's stylesheet at the pinned release (`# v1.4.3`), and AGENTS.md names the same release; decision 0003 pins both by commit, so a move of the pin touches both, on purpose."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/instructional-text/baseline.md"
+question = "reads about equally as tutorial and how-to: one mode per document?"
+file = "a74f76c17fd1"
+answer = "How-to, for whoever runs the comparison: `The named baselines`, then `How a comparison would be measured` and `A checklist in the baseline's own terms`. The checklist is the procedure; the rest names its inputs."

@@ -55,4 +55,4 @@ Question: how is a set of exercises ordered and supported, so that working throu
 ## Linked, not reviewed again
 
 - Principles of the standard an exercise set serves: listed in the [evidence README](../README.md#the-principles-of-the-standard-these-reviews-serve).
-- The effects themselves (interleaving, spacing, worked examples, fading): the core's [learning science](https://github.com/Tewf/reader-ergonomics/blob/d17ee8e9bc07e0bd06e8ec7734cecd570b4e3b37/evidence/learning-science/review.md).
+- The effects themselves (interleaving, spacing, worked examples, fading): the core's [learning science](https://github.com/Tewf/reader-ergonomics/blob/d48ffbe96aed32dd63e1974ee60f69472fe36932/evidence/learning-science/review.md).
