@@ -25,6 +25,25 @@ Cette page en anglais : [README.md](README.md). Les deux versions suivent le mê
 
 ![Trois niveaux : ce dépôt utilise reader-ergonomics-topic (épinglé à v0.4.0) et reader-ergonomics (épinglé à v1.9.0) ; le topic utilise reader-ergonomics.](where-it-sits.fr.svg)
 
+<details>
+<summary>Source Graphviz</summary>
+
+```dot
+digraph niveaux {
+  graph [rankdir=TB, nodesep=0.6, ranksep=0.6, bgcolor="white", pad=0.2, fontname="Inter"];
+  node  [shape=box, style="rounded,filled", fontname="Inter", fontsize=13, margin="0.2,0.1", penwidth=1.5, fontcolor="#1F2328"];
+  edge  [fontname="Inter", fontsize=11, color="#3D434B", fontcolor="#55575F", penwidth=1.3, arrowsize=0.8];
+  L [label=<<font point-size="10" color="#55575F">NIVEAU 2</font><br/><b>reader-ergonomics-learning</b><br/><font point-size="11" color="#55575F">les gabarits d'étude et leurs vérifications</font>>, fillcolor="#E8EEF8", color="#2F5DA8"];
+  T [label=<<font point-size="10" color="#55575F">NIVEAU 1</font><br/><b>reader-ergonomics-topic</b><br/><font point-size="11" color="#55575F">un gabarit, le topic, imbriqué à toute profondeur</font>>, fillcolor="#FFFFFF", color="#3D434B"];
+  R [label=<<font point-size="10" color="#55575F">NIVEAU 0</font><br/><b>reader-ergonomics</b><br/><font point-size="11" color="#55575F">comment un texte sert son lecteur ; l'apprentissage</font>>, fillcolor="#FFFFFF", color="#3D434B"];
+  L -> T [label=<  dérive ses gabarits du topic,<br/>  épinglé à v0.4.0>];
+  T -> R [label=<  obéit aux principes>];
+  L -> R [label=<  obéit aux principes ; la CI y lance<br/>  leurs vérifications, v1.9.0>, constraint=false];
+}
+```
+
+</details>
+
 - **Il obéit à reader-ergonomics** et lance ses vérifications, comme toute extension
   ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/extending.md)).
 - **Ses gabarits dérivent du

@@ -18,6 +18,36 @@ reader-ergonomics, with the evidence behind each block and the checks a program 
 
 ![Five shapes. The lesson extends the core note; the exercise sheet's worked examples are core reports. The question block sits inside the lesson and the study guide; the deck derives from a lesson; the study guide draws on all four.](shapes.svg)
 
+<details>
+<summary>Graphviz source</summary>
+
+```dot
+digraph shapes {
+  graph [rankdir=BT, nodesep=0.35, ranksep=0.6, bgcolor="white", pad=0.2, fontname="Inter"];
+  node  [shape=box, style="rounded,filled", fontname="Inter", fontsize=13, margin="0.2,0.1", penwidth=1.5, fontcolor="#1F2328", fillcolor="#E8EEF8", color="#2F5DA8"];
+  edge  [fontname="Inter", fontsize=11, color="#3D434B", fontcolor="#55575F", penwidth=1.3, arrowsize=0.8];
+  note   [label=<<b>note</b><br/><font point-size="11" color="#55575F">reader-ergonomics</font>>, fillcolor="#FFFFFF", color="#3D434B", style="rounded,filled,dashed"];
+  report [label=<<b>report</b><br/><font point-size="11" color="#55575F">reader-ergonomics</font>>, fillcolor="#FFFFFF", color="#3D434B", style="rounded,filled,dashed"];
+  deck   [label=<<b>deck</b>>];
+  lesson [label=<<b>lesson</b>>];
+  block  [label=<<b>question block</b>>];
+  sheet  [label=<<b>exercise sheet</b>>];
+  guide  [label=<<b>study guide</b>>];
+  { rank=same; note; report; }
+  { rank=same; deck; lesson; block; sheet; }
+  lesson -> note   [label=<  extends>];
+  sheet  -> report [label=<  worked examples>];
+  lesson -> block  [label=<  holds>, constraint=false];
+  deck   -> lesson [label=<  derives from>, constraint=false];
+  guide  -> deck;
+  guide  -> lesson;
+  guide  -> block;
+  guide  -> sheet;
+}
+```
+
+</details>
+
 - **Built on, not copied.** The lesson keeps every block of the core
   [note](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/shapes/note.md); a
   worked example is the core [report](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/shapes/report.md),

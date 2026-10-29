@@ -27,6 +27,25 @@ This page in French: [README.fr.md](README.fr.md).
 
 ![Three levels: this repository uses reader-ergonomics-topic (pinned v0.4.0) and reader-ergonomics (pinned v1.9.0); the topic uses reader-ergonomics.](where-it-sits.svg)
 
+<details>
+<summary>Graphviz source</summary>
+
+```dot
+digraph levels {
+  graph [rankdir=TB, nodesep=0.6, ranksep=0.6, bgcolor="white", pad=0.2, fontname="Inter"];
+  node  [shape=box, style="rounded,filled", fontname="Inter", fontsize=13, margin="0.2,0.1", penwidth=1.5, fontcolor="#1F2328"];
+  edge  [fontname="Inter", fontsize=11, color="#3D434B", fontcolor="#55575F", penwidth=1.3, arrowsize=0.8];
+  L [label=<<font point-size="10" color="#55575F">LEVEL 2</font><br/><b>reader-ergonomics-learning</b><br/><font point-size="11" color="#55575F">the shapes of study documents, and their checks</font>>, fillcolor="#E8EEF8", color="#2F5DA8"];
+  T [label=<<font point-size="10" color="#55575F">LEVEL 1</font><br/><b>reader-ergonomics-topic</b><br/><font point-size="11" color="#55575F">one topic shape, nested to any depth, its check</font>>, fillcolor="#FFFFFF", color="#3D434B"];
+  R [label=<<font point-size="10" color="#55575F">LEVEL 0</font><br/><b>reader-ergonomics</b><br/><font point-size="11" color="#55575F">how any text serves its reader; learning science</font>>, fillcolor="#FFFFFF", color="#3D434B"];
+  L -> T [label=<  derives its shapes from the topic,<br/>  pinned v0.4.0>];
+  T -> R [label=<  obeys the principles>];
+  L -> R [label=<  obeys the principles; CI runs<br/>  their checks here, pinned v1.9.0>, constraint=false];
+}
+```
+
+</details>
+
 - **It obeys reader-ergonomics** and runs its checks, as every extension does
   ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/extending.md)).
 - **Its shapes derive from the
