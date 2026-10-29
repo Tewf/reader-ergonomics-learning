@@ -1,0 +1,9 @@
+# Answers to the questions the checks leave for judgment (reader-ergonomics standard.md, step 4).
+# An answer holds until its file changes; a model's answer is advice until the maintainer has read it.
+
+[[answer]]
+check = "tree-shape"
+path = "checks"
+question = "2 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
+file = ""
+answer = "It stays: `checks` is the folder the extension contract names for `config.toml`, and this file of answers sits beside it; the local checks will join them with the first shape."
