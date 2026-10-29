@@ -2,13 +2,6 @@
 # An answer holds until its file changes; a model's answer is advice until the maintainer has read it.
 
 [[answer]]
-check = "tree-shape"
-path = "checks"
-question = "2 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
-file = ""
-answer = "It stays: `checks` is the folder the extension contract names for `config.toml`, and this file of answers sits beside it; the local checks will join them with the first shape."
-
-[[answer]]
 check = "logical-lines"
 path = "evidence/exercise-sets/protocol.md"
 question = "136 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
@@ -35,13 +28,6 @@ path = "evidence/exercise-sets/position.md"
 question = "reads about equally as reference and how-to: one mode per document?"
 file = "d7cc3ae5c219"
 answer = "Reference: statements sorted under `Known`, `Not known` and `Where practice runs ahead of the evidence`, looked up by question. It gives no steps; its proposals are graded elsewhere."
-
-[[answer]]
-check = "document-mode"
-path = "evidence/practice-questions/baseline.md"
-question = "reads about equally as how-to and reference: one mode per document?"
-file = "a65da4b2a6d7"
-answer = "How-to, for whoever runs the comparison: `The named baselines`, a `Candidate variant to test`, then `How a comparison would be measured`. The reference parts are the inputs of that one procedure."
 
 [[answer]]
 check = "logical-lines"
