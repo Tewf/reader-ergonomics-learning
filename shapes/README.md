@@ -35,7 +35,7 @@ Plain Markdown, so a document renders the same on GitHub, in Quarto and in Obsid
 | an objective | `- **O1** <verb> ...` under `## Objectives` |
 | a question | `1. **O1** <question>` under a `Check yourself` heading |
 | a folded answer | `<details><summary>Answer</summary> ... </details>`, an Obsidian callout `> [!answer]-`, or a Quarto callout with `collapse="true"` |
-| a trap | a quote opening `> **Trap:**` and holding `**Why not:**` |
+| a trap | a quote opening `> **Trap:**`, or a callout titled Trap (`> [!warning] Trap`, `title="Trap"`), holding `**Why not:**` |
 | a type of problem | `- **T1** <type>` under `## Types` |
 | an item of a sheet | `### Worked example (T1): ...`, `### Complete (T1): ...`, `### Problem (T1): ...` |
 | a hint, an answer, a solution | folds whose summaries read Hint, Answer, Solution |
@@ -43,6 +43,25 @@ Plain Markdown, so a document renders the same on GitHub, in Quarto and in Obsid
 | the shape a document follows | a line `**Shape:** [lesson](<link to the shape>)` under the summary |
 
 The labels Trap and Why not are tunables in `checks/config.toml`, so a French vault may write Piège and Pourquoi non.
+
+## Tested against study material written before them
+
+The shapes were held out against every section of the 17 explained solution books of
+[University-Coursework](https://github.com/Tewf/University-Coursework), 103 sections, with the predictions written
+before the count.
+
+| In the books | Sections |
+|---|---|
+| What this tests, If you meet this again, Predict before running | 102, 103 and 101 of 103 |
+| a trap, written as a callout titled Trap | 101 of 103, 134 traps |
+| a trap carrying a Why not label | 0 of 103 |
+| objectives, a question block, a folded answer | 0 of 103 |
+
+- **A section of an explained book is a worked example:** the core report, which is the study guide's part for one
+  type of problem. It is not a lesson, and no shape was bent to fit it.
+- **The markup changed once:** the checks read a trap written as a callout, the form of all 134, as well as a quote.
+- **What a book would add** to be study material in these shapes' sense: a question block of variants after each
+  section, with folded answers, and a Why not in each trap.
 
 ## Declaring the documents to check
 

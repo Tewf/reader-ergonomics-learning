@@ -125,6 +125,33 @@ def quotes(lines: list[str]) -> list[tuple[int, list[str]]]:
     return found
 
 
+def traps(lines: list[str], labels: list[str]) -> list[tuple[int, list[str]]]:
+    """Every trap block, as (1-based first line, its lines), in any of three forms: a quote opening with a bold label
+    (> **Trap:** ...), an Obsidian callout whose type or title is the label (> [!warning] Trap), and a Quarto callout
+    whose title opens with it (::: {.callout-warning title="Trap"}). The explained books of the held-out test wrote
+    all 134 of their traps in the last form."""
+    found = [(line, body) for line, body in quotes(lines) if body and opens_with_label(body[0], labels)]
+    wanted = [label.lower() for label in labels]
+    for line, body in quotes(lines):
+        callout = CALLOUT.match(">" + body[0]) if body else None
+        if callout and (callout.group(1).lower() in wanted or callout.group(3).strip().lower().split(":")[0] in wanted):
+            found.append((line, body[1:]))
+    index = 0
+    while index < len(lines):
+        opening = QUARTO_OPEN.match(lines[index])
+        if opening:
+            fence = opening.group(1)
+            close = next((later for later in range(index + 1, len(lines))
+                          if (match := QUARTO_CLOSE.match(lines[later])) and len(match.group(1)) >= len(fence)), len(lines))
+            title = TITLE_ATTRIBUTE.search(opening.group(2))
+            if title and any(title.group(1).strip().lower().startswith(label) for label in wanted):
+                found.append((index + 1, lines[index + 1:close]))
+            index = close + 1
+            continue
+        index += 1
+    return sorted(found)
+
+
 def opens_with_label(text: str, labels: list[str]) -> bool:
     """True when text opens with a bold label followed by a colon: **Trap:** or **Trap**:."""
     return any(re.match(rf"\*\*{re.escape(label)}\s*:?\*\*\s*:?", text, re.IGNORECASE) for label in labels)

@@ -12,7 +12,8 @@ gives; it is read by learning_markup.py, outside fenced blocks and inline code.
 - explains: the fold holds at least `min_answer_words` words, more than a bare key (heuristic, PROVISIONAL bound);
 - options: a question with two or more lettered options has between `options` bounds, and none reads "all of the
   above" or "none of the above" (heuristic: the item-writing rules are a convention, tested for exams, not learning);
-- refuted: a quote opening with a `trap_labels` label holds a `why_labels` label (exact).
+- refuted: a trap, a quote opening with a `trap_labels` label or a callout titled with one, holds a `why_labels`
+  label (exact).
 
 What a run with no error guarantees, for the declared files: objectives and questions are aligned both ways, every
 question's answer is out of the line of sight, every trap carries its refutation. What it does not: that a question
@@ -121,5 +122,4 @@ def traps(path: str, lines: list[str], settings: dict) -> list[Finding]:
     why_labels = settings.get("why_labels", ["Why not"])
     return [Finding(NAME, path, line, f"a trap with no {why_labels[0]}: state why the idea is wrong, then the "
                                       "accepted one, since refutation is what teaches")
-            for line, body in markup.quotes(lines)
-            if body and markup.opens_with_label(body[0], trap_labels) and not markup.holds_label(body, why_labels)]
+            for line, body in markup.traps(lines, trap_labels) if not markup.holds_label(body, why_labels)]

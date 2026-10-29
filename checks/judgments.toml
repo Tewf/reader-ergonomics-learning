@@ -240,15 +240,15 @@ file = "6b6dbbe14573"
 answer = "One role: the front page, which tells a reader what this repository is, from `Where it sits` to `Next`. One line past the trigger, it stays whole."
 
 [[answer]]
-check = "co-change"
-path = ".github/workflows/checks.yml"
-question = "changed together with AGENTS.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "6daaa295318e"
-answer = "Neither: they change together because each names the pinned release of reader-ergonomics, this file to check it out (`# v1.4.3`), AGENTS.md to link it and to extract it for a local run. Decision 0003 pins both by commit, so every move of the pin touches both, on purpose."
-
-[[answer]]
 check = "document-mode"
 path = "shapes/examples/binary-search-sheet.md"
 question = "reads about equally as how-to and reference: one mode per document?"
 file = "1aaefbea96c5"
 answer = "How-to: a sheet is worked through in order, from `Worked example (T1): find 38` through `Problem (T1): find 13` to the `Mixed review`. Its `Types` list is the one reference part, there so that every item can name its type; it gives no steps of its own."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with AGENTS.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "6daaa295318e"
+answer = "Neither: this file runs the checks in CI and AGENTS.md gives the same commands for a local run, so a change to what CI runs touches both on purpose. The four shared commits moved a pinned release (`# v1.4.3`) or added a check, the topic check copied at `# v0.4.0 (decision 0003)`. Decision 0003 pins both by commit."

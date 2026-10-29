@@ -188,6 +188,16 @@ class Lesson(unittest.TestCase):
         text = GOOD_LESSON.replace("> **Why not:** the reason, then the right idea.\n", "")
         self.assertTrue(any("a trap with no Why not" in m for m in messages(self.run_on(text), "error")))
 
+    def test_trap_callouts(self):
+        quarto = '::: {.callout-warning title="Trap"}\nA wrong idea.\n:::\n'
+        obsidian = "> [!warning] Trap\n> A wrong idea.\n"
+        for block in (quarto, obsidian):
+            text = GOOD_LESSON.replace("> **Trap:** a wrong idea.\n> **Why not:** the reason, then the right idea.\n", block)
+            self.assertTrue(any("a trap with no Why not" in m for m in messages(self.run_on(text), "error")), block)
+            refuted = block.replace("A wrong idea.", "A wrong idea. **Why not:** the reason.")
+            text = GOOD_LESSON.replace("> **Trap:** a wrong idea.\n> **Why not:** the reason, then the right idea.\n", refuted)
+            self.assertFalse(any("a trap" in m for m in messages(self.run_on(text))), refuted)
+
     def test_code_is_not_markup(self):
         text = GOOD_LESSON + "\n```markdown\n### Check yourself\n1. untagged\n```\n"
         self.assertEqual(self.run_on(text), [])
