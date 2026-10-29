@@ -143,13 +143,6 @@ answer = "One role: the repeatable record of this review's search, as its openin
 
 [[answer]]
 check = "logical-lines"
-path = "evidence/instructional-text/review.md"
-question = "91 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "853c8343281b"
-answer = "One role: the reading log of the literature, which opens by saying it `reads the literature on the apparatus of an explanatory study text`. Its sections, from `0. Existing reviews` to `8. Practice`, are the strands. It stays whole."
-
-[[answer]]
-check = "logical-lines"
 path = "evidence/instructional-text/sources.md"
 question = "138 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
 file = "2fb1dcf716e2"
@@ -168,20 +161,6 @@ path = "evidence/practice-questions/review.md"
 question = "87 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
 file = "7fde8d283fe1"
 answer = "One role: the reading log of the literature, which opens by saying it `reads the literature on questions written into study material`. Its sections, from `0. Existing reviews` to `8. Q/A sites`, are the strands. It stays whole."
-
-[[answer]]
-check = "figures-present"
-path = "evidence/instructional-text/against.md"
-question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
-file = "4c8c8479e55c"
-answer = "No: under headings such as `Aids that learners value and that do not pay` and `Refutation text`, each bullet is a separate counter-finding with its source; no relation among them would gain from a drawing."
-
-[[answer]]
-check = "document-mode"
-path = "evidence/instructional-text/against.md"
-question = "reads about equally as tutorial and how-to: one mode per document?"
-file = "4c8c8479e55c"
-answer = "Reference: counter-evidence looked up by part of the apparatus, under `Objectives and alignment`, `Refutation text` and `Explained solutions`. It teaches no skill and gives no steps."
 
 [[answer]]
 check = "logical-lines"
@@ -247,15 +226,57 @@ file = "04ba7528f555"
 answer = "How-to, for whoever runs the comparison: `The named baselines`, then `How a comparison would be measured` and `A checklist in the baseline's own terms`. The checklist is the procedure; the rest names its inputs."
 
 [[answer]]
-check = "co-change"
-path = "checks/local/lesson.py"
-question = "changed together with checks/test_learning.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "21b93857959f"
-answer = "Neither: a check and its tests change together by the rule that every rule gets a test, and the tests stay in checks/, out of local/, so run.py never loads them as checks. The module says where else its rules run: `questions.py calls it for notes`."
-
-[[answer]]
 check = "section-cohesion"
 path = "shapes/question-block.md"
 question = "section 'Skeleton' is far from every other section (0.24): a second role?"
 file = "ec0f01d162eb"
 answer = "One role: the skeleton is the shape itself, written as a template under `## Skeleton`, and the other sections grade its items and say how they are checked (`## The items`, `## Checked by`). It reads far from them because it is mostly markup, not prose. It stays."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/instructional-text/review.md"
+question = "91 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "1b7d55ef469b"
+answer = "One role: the reading log of the literature, which opens by saying it `reads the literature on the apparatus of an explanatory study text`. Its sections, from `0. Existing reviews` to `8. Practice`, are the strands. It stays whole."
+
+[[answer]]
+check = "figures-present"
+path = "evidence/instructional-text/against.md"
+question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
+file = "54ed1040c538"
+answer = "No: under headings such as `Aids that learners value and that do not pay` and `Refutation text`, each bullet is a separate counter-finding with its source; no relation among them would gain from a drawing."
+
+[[answer]]
+check = "co-change"
+path = "checks/local/lesson.py"
+question = "changed together with checks/test_learning.py in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "21b93857959f"
+answer = "Neither: a check and its tests change together by the rule that every rule gets a test, and the tests stay in checks/, out of local/, so run.py never loads them as checks. The module says where else its rules run: `questions.py calls it for notes`."
+
+[[answer]]
+check = "co-change"
+path = "checks/local/lesson.py"
+question = "changed together with shapes/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "21b93857959f"
+answer = "Neither: a check and its tests change together by the rule that every rule gets a test, and the tests stay in checks/, out of local/, so run.py never loads them as checks. The module says where else its rules run: `questions.py calls it for notes`."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/instructional-text/against.md"
+question = "reads about equally as tutorial and how-to: one mode per document?"
+file = "54ed1040c538"
+answer = "Reference: counter-evidence looked up by part of the apparatus, under `Objectives and alignment`, `Refutation text` and `Explained solutions`. It teaches no skill and gives no steps."
+
+[[answer]]
+check = "co-change"
+path = "checks/test_learning.py"
+question = "changed together with shapes/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "6ca284091e84"
+answer = "Neither: the shapes state the rules of the markup for authors, and this file pins the checks that read it for maintainers, so a change of a rule touches both on purpose; the three shared commits each changed one rule and its test, such as `a trap with no Why not` or the callout form of `def test_callout_questions`. The shapes name each check in their Checked by tables, which is the link; moving the tests beside the shapes would mix documents read by learners' authors with code."
+
+[[answer]]
+check = "co-change"
+path = "checks/test_learning.py"
+question = "changed together with shapes/question-block.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "6ca284091e84"
+answer = "Neither: the shapes state the rules of the markup for authors, and this file pins the checks that read it for maintainers, so a change of a rule touches both on purpose; the three shared commits each changed one rule and its test, such as `a trap with no Why not` or the callout form of `def test_callout_questions`. The shapes name each check in their Checked by tables, which is the link; moving the tests beside the shapes would mix documents read by learners' authors with code."
