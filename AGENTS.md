@@ -1,13 +1,13 @@
 # Contributing to this repository
 
 For anyone changing this repository, person or language model. To apply the reader-ergonomics standard elsewhere,
-read its [standard.md](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/standard.md);
+read its [standard.md](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/standard.md);
 this file is about this repository only.
 
 ## Before writing
 
-1. Read the standard at the release this repository checks against (v1.13.0), then its
-   [learning-science review](https://github.com/Tewf/reader-ergonomics/tree/7a76cc6a86b7a5c1e451e4416534d113abd0f594/evidence/learning-science),
+1. Read the standard at the release this repository checks against (v1.18.2), then its
+   [learning-science review](https://github.com/Tewf/reader-ergonomics/tree/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/evidence/learning-science),
    then the [topic](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/shapes/topic.md)
    every shape here derives from.
 2. Ask of every new claim whether it is about the document or about the technique. A claim about whether a technique
@@ -42,7 +42,7 @@ gives it; emptied first, so a new pin leaves no file of the old release behind.
 
 ```sh
 rm -rf checks/out/standard && mkdir -p checks/out/standard
-git -C ../reader-ergonomics archive 7a76cc6 | tar -x -C checks/out/standard   # the pinned release
+git -C ../reader-ergonomics archive bfbe9f7 | tar -x -C checks/out/standard   # the pinned release
 git -C ../reader-ergonomics-topic show 1220def:checks/local/topic.py > checks/local/topic.py   # as CI does; never committed
 python3 checks/out/standard/checks/run.py . --tiers program,meaning --judge flag   # the repository, as CI runs it
 READER_ERGONOMICS_CHECKS=checks/out/standard/checks python3 -m unittest discover -s checks   # the checks of the shapes

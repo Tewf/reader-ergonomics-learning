@@ -163,60 +163,11 @@ file = "7fde8d283fe1"
 answer = "One role: the reading log of the literature, which opens by saying it `reads the literature on questions written into study material`. Its sections, from `0. Existing reviews` to `8. Q/A sites`, are the strands. It stays whole."
 
 [[answer]]
-check = "logical-lines"
-path = "evidence/README.md"
-question = "105 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "91191d6ca6db"
-answer = "One role: the index of the four reviews, which opens by listing them under `Contents` and then gives what they share, from `Rules the four reviews share` to `Audit` and `Second rater`. Each part is about all four reviews at once. It stays whole."
-
-[[answer]]
-check = "logical-lines"
-path = "evidence/flashcards/review.md"
-question = "83 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "36e2a9a2d28c"
-answer = "One role: the reading log of the literature, which opens by saying it `reads the literature on how flashcards are written, made, used and kept`. Its sections, from `0. Existing reviews` to `8. Practice and adoption (Q6)`, are the strands. It stays whole."
-
-[[answer]]
-check = "figures-present"
-path = "evidence/flashcards/review.md"
-question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
-file = "36e2a9a2d28c"
-answer = "Not now: it is a log by strand, from `2. Card formulation (Q1)` to `8. Practice and adoption (Q6)`, one finding per bullet. The measured effects, checked by the audit, are drawn once for the four reviews, in the evidence README's effects.svg."
-
-[[answer]]
-check = "co-change"
-path = ".github/workflows/checks.yml"
-question = "changed together with AGENTS.md in 5 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "2eb646e7b455"
-answer = "Neither: this file runs the checks in CI and AGENTS.md gives the same commands for a local run, so a change to what CI runs touches both on purpose. The five shared commits moved a pinned release (`# v1.13.0`) or added a step that a local run repeats: the topic check copied at `# v0.4.0 (decision 0003)`, and `Clone the family beside this repository, for bibliography-keys`. Decision 0003 pins both by commit."
-
-[[answer]]
-check = "co-change"
-path = ".github/workflows/pages.yml"
-question = "changed together with AGENTS.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "89ca70b656c1"
-answer = "Neither: this file checks out the standard's stylesheet at the pinned release (`# v1.13.0`), and AGENTS.md names the same release; decision 0003 pins both by commit, so a move of the pin touches both, on purpose."
-
-[[answer]]
 check = "document-mode"
 path = "README.fr.md"
 question = "reads about equally as explanation and how-to: one mode per document?"
 file = "4ab692106d46"
 answer = "One mode: the front page, which answers what a reader of a repository looks for first, as the standard's README shape lists it: how to start, in `Écrire une leçon`, then what the repository is and is not, in `Périmètre` and `Où il se place`. The how-to it holds is that first step and the commands of `Le vérifier`; the rest lives in shapes/ and evidence/."
-
-[[answer]]
-check = "document-mode"
-path = "evidence/instructional-text/baseline.md"
-question = "reads about equally as tutorial and how-to: one mode per document?"
-file = "04ba7528f555"
-answer = "How-to, for whoever runs the comparison: `The named baselines`, then `How a comparison would be measured` and `A checklist in the baseline's own terms`. The checklist is the procedure; the rest names its inputs."
-
-[[answer]]
-check = "section-cohesion"
-path = "shapes/question-block.md"
-question = "section 'Skeleton' is far from every other section (0.24): a second role?"
-file = "ec0f01d162eb"
-answer = "One role: the skeleton is the shape itself, written as a template under `## Skeleton`, and the other sections grade its items and say how they are checked (`## The items`, `## Checked by`). It reads far from them because it is mostly markup, not prose. It stays."
 
 [[answer]]
 check = "logical-lines"
@@ -270,13 +221,62 @@ answer = "Neither: the shapes state the rules of the markup for authors, and thi
 [[answer]]
 check = "logical-lines"
 path = "README.fr.md"
-question = "114 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "c597c8cf1315"
+question = "116 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "57eb55f22b37"
 answer = "One role: the French front page, kept in step with `README.md`, which tells a reader how to start and what this repository is, from `Écrire une leçon` to `Suite`. It grew by the first steps a reader asked for; the detail stays in shapes/ and evidence/. It stays whole."
 
 [[answer]]
 check = "logical-lines"
 path = "README.md"
-question = "113 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "d1c106e0196f"
+question = "114 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "7340873db2d0"
 answer = "One role: the front page, which tells a reader how to start and what this repository is, from `Write a lesson` to `Next`. It grew by the first steps a reader asked for; the detail stays in shapes/ and evidence/. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/README.md"
+question = "105 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "207b3bce6423"
+answer = "One role: the index of the four reviews, which opens by listing them under `Contents` and then gives what they share, from `Rules the four reviews share` to `Audit` and `Second rater`. Each part is about all four reviews at once. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/flashcards/review.md"
+question = "83 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "f60c4d41dcb3"
+answer = "One role: the reading log of the literature, which opens by saying it `reads the literature on how flashcards are written, made, used and kept`. Its sections, from `0. Existing reviews` to `8. Practice and adoption (Q6)`, are the strands. It stays whole."
+
+[[answer]]
+check = "figures-present"
+path = "evidence/flashcards/review.md"
+question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
+file = "f60c4d41dcb3"
+answer = "Not now: it is a log by strand, from `2. Card formulation (Q1)` to `8. Practice and adoption (Q6)`, one finding per bullet. The measured effects, checked by the audit, are drawn once for the four reviews, in the evidence README's effects.svg."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with AGENTS.md in 5 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "14cb6c6e2add"
+answer = "Neither: this file runs the checks in CI and AGENTS.md gives the same commands for a local run, so a change to what CI runs touches both on purpose. The five shared commits moved a pinned release (`# v1.18.2`) or added a step that a local run repeats: the topic check copied at `# v0.4.0 (decision 0003)`, and `Clone the family beside this repository, for bibliography-keys`. Decision 0003 pins both by commit."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/pages.yml"
+question = "changed together with AGENTS.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "b593435d01bc"
+answer = "Neither: this file checks out the standard's stylesheet at the pinned release (`# v1.18.2`), and AGENTS.md names the same release; decision 0003 pins both by commit, so a move of the pin touches both, on purpose."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/instructional-text/baseline.md"
+question = "reads about equally as tutorial and how-to: one mode per document?"
+file = "364ac2c011f4"
+answer = "How-to, for whoever runs the comparison: `The named baselines`, then `How a comparison would be measured` and `A checklist in the baseline's own terms`. The checklist is the procedure; the rest names its inputs."
+
+[[answer]]
+check = "section-cohesion"
+path = "shapes/question-block.md"
+question = "section 'Skeleton' is far from every other section (0.24): a second role?"
+file = "8ce09fbaabb7"
+answer = "One role: the skeleton is the shape itself, written as a template under `## Skeleton`, and the other sections grade its items and say how they are checked (`## The items`, `## Checked by`). It reads far from them because it is mostly markup, not prose. It stays."

@@ -6,8 +6,9 @@ Each page's markdown source is served at the same path with a .md extension. Thi
 
 ## The repository
 
-- [Learning materials](https://tewf.github.io/reader-ergonomics-learning/README.md): scope, where it sits, the four reviews, what it takes from its siblings
+- [Learning materials](https://tewf.github.io/reader-ergonomics-learning/README.md): how to write a lesson and take your own copy, the five rules that matter, scope, where it sits, the four reviews
 - [Decisions](https://tewf.github.io/reader-ergonomics-learning/decisions/README.md): one record per choice that shapes the repository
+- [Changelog](https://tewf.github.io/reader-ergonomics-learning/CHANGELOG.md): every release, newest first, with each move of the standard's pin
 
 ## Shapes
 

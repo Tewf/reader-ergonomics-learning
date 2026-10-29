@@ -61,4 +61,4 @@ One reviewer searched on 2026-10-29, by the [shared method](../README.md#method)
 ## Linked, not reviewed again
 
 - [The standard's principles](../README.md#the-principles-of-the-standard-these-reviews-serve) these questions serve.
-- Whether testing works: the core's [learning science](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/evidence/learning-science/review.md).
+- Whether testing works: the core's [learning science](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/evidence/learning-science/review.md).

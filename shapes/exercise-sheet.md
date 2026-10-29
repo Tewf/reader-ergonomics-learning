@@ -37,8 +37,8 @@ every problem offers a hint before its answer and its solution, all folded.
 | Block | Rule | Grade | Evidence |
 |---|---|---|---|
 | Types | named, with ids; every item carries its type | convention, needed by the checks below | [exercise sets](../evidence/exercise-sets/shapes-and-checks.md) |
-| Worked example first | the first item of a new type is solved in full, in the core report's form | measured, for novices | [exercise sets](../evidence/exercise-sets/review.md), strand 3; [worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/principles/document/worked-examples-with-subgoals.md) |
-| Complete | completion problems leave the last steps before whole problems | measured, for novices: removing steps one by one beats a jump to whole problems (Renkl 2004, a controlled trial, in the core); this review's fading studies were read only in summaries (secondary). Parsons problems are a completion format for code | [worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/principles/document/worked-examples-with-subgoals.md); [exercise sets](../evidence/exercise-sets/review.md), strand 3 |
+| Worked example first | the first item of a new type is solved in full, in the core report's form | measured, for novices | [exercise sets](../evidence/exercise-sets/review.md), strand 3; [worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/principles/document/worked-examples-with-subgoals.md) |
+| Complete | completion problems leave the last steps before whole problems | measured, for novices: removing steps one by one beats a jump to whole problems (Renkl 2004, a controlled trial, in the core); this review's fading studies were read only in summaries (secondary). Parsons problems are a completion format for code | [worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/principles/document/worked-examples-with-subgoals.md); [exercise sets](../evidence/exercise-sets/review.md), strand 3 |
 | A short block | a few problems of the new type, not a long run | supported with caveat: one lab study, read in a summary (secondary), where nine problems did no better than three | [exercise sets](../evidence/exercise-sets/review.md), strand 6 |
 | Mixed review | problems of earlier types, in mixed order | measured in classroom trials, mostly mathematics; a year-long trial found no gain on the final test | [exercise sets](../evidence/exercise-sets/review.md), strand 2; [against](../evidence/exercise-sets/against.md) |
 | Hint, answer, solution | in that order, each folded; the solution released after the attempt | convention on paper; hints are measured only in software | [exercise sets](../evidence/exercise-sets/review.md), strand 5 |
@@ -75,5 +75,5 @@ An example that passes every check: [binary search](examples/binary-search-sheet
 
 ## See also
 
-[Shapes](README.md), the folder this shape heads; the core [report](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/shapes/report.md),
+[Shapes](README.md), the folder this shape heads; the core [report](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/shapes/report.md),
 the form of every worked example here.

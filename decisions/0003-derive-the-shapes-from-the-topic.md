@@ -1,10 +1,10 @@
 # 0003: Derive the shapes from the topic, at pinned releases
 
 **Decision:** every shape of this repository will derive from the topic of reader-ergonomics-topic, and both parents
-are linked and run at a release's commit: reader-ergonomics v1.13.0 and reader-ergonomics-topic v0.4.0.
+are linked and run at a release's commit: reader-ergonomics v1.18.2 and reader-ergonomics-topic v0.4.0.
 
 **Status:** accepted, 2026-10-29; its last point superseded by [0004](0004-five-shapes-and-a-markup.md), which runs
-the topic check in CI. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/shapes/decision-record.md).
+the topic check in CI. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/shapes/decision-record.md).
 
 ## Context
 
@@ -14,14 +14,14 @@ the topic check in CI. **Shape:** [decision record](https://github.com/Tewf/read
 - Its first derived shape was the decision record. Since v1.3.0 the standard holds a general one, which this
   repository's records follow.
 - The extension contract asks an extension to pin the standard by commit, never by tag
-  ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/extending.md)).
+  ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/extending.md)).
 
 ## Decision
 
 - A lesson, an exercise sheet, a study guide or a deck will be a topic with blocks of its own.
 - Each block takes a name from the topic's table of accepted names, and each document links the shape it follows.
 - Links down to either parent carry the release's commit. CI checks out reader-ergonomics at
-  `7a76cc6` (v1.13.0).
+  `bfbe9f7` (v1.18.2).
 - The topic check is not run here yet: it reads the shapes, and none is written. It joins CI with the first shape.
   (Superseded: [0004](0004-five-shapes-and-a-markup.md) wrote the shapes, and CI has run the check since.)
 
