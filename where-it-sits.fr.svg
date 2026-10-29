@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 364" role="img" aria-labelledby="t d">
-<title id="t">Où se place reader-ergonomics-learning</title><desc id="d">reader-ergonomics-learning to reader-ergonomics-topic: dérive ses gabarits du topic, épinglé à v0.4.0; reader-ergonomics-topic to reader-ergonomics: obéit aux principes; reader-ergonomics-learning to reader-ergonomics: obéit aux principes ; la CI y lance leurs vérifications, v1.4.3.</desc>
+<title id="t">Où se place reader-ergonomics-learning</title><desc id="d">reader-ergonomics-learning to reader-ergonomics-topic: dérive ses gabarits du topic, épinglé à v0.4.0; reader-ergonomics-topic to reader-ergonomics: obéit aux principes; reader-ergonomics-learning to reader-ergonomics: obéit aux principes ; la CI y lance leurs vérifications, v1.7.0.</desc>
 <style>
   .box { fill: #FFFFFF; stroke: #6A6D77; stroke-width: 1.5; }
   .this { fill: #EFEFF3; stroke: #101014; stroke-width: 2.5; }
@@ -42,5 +42,5 @@
 <path class="arrow" d="M348,74.0 C398,74.0 398,314.0 350,314.0"/>
 <text class="edge" x="398" y="184.0">obéit aux principes ;</text>
 <text class="edge" x="398" y="199.0">la CI y lance leurs</text>
-<text class="edge" x="398" y="214.0">vérifications, v1.4.3</text>
+<text class="edge" x="398" y="214.0">vérifications, v1.7.0</text>
 </svg>

@@ -72,7 +72,8 @@ summary_within = 4   # PROVISIONAL
 typed = []
 shapes = { lesson = ["shapes/examples/*-lesson.md"], exercise-sheet = ["shapes/examples/*-sheet.md"], deck = ["shapes/examples/*-deck.md"], study-guide = ["shapes/examples/*-guide.md"] }
 
-# Each shape links a filled example of itself (checks/local/shape_example.py); proposed to reader-ergonomics.
+# Each shape shows a filled example of itself: the standard's shape-example check, from v1.7.0; the shapes of this
+# repository exempt two files more than the standard does.
 [shape_example]
 files = ["shapes/*.md"]
 exempt = ["shapes/README.md", "shapes/question-block.md", "shapes/examples/"]   # the question block is a part, shown in the lesson

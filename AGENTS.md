@@ -1,13 +1,13 @@
 # Contributing to this repository
 
 For anyone changing this repository, person or language model. To apply the reader-ergonomics standard elsewhere,
-read its [standard.md](https://github.com/Tewf/reader-ergonomics/blob/d48ffbe96aed32dd63e1974ee60f69472fe36932/standard.md);
+read its [standard.md](https://github.com/Tewf/reader-ergonomics/blob/7431bb8bcfbaefd47ee44d93b55208e47da92817/standard.md);
 this file is about this repository only.
 
 ## Before writing
 
-1. Read the standard at the release this repository checks against (v1.4.3), then its
-   [learning-science review](https://github.com/Tewf/reader-ergonomics/tree/d48ffbe96aed32dd63e1974ee60f69472fe36932/evidence/learning-science),
+1. Read the standard at the release this repository checks against (v1.7.0), then its
+   [learning-science review](https://github.com/Tewf/reader-ergonomics/tree/7431bb8bcfbaefd47ee44d93b55208e47da92817/evidence/learning-science),
    then the [topic](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/shapes/topic.md)
    every shape here derives from.
 2. Ask of every new claim whether it is about the document or about the technique. A claim about whether a technique
@@ -37,12 +37,12 @@ this file is about this repository only.
 ## Before handing back
 
 Run the checks against the release CI uses, not a checkout that may have moved on: extract it once with
-`git -C ../reader-ergonomics archive d48ffbe | tar -x -C ../re-v1.4.3`.
+`git -C ../reader-ergonomics archive 7431bb8 | tar -x -C ../re-v1.7.0`.
 
 ```sh
 git -C ../reader-ergonomics-topic show 1220def:checks/local/topic.py > checks/local/topic.py   # as CI does; never committed
-python3 ../re-v1.4.3/checks/run.py . --tiers program,meaning --judge flag   # the repository, as CI runs it
-READER_ERGONOMICS_CHECKS=../re-v1.4.3/checks python3 -m unittest discover -s checks   # the checks of the shapes
+python3 ../re-v1.7.0/checks/run.py . --tiers program,meaning --judge flag   # the repository, as CI runs it
+READER_ERGONOMICS_CHECKS=../re-v1.7.0/checks python3 -m unittest discover -s checks   # the checks of the shapes
 ```
 
 - Fix every error. Read every warning.

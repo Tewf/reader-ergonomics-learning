@@ -36,9 +36,9 @@ and corrects the usual wrong idea; then it checks each aim with a question whose
 
 | Block | Rule | Grade | Evidence |
 |---|---|---|---|
-| Title, summary | the topic's two first blocks; the summary is the overview read before any detail | measured for an overview; the form is a convention | [topic](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/shapes/topic.md); [overview first](https://github.com/Tewf/reader-ergonomics/blob/d48ffbe96aed32dd63e1974ee60f69472fe36932/principles/document/overview-first.md) |
+| Title, summary | the topic's two first blocks; the summary is the overview read before any detail | measured for an overview; the form is a convention | [topic](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/shapes/topic.md); [overview first](https://github.com/Tewf/reader-ergonomics/blob/7431bb8bcfbaefd47ee44d93b55208e47da92817/principles/document/overview-first.md) |
 | Objectives | few, each with an id and a verb a test can observe | measured that objectives direct study to what they name; the verb rule is a convention | [instructional text](../evidence/instructional-text/review.md), strand 3 |
-| Terms | defined at first use, bold | supported with caveat | the core note; [define before use](https://github.com/Tewf/reader-ergonomics/blob/d48ffbe96aed32dd63e1974ee60f69472fe36932/principles/document/define-before-use.md) |
+| Terms | defined at first use, bold | supported with caveat | the core note; [define before use](https://github.com/Tewf/reader-ergonomics/blob/7431bb8bcfbaefd47ee44d93b55208e47da92817/principles/document/define-before-use.md) |
 | Trap | the wrong idea stated, marked wrong, then the accepted idea | measured: refutation text beats expository text, g = 0.36 over 30 comparisons; whether it lasts is unsettled | [instructional text](../evidence/instructional-text/review.md), strand 5 |
 | Check yourself | per part, items tagged by objective, answers folded | measured for retrieval (core); the tagging is a convention | [question block](question-block.md) |
 | Key points | at the end, restating the objectives | supported with caveat: an end summary beat an opening one on the same page in two small studies | [instructional text](../evidence/instructional-text/review.md), strand 4 |

@@ -62,10 +62,10 @@ Decide how a set of prompts for spaced review is written and kept, so that revie
 
 ## Not reviewed here
 
-- Whether retrieval and spacing work: the [core learning-science review](https://github.com/Tewf/reader-ergonomics/blob/d48ffbe96aed32dd63e1974ee60f69472fe36932/evidence/learning-science/review.md), strand 2.
+- Whether retrieval and spacing work: the [core learning-science review](https://github.com/Tewf/reader-ergonomics/blob/7431bb8bcfbaefd47ee44d93b55208e47da92817/evidence/learning-science/review.md), strand 2.
 - Scheduling algorithms (SM-2, FSRS, half-life regression): the core's FSRS benchmark, Open Spaced Repetition 2026a, in the same file, strand 8.
 - Questions written into a study text, their format and feedback: the practice-questions review.
 - The order of exercises and problems: the exercise-sets review.
 - Glossaries and key-term lists printed in a text: the instructional-text review.
 - Folded answers in a page: [progressive disclosure](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/evidence/progressive-disclosure/README.md).
-- Models that write cards are covered here only as a source of cards (Q7); models as readers are in [LLM readers](https://github.com/Tewf/reader-ergonomics/blob/d48ffbe96aed32dd63e1974ee60f69472fe36932/evidence/llm-readers/README.md).
+- Models that write cards are covered here only as a source of cards (Q7); models as readers are in [LLM readers](https://github.com/Tewf/reader-ergonomics/blob/7431bb8bcfbaefd47ee44d93b55208e47da92817/evidence/llm-readers/README.md).
