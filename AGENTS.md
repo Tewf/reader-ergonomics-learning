@@ -40,7 +40,9 @@ Run the checks against the release CI uses, not a checkout that may have moved o
 `git -C ../reader-ergonomics archive d48ffbe | tar -x -C ../re-v1.4.3`.
 
 ```sh
+git -C ../reader-ergonomics-topic show 1220def:checks/local/topic.py > checks/local/topic.py   # as CI does; never committed
 python3 ../re-v1.4.3/checks/run.py . --tiers program,meaning --judge flag   # the repository, as CI runs it
+READER_ERGONOMICS_CHECKS=../re-v1.4.3/checks python3 -m unittest discover -s checks   # the checks of the shapes
 ```
 
 - Fix every error. Read every warning.

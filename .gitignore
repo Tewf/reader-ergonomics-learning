@@ -13,3 +13,6 @@ checks/out/
 **/*.quarto_ipynb
 # The standard checked out at build time for its stylesheet (pages.yml)
 _standard/
+
+# The topic check, copied from reader-ergonomics-topic at its pinned commit for a run (checks.yml), never committed
+checks/local/topic.py

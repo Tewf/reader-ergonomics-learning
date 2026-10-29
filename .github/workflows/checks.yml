@@ -35,6 +35,15 @@ jobs:
           repository: Tewf/reader-ergonomics
           ref: d48ffbe96aed32dd63e1974ee60f69472fe36932   # v1.4.3 (reader-ergonomics extending.md, Versions)
           path: standard
+      - uses: actions/checkout@v4
+        with:
+          repository: Tewf/reader-ergonomics-topic
+          ref: 1220def7863b5e977a3edd1e30bd168fff1523a5   # v0.4.0 (decision 0003)
+          path: topic
+          sparse-checkout: checks/local/topic.py
+          sparse-checkout-cone-mode: false
+      - name: Bring in the topic check at its pinned commit, beside the shapes' own checks
+        run: cp topic/checks/local/topic.py repository/checks/local/
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -49,6 +58,10 @@ jobs:
         run: pip install -r standard/checks/meaning/requirements.txt
       - name: Check the repository, tiers program and meaning
         run: python3 standard/checks/run.py repository --tiers program,meaning --judge flag
+      - name: Test the checks of the study shapes
+        env:
+          READER_ERGONOMICS_CHECKS: ${{ github.workspace }}/standard/checks
+        run: python3 -m unittest discover -s repository/checks
       - name: List the questions left for judgment
         if: always()
         run: cat repository/checks/out/needs-judgment.md 2>/dev/null || echo "No questions for judgment."

@@ -15,3 +15,54 @@ stylesheets = []
 [sufficient_contrast]
 stylesheets = []
 
+
+# The checks of the study shapes (checks/local, shapes/README.md). Each names the files it reads; another repository
+# that uses the shapes names its own.
+[lesson]
+files = ["shapes/examples/*-lesson.md", "shapes/examples/*-guide.md"]
+objective_headings = ["Objectives"]
+check_headings = ["Check yourself"]
+trap_labels = ["Trap"]
+why_labels = ["Why not"]
+min_answer_words = 8   # PROVISIONAL: fewer words is a bare key; no study sets the length of an explanation
+options = [3, 4]       # PROVISIONAL: three is best for tests (Rodriguez 2005), not shown for learning
+
+[sheet]
+files = ["shapes/examples/*-sheet.md"]
+types_headings = ["Types"]
+mixed_headings = ["Mixed review"]
+hint_labels = ["Hint"]
+answer_labels = ["Answer"]
+solution_labels = ["Solution"]
+mixed_types = 2   # PROVISIONAL: no study sets the share of mixed review in a set
+max_block = 4     # PROVISIONAL: nine problems of a type did no better than three, in one lab study
+
+[deck]
+files = ["shapes/examples/*.tsv"]
+long_answer = 25  # PROVISIONAL: the practitioner rules ask for short answers and give no number
+list_items = 3    # PROVISIONAL
+
+# The headings each shape requires, checked by the standard; the decision record's entry is the standard's own,
+# repeated because a table here replaces the standard's.
+[shape_conformance]
+shapes = [
+  { name = "decision record", files = ["decisions/0*.md"], required = ["Context", "Decision", "Consequences", "See also"] },
+  { name = "lesson", files = ["shapes/examples/*-lesson.md"], required = ["Objectives", "Terms", "Check yourself", "Key points", "See also"] },
+  { name = "exercise sheet", files = ["shapes/examples/*-sheet.md"], required = ["Types", "Mixed review", "See also"] },
+  { name = "deck", files = ["shapes/examples/*-deck.md"], required = ["Use", "Sections", "See also"] },
+  { name = "study guide", files = ["shapes/examples/*-guide.md"], required = ["How to use", "Objectives", "Check yourself", "Error grid", "Redo on", "Method sheet", "See also"] },
+]
+
+# The topic check of reader-ergonomics-topic, copied from its pinned commit at run time (checks.yml), never committed:
+# the front page, the shapes, their examples and the decisions form one tree of topics. The evidence folders, written
+# to the review contract, are not declared.
+[topic]
+files = ["README.md", "shapes/", "decisions/"]
+root = "README.md"
+exempt = []
+summary_words = 60   # PROVISIONAL: the topic's own bound
+listing_words = 3    # PROVISIONAL
+summary_labels = ["summary", "abstract", "short description", "decision"]
+summary_within = 4   # PROVISIONAL
+typed = []
+shapes = { lesson = ["shapes/examples/*-lesson.md"], exercise-sheet = ["shapes/examples/*-sheet.md"], deck = ["shapes/examples/*-deck.md"], study-guide = ["shapes/examples/*-guide.md"] }
