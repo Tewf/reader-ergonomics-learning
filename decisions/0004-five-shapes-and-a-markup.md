@@ -25,6 +25,16 @@ the core's note and report, and one plain Markdown markup for objectives, questi
   is a tunable marked PROVISIONAL.
 - **One example per shape,** on one subject, binary search, checked in CI.
 
+## Options it rules out
+
+None was weighed in a table when this record was written; these are the options its context argues against.
+
+| Option | Why it lost |
+|---|---|
+| shapes of their own, apart from the core's note and report | the core already holds a note with a Check yourself and folded answers, and a report that is a worked example; one place per fact |
+| a markup per tool, each read by its own check | alignment, folds and order are checkable only if they are marked the same way in Quarto, Obsidian and Anki; the one markup reads each tool's own fold and callout instead |
+| a shape per technique: a retrieval shape, a spacing shape | [decision 0001](0001-take-the-document-not-the-technique.md) takes the document, not the technique |
+
 ## Consequences
 
 - Alignment, folds, traps and the order of a sheet become checks a program runs on every push. The topic check of

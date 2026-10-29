@@ -28,6 +28,16 @@ instructional text, each owning the works no other review in the family holds.
 - The method is the one the topic reviews share, with one addition: education research is indexed first in ERIC, so
   every formal string is also counted there.
 
+## Options it rules out
+
+None was weighed in a table when this record was written; these are the options its context argues against.
+
+| Option | Why it lost |
+|---|---|
+| one review of every kind of study document | each kind has its own literature, from item writing to card formulation, fading and pedagogical aids |
+| one review per technique: retrieval, spacing, worked examples | the techniques are reviewed in reader-ergonomics, and [decision 0001](0001-take-the-document-not-the-technique.md) takes the document |
+| reviewing again what a sibling holds | nine reviews of the family hold those works; each is linked once, with a line of context |
+
 ## Consequences
 
 - Four agents work at once, so a key chosen by one is checked against the other three before the merge.
