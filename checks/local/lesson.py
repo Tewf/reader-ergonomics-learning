@@ -13,7 +13,11 @@ gives; it is read by learning_markup.py, outside fenced blocks and inline code.
 - options: a question with two or more lettered options has between `options` bounds, and none reads "all of the
   above" or "none of the above" (heuristic: the item-writing rules are a convention, tested for exams, not learning);
 - refuted: a trap, a quote opening with a `trap_labels` label or a callout titled with one, holds a `why_labels`
-  label (exact).
+  label (exact);
+- callout questions: a question written as a callout (`> [!QUESTION]- Check: ...`, the S7 vault's form) is folded
+  (exact) and its answer explains (heuristic); in a lesson it also names an objective.
+
+questions.py runs the same rules on notes with `align` off: no objectives are asked for, and questions need no tag.
 
 What a run with no error guarantees, for the declared files: objectives and questions are aligned both ways, every
 question's answer is out of the line of sight, every trap carries its refutation. What it does not: that a question
@@ -42,7 +46,11 @@ ALL_OR_NONE = re.compile(r"\b(all|none) of the above\b", re.IGNORECASE)
 
 
 def check(root: Path, config: dict) -> list[Finding]:
-    settings = config.get("lesson", {})
+    return run(root, config.get("lesson", {}), config, align=True, name=NAME)
+
+
+def run(root: Path, settings: dict, config: dict, align: bool, name: str) -> list[Finding]:
+    """The checks over the files settings declares; questions.py calls it for notes, with align False."""
     patterns = settings.get("files", [])
     if not patterns:
         return []
@@ -50,12 +58,16 @@ def check(root: Path, config: dict) -> list[Finding]:
     for path in files_in_scope(root, config, MARKDOWN_SUFFIXES):
         if matches_any(path, patterns) and not matches_any(path, settings.get("exempt", [])):
             text = (root / path).read_text(encoding="utf-8", errors="replace")
-            findings += check_text(path, text, settings)
+            findings += check_text(path, text, settings, align, name)
     return findings
 
 
-def check_text(path: str, text: str, settings: dict) -> list[Finding]:
-    lines = prose_only(text).splitlines()
+def check_text(path: str, text: str, settings: dict, align: bool = True, name: str = NAME) -> list[Finding]:
+    found = check_lines(path, prose_only(text).splitlines(), settings, align)
+    return [Finding(name, f.path, f.line, f.message, f.kind) for f in found]
+
+
+def check_lines(path: str, lines: list[str], settings: dict, align: bool) -> list[Finding]:
     all_sections = markup.sections(lines)
     found = []
     objectives = {}
@@ -67,18 +79,28 @@ def check_text(path: str, text: str, settings: dict) -> list[Finding]:
             if match.group(1) in objectives:
                 found.append(Finding(NAME, path, index + 1, f"objective {match.group(1)} is listed twice: give each its own id"))
             objectives.setdefault(match.group(1), index + 1)
-    if not objectives:
+    if align and not objectives:
         found.append(Finding(NAME, path, 1, "no objective listed as `- **O1** ...` under Objectives: "
                                             "a lesson states what the learner will be able to do"))
     tested = set()
+    callouts = markup.callout_questions(lines, settings.get("question_prefixes", ["Check:"]))
     for section in markup.named(all_sections, settings.get("check_headings", ["Check yourself"])):
         questions = [index for index in range(section.start, section.end) if QUESTION.match(lines[index])]
-        if not questions:
+        if not questions and not any(section.start <= line - 1 < section.end for line, *_ in callouts):
             found.append(Finding(NAME, path, section.line, "a Check yourself section with no numbered question"))
         for position, index in enumerate(questions):
             stop = questions[position + 1] if position + 1 < len(questions) else section.end
-            found += question(path, lines, index, stop, objectives, tested, settings)
-    for objective, line in objectives.items():
+            found += question(path, lines, index, stop, objectives, tested, settings, align)
+    for line, title, folded, answer_words in callouts:
+        if align:
+            found += aligned(path, line, title, objectives, tested)
+        if not folded:
+            found.append(Finding(NAME, path, line, "a question callout left open: fold it with `-`, so the answer "
+                                                   "stays out of sight until the question is tried"))
+        elif answer_words < settings.get("min_answer_words", 8):
+            found.append(Finding(NAME, path, line, "the answer is only a key: add why, which teaches more than the "
+                                                   "key alone", "warning"))
+    for objective, line in (objectives.items() if align else []):
         if objective not in tested:
             found.append(Finding(NAME, path, line, f"objective {objective} is tested by no question: "
                                                    "add a question tagged with it, or drop the objective"))
@@ -86,17 +108,22 @@ def check_text(path: str, text: str, settings: dict) -> list[Finding]:
     return found
 
 
-def question(path: str, lines: list[str], index: int, stop: int, objectives: dict, tested: set,
-             settings: dict) -> list[Finding]:
-    found = []
-    body = QUESTION.match(lines[index]).group(2)
-    tag = QUESTION_ID.match(body)
+def aligned(path: str, line: int, question_text: str, objectives: dict, tested: set) -> list[Finding]:
+    """A question names an objective that exists; the objective is then counted as tested."""
+    tag = QUESTION_ID.match(question_text)
     if not tag:
-        found.append(Finding(NAME, path, index + 1, "a question that names no objective: open it with `**O1**`"))
-    elif tag.group(1) not in objectives:
-        found.append(Finding(NAME, path, index + 1, f"the question names {tag.group(1)}, which no objective lists"))
-    else:
-        tested.add(tag.group(1))
+        return [Finding(NAME, path, line, "a question that names no objective: open it with `**O1**`")]
+    if tag.group(1) not in objectives:
+        return [Finding(NAME, path, line, f"the question names {tag.group(1)}, which no objective lists")]
+    tested.add(tag.group(1))
+    return []
+
+
+def question(path: str, lines: list[str], index: int, stop: int, objectives: dict, tested: set,
+             settings: dict, align: bool = True) -> list[Finding]:
+    found = []
+    if align:
+        found += aligned(path, index + 1, QUESTION.match(lines[index]).group(2), objectives, tested)
     folds = markup.folds(lines, index + 1, stop)
     if not folds:
         found.append(Finding(NAME, path, index + 1, "a question with no folded answer: put the answer in "

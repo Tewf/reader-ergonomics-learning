@@ -27,6 +27,7 @@ def load(name: str):
 
 
 lesson, sheet, deck = load("lesson"), load("sheet"), load("deck")
+questions = lesson  # questions.py is lesson.run with align off; its rules are tested through check_text
 LESSON = {"min_answer_words": 8, "options": [3, 4]}
 SHEET = {"mixed_types": 2, "max_block": 4}
 DECK = {"long_answer": 25, "list_items": 3}
@@ -198,6 +199,21 @@ class Lesson(unittest.TestCase):
             text = GOOD_LESSON.replace("> **Trap:** a wrong idea.\n> **Why not:** the reason, then the right idea.\n", refuted)
             self.assertFalse(any("a trap" in m for m in messages(self.run_on(text))), refuted)
 
+    def test_callout_questions(self):
+        vault = "# A note\n\n## Check yourself\n\n> [!QUESTION]- Check: why is it so?\n> Because of the reason, stated in a full sentence here.\n"
+        self.assertEqual(questions.check_text("n.md", vault, LESSON, align=False, name="questions"), [])
+        open_callout = vault.replace("[!QUESTION]- Check", "[!QUESTION] Check")
+        self.assertTrue(any("left open" in m for m in messages(questions.check_text("n.md", open_callout, LESSON, align=False), "error")))
+        bare = vault.replace("Because of the reason, stated in a full sentence here.", "Four.")
+        self.assertTrue(any("only a key" in m for m in messages(questions.check_text("n.md", bare, LESSON, align=False), "warning")))
+        piege = vault + "\n> [!WARNING] Piège\n> Une idée fausse.\n"
+        found = questions.check_text("n.md", piege, {**LESSON, "trap_labels": ["Piège"], "why_labels": ["Pourquoi non"]}, align=False)
+        self.assertTrue(any("a trap with no Pourquoi non" in m for m in messages(found, "error")))
+
+    def test_notes_need_no_objectives(self):
+        text = GOOD_LESSON.replace("- **O1** Compute a thing.\n- **O2** Explain a thing.\n", "").replace("**O1** ", "").replace("**O2** ", "")
+        self.assertEqual(questions.check_text("n.md", text, LESSON, align=False), [])
+
     def test_code_is_not_markup(self):
         text = GOOD_LESSON + "\n```markdown\n### Check yourself\n1. untagged\n```\n"
         self.assertEqual(self.run_on(text), [])
@@ -280,6 +296,16 @@ class Deck(unittest.TestCase):
     def test_header(self):
         found = deck.check_text(self.root, "deck.tsv", "front\tback\n", DECK)
         self.assertTrue(any("header lacks source, tags" in m for m in messages(found, "error")))
+
+
+class QuestionsModule(unittest.TestCase):
+    def test_module_runs_on_declared_notes(self):
+        module = load("questions")
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "note.md").write_text("# N\n\n## Check yourself\n\n> [!QUESTION] Check: open?\n> An answer long enough to explain why it holds.\n")
+            found = module.check(root, {"questions": {"files": ["note.md"], "min_answer_words": 8}})
+        self.assertEqual([(f.check, f.kind) for f in found], [("questions", "error")])
 
 
 class Examples(unittest.TestCase):

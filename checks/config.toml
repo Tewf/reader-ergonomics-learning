@@ -26,6 +26,11 @@ trap_labels = ["Trap"]
 why_labels = ["Why not"]
 min_answer_words = 8   # PROVISIONAL: fewer words is a bare key; no study sets the length of an explanation
 options = [3, 4]       # PROVISIONAL: three is best for tests (Rodriguez 2005), not shown for learning
+question_prefixes = ["Check:"]   # a callout question, as the S7 vault writes it
+
+# The same rules on notes, which state no objectives (checks/local/questions.py); this repository declares none.
+[questions]
+files = []
 
 [sheet]
 files = ["shapes/examples/*-sheet.md"]

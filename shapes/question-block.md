@@ -19,7 +19,8 @@ Each is tagged by the objective it tests, and its answer stays folded until the 
    <details><summary>Answer</summary> b, because ...; a is the error of ...; c ... </details>
 ```
 
-The fold may also be an Obsidian callout (`> [!answer]-`) or a Quarto callout with `collapse="true"`.
+The fold may also be an Obsidian callout (`> [!answer]-`) or a Quarto callout with `collapse="true"`. A question may
+also be a callout that holds its own answer, `> [!QUESTION]- Check: <question>`, the form of the S7 vault.
 
 ## The items
 
@@ -48,6 +49,7 @@ items. It has no title or summary of its own, so it is checked inside the docume
 | Check | What it verifies | Kind |
 |---|---|---|
 | `lesson` | each item has a folded answer, and its objective exists | exact |
+| `questions` | the same rules in a note, which states no objectives: folded answers, refuted traps | exact |
 | `lesson` | an answer holds a reason, more words than a bare key | heuristic |
 | `lesson` | a multiple-choice item has three or four options, none "all" or "none of the above" | heuristic |
 | judgment | whether a part has an item beyond recall: a question's level depends on what was taught | judgment |

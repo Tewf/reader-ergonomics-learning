@@ -152,6 +152,23 @@ def traps(lines: list[str], labels: list[str]) -> list[tuple[int, list[str]]]:
     return sorted(found)
 
 
+def callout_questions(lines: list[str], prefixes: list[str]) -> list[tuple[int, str, bool, int]]:
+    """Questions written as Obsidian callouts, the question in the title and the answer inside, as the S7 vault does
+    (> [!QUESTION]- Check: <question>): (1-based line, the title after its prefix, folded or not, words of the answer).
+    A callout counts when its type is question or its title opens with one of prefixes."""
+    found = []
+    for line, body in quotes(lines):
+        callout = CALLOUT.match(">" + body[0]) if body else None
+        if not callout:
+            continue
+        title = callout.group(3).strip()
+        prefix = next((p for p in prefixes if title.lower().startswith(p.lower())), None)
+        if callout.group(1).lower() == "question" or prefix:
+            question = title[len(prefix):].strip() if prefix else title
+            found.append((line, question, callout.group(2) == "-", words(" ".join(body[1:]))))
+    return found
+
+
 def opens_with_label(text: str, labels: list[str]) -> bool:
     """True when text opens with a bold label followed by a colon: **Trap:** or **Trap**:."""
     return any(re.match(rf"\*\*{re.escape(label)}\s*:?\*\*\s*:?", text, re.IGNORECASE) for label in labels)

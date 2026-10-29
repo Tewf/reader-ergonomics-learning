@@ -33,7 +33,7 @@ Plain Markdown, so a document renders the same on GitHub, in Quarto and in Obsid
 | Thing | Written as |
 |---|---|
 | an objective | `- **O1** <verb> ...` under `## Objectives` |
-| a question | `1. **O1** <question>` under a `Check yourself` heading |
+| a question | `1. **O1** <question>` under a `Check yourself` heading, or a callout holding its answer, `> [!QUESTION]- Check: <question>` |
 | a folded answer | `<details><summary>Answer</summary> ... </details>`, an Obsidian callout `> [!answer]-`, or a Quarto callout with `collapse="true"` |
 | a trap | a quote opening `> **Trap:**`, or a callout titled Trap (`> [!warning] Trap`, `title="Trap"`), holding `**Why not:**` |
 | a type of problem | `- **T1** <type>` under `## Types` |
@@ -46,9 +46,10 @@ The labels Trap and Why not are tunables in `checks/config.toml`, so a French va
 
 ## Tested against study material written before them
 
-The shapes were held out against every section of the 17 explained solution books of
-[University-Coursework](https://github.com/Tewf/University-Coursework), 103 sections, with the predictions written
-before the count.
+The shapes were held out against two bodies of study material written before them, with predictions written before
+the count. One is every section of the 17 explained solution books of
+[University-Coursework](https://github.com/Tewf/University-Coursework); the other, the S7 notes of the vault that
+goes with them.
 
 | In the books | Sections |
 |---|---|
@@ -59,9 +60,13 @@ before the count.
 
 - **A section of an explained book is a worked example:** the core report, which is the study guide's part for one
   type of problem. It is not a lesson, and no shape was bent to fit it.
-- **The markup changed once:** the checks read a trap written as a callout, the form of all 134, as well as a quote.
-- **What a book would add** to be study material in these shapes' sense: a question block of variants after each
-  section, with folded answers, and a Why not in each trap.
+- **The markup changed twice,** to read the authors' own forms. It reads a trap written as a callout, the form of all
+  134, and a question written as a callout with its answer inside, the vault's form.
+- **The variants live in the vault, by design:** that repository's rules give variants without a solution to the
+  notes, not to the books. A book's section and its vault note together hold the study guide's part for one type.
+- **The vault, checked with the `questions` check** (no objectives asked of a note): 757 questions in 93 of 1,197
+  notes, every one folded; 10 answers are only a key. Its 48 traps, written as callouts titled Piège, refute in
+  prose and carry no Pourquoi non label, the one difference between its convention and these shapes'.
 
 ## Declaring the documents to check
 
@@ -77,6 +82,11 @@ files = ["sheets/*.md"]
 
 [deck]
 files = ["decks/*.tsv"]
+
+[questions]                       # notes: the question-block rules, no objectives asked
+files = ["S7/**/*.md"]
+trap_labels = ["Piège"]
+why_labels = ["Pourquoi non"]
 ```
 
 ## See also
