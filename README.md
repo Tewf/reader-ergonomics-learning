@@ -7,12 +7,40 @@ How to write material meant to be learned, so that someone who studies it alone 
 problems, at the least cost. The material is the lesson, the worked example, the exercise sheet, the study guide, the
 flashcards, and the questions inside them.
 
-It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/README.md).
-The principles, their grades and the checks live there and are not repeated here. So do the learning effects
-themselves: retrieval, spacing, worked examples, multimedia. This repository adds what the genre changes: how each of
-these documents is built, and what a program can check in it.
-
 This page in French: [README.fr.md](README.fr.md).
+
+## Write a lesson
+
+1. **Copy** the [example lesson](shapes/examples/binary-search-lesson.md) and keep its headings: Objectives, Terms,
+   each part with its Trap and Check yourself, Key points, See also.
+2. **Declare it** in your repository: copy this repository's [checks/local/](checks/local/) into yours, and name the
+   file in `checks/config.toml`:
+
+   ```toml
+   [lesson]
+   files = ["lesson.md"]
+   ```
+
+3. **Run one command,** with [reader-ergonomics](https://github.com/Tewf/reader-ergonomics) cloned beside it:
+   `python3 ../reader-ergonomics/checks/run.py .` An objective no question tests, or an answer left in sight, is an
+   error.
+
+The other four work the same way: [shapes](shapes/README.md) gives the exercise sheet, the deck, the question block
+and the study guide, each with its own example.
+
+## The five rules that matter
+
+| Rule | Grade | Checked |
+|---|---|---|
+| every objective is tested by a question, and every question names its objective | convention: every template read does it, no trial tests it | error |
+| each part ends in questions answered from memory, the answers folded | measured, for [retrieval](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/principles/document/retrieval-prompts.md) | error |
+| a trap states the wrong idea, marks it wrong, then gives the accepted one | measured: refutation beats plain exposition, g = 0.36 over 30 comparisons | warning, without a Why not |
+| a new type of problem opens with a worked example, then problems that leave the last steps, then whole problems | measured, for novices; reversed for experts | error without the example; warning without the completion problem |
+| practice brings earlier types back, in mixed order | measured in classroom trials, mostly mathematics; one year-long trial found no gain on the final test | warning |
+
+**Tested on material written before the shapes:** 103 sections of 17 explained solution books and 1,197 notes of a
+study vault, with the predictions written before the count. The sections were worked examples, 101 of 103 with a
+trap, and none had objectives or a question block ([what it found](shapes/README.md#tested-against-study-material-written-before-them)).
 
 > **Status:** the literature review is written and audited (2026-10-29): four multivocal reviews, 420 sources, in
 > [evidence](evidence/); 304 lines checked against their sources, a second rater on every fifth grey source. Five
@@ -24,6 +52,11 @@ This page in French: [README.fr.md](README.fr.md).
 > number read only in a summary is marked "(secondary)". Corrections are welcome as issues.
 
 ## Where it sits
+
+It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/README.md).
+The principles, their grades and the checks live there and are not repeated here. So do the learning effects
+themselves: retrieval, spacing, worked examples, multimedia. This repository adds what the genre changes: how each of
+these documents is built, and what a program can check in it.
 
 ![Three levels: this repository uses reader-ergonomics-topic (pinned v0.4.0) and reader-ergonomics (pinned v1.13.0); the topic uses reader-ergonomics.](where-it-sits.svg)
 

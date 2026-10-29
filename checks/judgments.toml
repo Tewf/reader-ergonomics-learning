@@ -164,20 +164,6 @@ answer = "One role: the reading log of the literature, which opens by saying it 
 
 [[answer]]
 check = "logical-lines"
-path = "README.fr.md"
-question = "84 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "4ab692106d46"
-answer = "One role: the French front page, kept in step with `README.md`, which tells a reader what this repository is, from `Périmètre` to `Suite`. It stays whole."
-
-[[answer]]
-check = "logical-lines"
-path = "README.md"
-question = "84 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "a210b94d82e2"
-answer = "One role: the front page, which tells a reader what this repository is, from `Where it sits` to `Next`. One line past the trigger, it stays whole."
-
-[[answer]]
-check = "logical-lines"
 path = "evidence/README.md"
 question = "105 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
 file = "91191d6ca6db"
@@ -216,7 +202,7 @@ check = "document-mode"
 path = "README.fr.md"
 question = "reads about equally as explanation and how-to: one mode per document?"
 file = "4ab692106d46"
-answer = "One mode: the front page, read to learn what the repository is and is not, in `Périmètre` and `Où il se place`. The how-to is the two commands of `Le vérifier`, which the standard's README shape asks every front page to carry."
+answer = "One mode: the front page, which answers what a reader of a repository looks for first, as the standard's README shape lists it: how to start, in `Écrire une leçon`, then what the repository is and is not, in `Périmètre` and `Où il se place`. The how-to it holds is that first step and the commands of `Le vérifier`; the rest lives in shapes/ and evidence/."
 
 [[answer]]
 check = "document-mode"
@@ -280,3 +266,17 @@ path = "checks/test_learning.py"
 question = "changed together with shapes/question-block.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "6ca284091e84"
 answer = "Neither: the shapes state the rules of the markup for authors, and this file pins the checks that read it for maintainers, so a change of a rule touches both on purpose; the three shared commits each changed one rule and its test, such as `a trap with no Why not` or the callout form of `def test_callout_questions`. The shapes name each check in their Checked by tables, which is the link; moving the tests beside the shapes would mix documents read by learners' authors with code."
+
+[[answer]]
+check = "logical-lines"
+path = "README.fr.md"
+question = "104 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "bf4760c9eef8"
+answer = "One role: the French front page, kept in step with `README.md`, which tells a reader how to start and what this repository is, from `Écrire une leçon` to `Suite`. It grew by the first steps a reader asked for; the detail stays in shapes/ and evidence/. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "README.md"
+question = "103 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "2303d2de9ca4"
+answer = "One role: the front page, which tells a reader how to start and what this repository is, from `Write a lesson` to `Next`. It grew by the first steps a reader asked for; the detail stays in shapes/ and evidence/. It stays whole."

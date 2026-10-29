@@ -1,15 +1,47 @@
 # Supports d'apprentissage
 
+[![Checks against reader-ergonomics](https://github.com/Tewf/reader-ergonomics-learning/actions/workflows/checks.yml/badge.svg?branch=master)](https://github.com/Tewf/reader-ergonomics-learning/actions/workflows/checks.yml?query=branch%3Amaster)
+[![Site](https://github.com/Tewf/reader-ergonomics-learning/actions/workflows/pages.yml/badge.svg)](https://tewf.github.io/reader-ergonomics-learning/)
+
 Comment écrire un support fait pour être appris, pour que la personne qui l'étudie seule le retienne et s'en serve
 sur des problèmes nouveaux, au moindre coût. Le support, c'est la leçon, l'exemple résolu, la feuille d'exercices, la
 fiche de révision, les cartes mémoire, et les questions qu'ils contiennent.
 
-Il étend [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/README.md).
-Les principes, leurs niveaux de preuve et les vérifications vivent là-bas et ne sont pas répétés ici. Les effets
-d'apprentissage eux-mêmes aussi : récupération en mémoire, espacement, exemples résolus, multimédia. Ce dépôt ajoute
-ce que le genre change : comment chacun de ces documents est construit, et ce qu'un programme peut y vérifier.
-
 Cette page en anglais : [README.md](README.md). Les deux versions suivent le même état.
+
+## Écrire une leçon
+
+1. **Copier** la [leçon d'exemple](shapes/examples/binary-search-lesson.md) et garder ses titres : Objectives, Terms,
+   chaque partie avec son Trap et son Check yourself, Key points, See also.
+2. **La déclarer** dans son dépôt : y copier le dossier [checks/local/](checks/local/) de celui-ci, et nommer le
+   fichier dans `checks/config.toml` :
+
+   ```toml
+   [lesson]
+   files = ["lesson.md"]
+   ```
+
+3. **Lancer une commande,** avec [reader-ergonomics](https://github.com/Tewf/reader-ergonomics) cloné à côté :
+   `python3 ../reader-ergonomics/checks/run.py .` Un objectif qu'aucune question ne teste, ou une réponse laissée
+   sous les yeux, est une erreur.
+
+Les quatre autres se font de la même façon : [shapes](shapes/README.md) donne la feuille d'exercices, le paquet de
+cartes, le bloc de questions et la fiche de révision, chacun avec son exemple.
+
+## Les cinq règles qui comptent
+
+| Règle | Niveau | Vérifiée |
+|---|---|---|
+| chaque objectif est testé par une question, et chaque question nomme son objectif | convention : tous les gabarits lus le font, aucun essai ne le teste | erreur |
+| chaque partie se termine par des questions auxquelles on répond de mémoire, réponses repliées | mesuré, pour la [récupération en mémoire](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/principles/document/retrieval-prompts.md) | erreur |
+| un piège énonce l'idée fausse, la marque fausse, puis donne l'idée admise | mesuré : la réfutation bat l'exposé simple, g = 0,36 sur 30 comparaisons | avertissement, sans Why not |
+| un nouveau type de problème s'ouvre sur un exemple résolu, puis des problèmes qui laissent les dernières étapes, puis des problèmes entiers | mesuré, pour les débutants ; inversé pour les experts | erreur sans l'exemple ; avertissement sans le problème à compléter |
+| l'entraînement fait revenir les types déjà vus, mêlés | mesuré en classe, surtout en mathématiques ; un essai d'un an n'a trouvé aucun gain à l'examen final | avertissement |
+
+**Testés sur des supports écrits avant eux :** 103 sections de 17 livres de solutions expliquées et 1 197 notes d'un
+coffre d'étude, avec les prédictions écrites avant le décompte. Les sections étaient des exemples résolus, 101 sur 103
+avec un piège, et aucune n'avait d'objectifs ni de bloc de questions
+([ce qui en est sorti](shapes/README.md#tested-against-study-material-written-before-them)).
 
 > **État :** la revue de littérature est écrite et auditée (2026-10-29) : quatre revues multivocales, 420 sources,
 > dans [evidence](evidence/) ; 304 lignes vérifiées dans leurs sources, un second évaluateur sur une source grise
@@ -22,6 +54,11 @@ Cette page en anglais : [README.md](README.md). Les deux versions suivent le mê
 > chiffre lu seulement dans un résumé est marqué « (secondary) ». Les corrections sont bienvenues sous forme d'issues.
 
 ## Où il se place
+
+Il étend [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/README.md).
+Les principes, leurs niveaux de preuve et les vérifications vivent là-bas et ne sont pas répétés ici. Les effets
+d'apprentissage eux-mêmes aussi : récupération en mémoire, espacement, exemples résolus, multimédia. Ce dépôt ajoute
+ce que le genre change : comment chacun de ces documents est construit, et ce qu'un programme peut y vérifier.
 
 ![Trois niveaux : ce dépôt utilise reader-ergonomics-topic (épinglé à v0.4.0) et reader-ergonomics (épinglé à v1.13.0) ; le topic utilise reader-ergonomics.](where-it-sits.fr.svg)
 
