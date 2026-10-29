@@ -4,7 +4,8 @@ answer explains, a multiple-choice item follows the item rules, and every trap i
 Runs on the files `[questions] files` names in checks/config.toml, with the settings of that table (the same keys as
 `[lesson]`). It is the lesson check with alignment off (lesson.py): a note (the core note shape) holds a Check
 yourself and traps but no objectives, so neither objectives nor tags are asked for. What a run with no error
-guarantees, and what it does not: as lesson.py says, less the alignment.
+guarantees, and what it does not: as lesson.py says, less the alignment. Exact, with the heuristic warnings of
+lesson.py. Time O(lines) per file.
 """
 from __future__ import annotations
 
