@@ -1,13 +1,13 @@
 # Contributing to this repository
 
 For anyone changing this repository, person or language model. To apply the reader-ergonomics standard elsewhere,
-read its [standard.md](https://github.com/Tewf/reader-ergonomics/blob/c08433c4d868d9b38ac1441f58ae7602c399db6d/standard.md);
+read its [standard.md](https://github.com/Tewf/reader-ergonomics/blob/6980fa64583912922d6f5b5c01316749d654345f/standard.md);
 this file is about this repository only.
 
 ## Before writing
 
-1. Read the standard at the release this repository checks against (v1.10.0), then its
-   [learning-science review](https://github.com/Tewf/reader-ergonomics/tree/c08433c4d868d9b38ac1441f58ae7602c399db6d/evidence/learning-science),
+1. Read the standard at the release this repository checks against (v1.11.0), then its
+   [learning-science review](https://github.com/Tewf/reader-ergonomics/tree/6980fa64583912922d6f5b5c01316749d654345f/evidence/learning-science),
    then the [topic](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/shapes/topic.md)
    every shape here derives from.
 2. Ask of every new claim whether it is about the document or about the technique. A claim about whether a technique
@@ -37,12 +37,12 @@ this file is about this repository only.
 ## Before handing back
 
 Run the checks against the release CI uses, not a checkout that may have moved on: extract it once with
-`git -C ../reader-ergonomics archive c08433c | tar -x -C ../re-v1.10.0`.
+`git -C ../reader-ergonomics archive 6980fa6 | tar -x -C ../re-v1.11.0`.
 
 ```sh
 git -C ../reader-ergonomics-topic show 1220def:checks/local/topic.py > checks/local/topic.py   # as CI does; never committed
-python3 ../re-v1.10.0/checks/run.py . --tiers program,meaning --judge flag   # the repository, as CI runs it
-READER_ERGONOMICS_CHECKS=../re-v1.10.0/checks python3 -m unittest discover -s checks   # the checks of the shapes
+python3 ../re-v1.11.0/checks/run.py . --tiers program,meaning --judge flag   # the repository, as CI runs it
+READER_ERGONOMICS_CHECKS=../re-v1.11.0/checks python3 -m unittest discover -s checks   # the checks of the shapes
 ```
 
 - Fix every error. Read every warning.

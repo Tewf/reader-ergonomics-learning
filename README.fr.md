@@ -4,7 +4,7 @@ Comment écrire un support fait pour être appris, pour que la personne qui l'é
 sur des problèmes nouveaux, au moindre coût. Le support, c'est la leçon, l'exemple résolu, la feuille d'exercices, la
 fiche de révision, les cartes mémoire, et les questions qu'ils contiennent.
 
-Il étend [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/c08433c4d868d9b38ac1441f58ae7602c399db6d/README.md).
+Il étend [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/6980fa64583912922d6f5b5c01316749d654345f/README.md).
 Les principes, leurs niveaux de preuve et les vérifications vivent là-bas et ne sont pas répétés ici. Les effets
 d'apprentissage eux-mêmes aussi : récupération en mémoire, espacement, exemples résolus, multimédia. Ce dépôt ajoute
 ce que le genre change : comment chacun de ces documents est construit, et ce qu'un programme peut y vérifier.
@@ -23,7 +23,7 @@ Cette page en anglais : [README.md](README.md). Les deux versions suivent le mê
 
 ## Où il se place
 
-![Trois niveaux : ce dépôt utilise reader-ergonomics-topic (épinglé à v0.4.0) et reader-ergonomics (épinglé à v1.10.0) ; le topic utilise reader-ergonomics.](where-it-sits.fr.svg)
+![Trois niveaux : ce dépôt utilise reader-ergonomics-topic (épinglé à v0.4.0) et reader-ergonomics (épinglé à v1.11.0) ; le topic utilise reader-ergonomics.](where-it-sits.fr.svg)
 
 <details>
 <summary>Source Graphviz</summary>
@@ -38,14 +38,14 @@ digraph niveaux {
   R [label=<<font point-size="10" color="#55575F">NIVEAU 0</font><br/><b>reader-ergonomics</b><br/><font point-size="11" color="#55575F">comment un texte sert son lecteur ; l'apprentissage</font>>, fillcolor="#FFFFFF", color="#3D434B"];
   L -> T [label=<  dérive ses gabarits du topic,<br/>  épinglé à v0.4.0>];
   T -> R [label=<  obéit aux principes>];
-  L -> R [label=<  obéit aux principes ; la CI y lance<br/>  leurs vérifications, v1.10.0>, constraint=false];
+  L -> R [label=<  obéit aux principes ; la CI y lance<br/>  leurs vérifications, v1.11.0>, constraint=false];
 }
 ```
 
 </details>
 
 - **Il obéit à reader-ergonomics** et lance ses vérifications, comme toute extension
-  ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/c08433c4d868d9b38ac1441f58ae7602c399db6d/extending.md)).
+  ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/6980fa64583912922d6f5b5c01316749d654345f/extending.md)).
 - **Ses gabarits dérivent du
   [topic](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/shapes/topic.md)** :
   un titre, un résumé qui tient lieu du document, un corps, son contenu, et ce vers quoi il pointe. Une leçon ou une
@@ -59,7 +59,7 @@ documents qu'un apprenant étudie, et un programme qui les vérifie.
 
 | Ce qui existe | Où | Ce qui manque |
 |---|---|---|
-| les effets d'apprentissage, chacun avec son niveau de preuve et sa taille d'effet | reader-ergonomics, [learning science](https://github.com/Tewf/reader-ergonomics/tree/c08433c4d868d9b38ac1441f58ae7602c399db6d/evidence/learning-science) | comment s'écrit une question, une carte ou une feuille d'exercices |
+| les effets d'apprentissage, chacun avec son niveau de preuve et sa taille d'effet | reader-ergonomics, [learning science](https://github.com/Tewf/reader-ergonomics/tree/6980fa64583912922d6f5b5c01316749d654345f/evidence/learning-science) | comment s'écrit une question, une carte ou une feuille d'exercices |
 | des guides en prose pour enseignants et auteurs | guides de pratique et livres, situés par les revues | une vérification qu'un programme peut lancer |
 | des gabarits de leçon vérifiés par programme | [The Carpentries Workbench](https://github.com/carpentries/pegboard) | ses vérifications lisent les titres, les blocs et les liens, pas ce que la leçon enseigne |
 
@@ -119,7 +119,7 @@ Le `baseline.md` de chaque revue donne le plan de la comparaison : même temps, 
 
 ## Repris des dépôts voisins
 
-Liés à un commit épinglé, jamais copiés ([one place per fact](https://github.com/Tewf/reader-ergonomics/blob/c08433c4d868d9b38ac1441f58ae7602c399db6d/principles/collection/one-place-per-fact.md)).
+Liés à un commit épinglé, jamais copiés ([one place per fact](https://github.com/Tewf/reader-ergonomics/blob/6980fa64583912922d6f5b5c01316749d654345f/principles/collection/one-place-per-fact.md)).
 
 | De | Quoi | Sert à |
 |---|---|---|

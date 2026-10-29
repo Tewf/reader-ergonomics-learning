@@ -7,5 +7,5 @@ digraph levels {
   R [label=<<font point-size="10" color="#55575F">LEVEL 0</font><br/><b>reader-ergonomics</b><br/><font point-size="11" color="#55575F">how any text serves its reader; learning science</font>>, fillcolor="#FFFFFF", color="#3D434B"];
   L -> T [label=<  derives its shapes from the topic,<br/>  pinned v0.4.0>];
   T -> R [label=<  obeys the principles>];
-  L -> R [label=<  obeys the principles; CI runs<br/>  their checks here, pinned v1.10.0>, constraint=false];
+  L -> R [label=<  obeys the principles; CI runs<br/>  their checks here, pinned v1.11.0>, constraint=false];
 }
