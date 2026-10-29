@@ -17,8 +17,8 @@ stylesheets = []
 
 [bibliography_keys]
 # A key names one work across the family (reader-ergonomics decision 0003); CI clones each name beside this repository.
-family = ["reader-ergonomics", "reader-ergonomics-academic", "reader-ergonomics-presentations",
-          "reader-ergonomics-software-design", "reader-ergonomics-topic"]
+family = ["reader-ergonomics", "reader-ergonomics-academic", "reader-ergonomics-blueprint",
+          "reader-ergonomics-presentations", "reader-ergonomics-software-design", "reader-ergonomics-topic"]
 shared_links = []
 
 
