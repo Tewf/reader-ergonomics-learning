@@ -10,7 +10,8 @@ abstract: >-
   exercise sheet, a study guide, flashcards, and the questions inside them) so
   that someone who studies it alone retains it and uses it on new problems. It
   extends reader-ergonomics and derives its shapes from reader-ergonomics-topic.
-  The scope is set; four multivocal literature reviews are under way.
+  Four audited multivocal literature reviews (420 sources) support five shapes
+  of study documents, with checks a program runs on them.
 type: software
 authors:
   - name: "Tewf"

@@ -1,6 +1,6 @@
 # Learning materials
 
-> How to write material meant to be learned (a lesson, worked examples, an exercise sheet, a study guide, flashcards, and the questions inside them) so that someone who studies it alone retains it and uses it on new problems. It extends the reader-ergonomics standard; four multivocal reviews (420 sources) give the evidence; no shape is written yet.
+> How to write material meant to be learned (a lesson, worked examples, an exercise sheet, a study guide, flashcards, and the questions inside them) so that someone who studies it alone retains it and uses it on new problems. It extends the reader-ergonomics standard; four multivocal reviews (420 sources) give the evidence for five shapes of study documents and their checks.
 
 Each page's markdown source is served at the same path with a .md extension. This index is written by hand; AGENTS.md says to keep it in step.
 
@@ -8,6 +8,16 @@ Each page's markdown source is served at the same path with a .md extension. Thi
 
 - [Learning materials](https://tewf.github.io/reader-ergonomics-learning/README.md): scope, where it sits, the four reviews, what it takes from its siblings
 - [Decisions](https://tewf.github.io/reader-ergonomics-learning/decisions/README.md): one record per choice that shapes the repository
+
+## Shapes
+
+- [Shapes](https://tewf.github.io/reader-ergonomics-learning/shapes/README.md): the five shapes, how they fit together, the markup the checks read
+- [Lesson](https://tewf.github.io/reader-ergonomics-learning/shapes/lesson.md): objectives, the explanation with its traps refuted, a question block per part, key points
+- [Question block](https://tewf.github.io/reader-ergonomics-learning/shapes/question-block.md): recall and application questions, tagged by objective, answers folded and explained
+- [Exercise sheet](https://tewf.github.io/reader-ergonomics-learning/shapes/exercise-sheet.md): worked example, completion problem, problems per type; a mixed review; hints before answers
+- [Deck](https://tewf.github.io/reader-ergonomics-learning/shapes/deck.md): a header page and a TSV of cards, one question and one answer each, linked to their sections
+- [Study guide](https://tewf.github.io/reader-ergonomics-learning/shapes/study-guide.md): one problem solved per type, traps, variants, an error grid, a date to redo, a method sheet
+- [Examples](https://tewf.github.io/reader-ergonomics-learning/shapes/examples/README.md): one document of each shape, on binary search
 
 ## Evidence
 

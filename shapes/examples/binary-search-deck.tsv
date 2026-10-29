@@ -1,0 +1,8 @@
+front	back	source	tags
+What does binary search need from the array it searches?	A sorted array.	binary-search-lesson.md#the-invariant	concept
+Why can binary search discard half of the range?	Every element in that half is on the wrong side of the middle one, because the array is sorted.	binary-search-lesson.md#the-invariant	concept
+How is the middle index of the range lo to hi computed?	mid = (lo + hi) // 2, the floor of the middle.	binary-search-lesson.md#terms	detail
+What is the largest number of probes for n elements?	⌊log2 n⌋ + 1	binary-search-lesson.md#counting-probes	detail
+How many probes does a million elements take at most?	20	binary-search-lesson.md#counting-probes	detail
+How does the worst case change when the array doubles?	It grows by one probe.	binary-search-lesson.md#counting-probes	concept
+What does a lower-bound search return when no element qualifies?	The length of the array, an index that means none.	binary-search-sheet.md#type-t2-lower-bound	detail

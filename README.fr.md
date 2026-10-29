@@ -13,7 +13,7 @@ Cette page en anglais : [README.md](README.md). Les deux versions suivent le mê
 
 > **État :** la revue de littérature est écrite et auditée (2026-10-29) : quatre revues multivocales, 420 sources,
 > dans [evidence](evidence/) ; 304 lignes vérifiées dans leurs sources, un second évaluateur sur une source grise
-> sur cinq. Aucun gabarit et aucune vérification ne sont écrits. C'est une lecture informelle de la
+> sur cinq. Cinq gabarits, leurs vérifications et un exemple de chacun sont écrits ; aucun n'a été testé auprès d'apprenants. C'est une lecture informelle de la
 > recherche et de la pratique publiées : ni une norme officielle, ni une étude évaluée par des pairs, ni un résultat
 > nouveau, ni une prétention à l'état de l'art.
 >
@@ -27,7 +27,7 @@ Cette page en anglais : [README.md](README.md). Les deux versions suivent le mê
 
 - **Il obéit à reader-ergonomics** et lance ses vérifications, comme toute extension
   ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/d48ffbe96aed32dd63e1974ee60f69472fe36932/extending.md)).
-- **Ses gabarits dériveront du
+- **Ses gabarits dérivent du
   [topic](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/shapes/topic.md)** :
   un titre, un résumé qui tient lieu du document, un corps, son contenu, et ce vers quoi il pointe. Une leçon ou une
   feuille d'exercices ajoute ses propres blocs et n'en retire aucun.
@@ -105,7 +105,7 @@ Liés à un commit épinglé, jamais copiés ([one place per fact](https://githu
 | De | Quoi | Sert à |
 |---|---|---|
 | reader-ergonomics | les principes, la revue des sciences de l'apprentissage, les vérifications, la feuille de style, le contrat des extensions, le gabarit de fiche de décision | chaque document d'ici ; [decisions](decisions/) ; la CI |
-| reader-ergonomics-topic | le topic, base de chaque gabarit à venir ; la méthode de revue de ses trois revues | les gabarits à venir ; les quatre revues |
+| reader-ergonomics-topic | le topic, base de chaque gabarit, et sa vérification ; la méthode de revue de ses trois revues | les [gabarits](shapes/README.md) ; la CI ; les quatre revues |
 | reader-ergonomics-software-design | la méthode de lecture des sites de questions-réponses | le volet Q/R de chaque revue |
 | reader-ergonomics-presentations | l'enseignement en direct, qui reste là-bas ; des contextes qui surchargent une base pour un public | la frontière ; un modèle pour les vitesses de lecture d'une fiche de révision, à tester |
 
@@ -113,15 +113,14 @@ Liés à un commit épinglé, jamais copiés ([one place per fact](https://githu
 
 | Partie | Contient |
 |---|---|
+| [shapes](shapes/README.md) | les cinq gabarits des documents d'étude, chacun avec les preuves de ses blocs, ses vérifications et un exemple |
 | [decisions](decisions/) | une fiche par choix qui façonne ce dépôt, chacune ouverte par la décision en une phrase |
 | [evidence](evidence/) | les quatre revues, 420 sources, et la bibliographie de 452 travaux |
 
 ## Suite
 
 1. Lire par l'université les cinq sources payantes, pour les lignes que l'audit n'a pas pu vérifier.
-2. Écrire les gabarits que les revues soutiennent, chacun dérivé du topic, et les vérifications qu'un programme peut y
-   lancer.
-3. Les tester sur de vrais supports d'étude : les livres de solutions expliquées de
+2. Les tester sur de vrais supports d'étude : les livres de solutions expliquées de
    [University-Coursework](https://github.com/Tewf/University-Coursework).
 
 ## Le vérifier

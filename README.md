@@ -15,8 +15,8 @@ these documents is built, and what a program can check in it.
 This page in French: [README.fr.md](README.fr.md).
 
 > **Status:** the literature review is written and audited (2026-10-29): four multivocal reviews, 420 sources, in
-> [evidence](evidence/); 304 lines checked against their sources, a second rater on every fifth grey source. No
-> shape and no check is written. It is an informal reading of published research and practice: not an
+> [evidence](evidence/); 304 lines checked against their sources, a second rater on every fifth grey source. Five
+> shapes, their checks and an example of each are written; no shape has been tested on learners. It is an informal reading of published research and practice: not an
 > official standard, not a peer-reviewed study, not a new result, and not a claim to the state of the art.
 >
 > **How it is made:** with Claude, an AI assistant by Anthropic, under the maintainer's direction, the way
@@ -29,7 +29,7 @@ This page in French: [README.fr.md](README.fr.md).
 
 - **It obeys reader-ergonomics** and runs its checks, as every extension does
   ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/d48ffbe96aed32dd63e1974ee60f69472fe36932/extending.md)).
-- **Its shapes will derive from the
+- **Its shapes derive from the
   [topic](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/shapes/topic.md)**:
   a title, a summary that stands for the document, a body, its contents, and what it points to. A lesson or an
   exercise sheet adds its own blocks and removes none.
@@ -106,7 +106,7 @@ Linked at a pinned commit, never copied ([one place per fact](https://github.com
 | From | What | Used for |
 |---|---|---|
 | reader-ergonomics | the principles, the learning-science review, the checks, the stylesheet, the extension contract, the decision-record shape | every document here; [decisions](decisions/); CI |
-| reader-ergonomics-topic | the topic, base of every shape to come; the review method its three reviews share | the shapes to come; the four reviews |
+| reader-ergonomics-topic | the topic, base of every shape, and its check; the review method its three reviews share | the [shapes](shapes/README.md); CI; the four reviews |
 | reader-ergonomics-software-design | the method for reading question-and-answer sites | the Q/A strand of each review |
 | reader-ergonomics-presentations | teaching live, which stays there; contexts that override a base for one audience | the boundary; a model for the reading speeds of a study guide, to be tested |
 
@@ -114,14 +114,14 @@ Linked at a pinned commit, never copied ([one place per fact](https://github.com
 
 | Part | Holds |
 |---|---|
+| [shapes](shapes/README.md) | the five shapes of study documents, each with the evidence behind its blocks, its checks and an example |
 | [decisions](decisions/) | one record per choice that shapes this repository, each opening with the decision in one sentence |
 | [evidence](evidence/) | the four reviews, 420 sources, and the bibliography of 452 works |
 
 ## Next
 
 1. Read the five paywalled sources through the university, for the rows the audit could not verify.
-2. Write the shapes the reviews support, each derived from the topic, and the checks a program can run on them.
-3. Test them on real study material: the explained solution books of
+2. Test the shapes on real study material: the explained solution books of
    [University-Coursework](https://github.com/Tewf/University-Coursework).
 
 ## Check it

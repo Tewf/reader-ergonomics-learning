@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 288" role="img" aria-labelledby="t d">
+<title id="t">How the five shapes fit together</title>
+<desc id="d">lesson uses note (core); exercise sheet uses report (core); deck uses lesson; lesson uses question block; study guide uses deck; study guide uses lesson; study guide uses question block; study guide uses exercise sheet.</desc>
+<style>
+  .this { fill: #FFFFFF; stroke: #101014; stroke-width: 1.8; }
+  .other { fill: #EFEFF3; stroke: #6A6D77; stroke-width: 1.4; stroke-dasharray: 6 4; }
+  .label { font: 600 13px 'JetBrains Mono', ui-monospace, monospace; fill: #101014; }
+  .edge { font: 400 12px Archivo, system-ui, sans-serif; fill: #55575F; }
+  .legend { font: 400 12.5px Archivo, system-ui, sans-serif; fill: #6A6D77; }
+  .arrow { stroke: #55575F; stroke-width: 1.4; fill: none; marker-end: url(#tip); }
+  #tip path { fill: #55575F; }
+  @media (prefers-color-scheme: dark) {
+    .this { fill: #1A1A20; stroke: #F7F7F9; }
+    .other { fill: #26262E; stroke: #9A9CA4; }
+    .label { fill: #F7F7F9; }
+    .edge, .legend { fill: #B8BAC2; }
+    .arrow { stroke: #B8BAC2; }
+    #tip path { fill: #B8BAC2; }
+  }
+</style>
+<defs><marker id="tip" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z"/></marker></defs>
+<text class="legend" x="16" y="20">Each arrow points to what a shape uses; dashed boxes are shapes of reader-ergonomics.</text>
+<rect class="other" x="146" y="40" width="128" height="42" rx="10"/>
+<text class="label" x="210.0" y="66.0" text-anchor="middle">note (core)</text>
+<rect class="other" x="422" y="40" width="128" height="42" rx="10"/>
+<text class="label" x="486.0" y="66.0" text-anchor="middle">report (core)</text>
+<rect class="this" x="8" y="132" width="128" height="42" rx="10"/>
+<text class="label" x="72.0" y="158.0" text-anchor="middle">deck</text>
+<rect class="this" x="146" y="132" width="128" height="42" rx="10"/>
+<text class="label" x="210.0" y="158.0" text-anchor="middle">lesson</text>
+<rect class="this" x="284" y="132" width="128" height="42" rx="10"/>
+<text class="label" x="348.0" y="158.0" text-anchor="middle">question block</text>
+<rect class="this" x="422" y="132" width="128" height="42" rx="10"/>
+<text class="label" x="486.0" y="158.0" text-anchor="middle">exercise sheet</text>
+<rect class="this" x="206" y="234" width="148" height="42" rx="10"/>
+<text class="label" x="280.0" y="260.0" text-anchor="middle">study guide</text>
+<path class="arrow" d="M210.0,132 L210.0,82"/>
+<text class="edge" x="216.0" y="103.0">extends</text>
+<path class="arrow" d="M486.0,132 L486.0,82"/>
+<text class="edge" x="492.0" y="103.0">examples</text>
+<path class="arrow" d="M136,153.0 L146,153.0"/>
+<path class="arrow" d="M274,153.0 L284,153.0"/>
+<path class="arrow" d="M280.0,234 L72.0,174"/>
+<path class="arrow" d="M280.0,234 L210.0,174"/>
+<path class="arrow" d="M280.0,234 L348.0,174"/>
+<path class="arrow" d="M280.0,234 L486.0,174"/>
+</svg>
