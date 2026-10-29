@@ -308,6 +308,45 @@ class QuestionsModule(unittest.TestCase):
         self.assertEqual([(f.check, f.kind) for f in found], [("questions", "error")])
 
 
+class ShapeExample(unittest.TestCase):
+    def run_on(self, files):
+        module = load("shape_example")
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            for name, text in files.items():
+                (root / name).parent.mkdir(parents=True, exist_ok=True)
+                (root / name).write_text(text)
+            return module.check(root, {"shape_example": {"files": ["shapes/*.md"], "exempt": ["shapes/examples/"]}})
+
+    def test_linked_both_ways(self):
+        self.assertEqual(self.run_on({"shapes/s.md": "# S\n\n[example](examples/e.md)\n",
+                                      "shapes/examples/e.md": "# E\n\n**Shape:** [s](../s.md)\n"}), [])
+
+    def test_no_example(self):
+        found = self.run_on({"shapes/s.md": "# S\n\nA skeleton only.\n"})
+        self.assertEqual([(f.path, f.kind) for f in found], [("shapes/s.md", "warning")])
+
+    def test_example_must_link_back(self):
+        found = self.run_on({"shapes/s.md": "# S\n\n[example](examples/e.md)\n", "shapes/examples/e.md": "# E\n\nNo link back.\n"})
+        self.assertEqual([f.path for f in found], ["shapes/s.md"])
+
+    def test_a_citation_is_not_an_example(self):
+        found = self.run_on({"shapes/s.md": "# S\n\n[evidence](../evidence/r.md)\n", "evidence/r.md": "# R\n\nSee the [shape](../shapes/s.md).\n"})
+        self.assertEqual([f.path for f in found], ["shapes/s.md"])
+
+    def test_html_example_counts_by_its_name(self):
+        self.assertEqual(self.run_on({"shapes/s.md": "# S\n\n[deck](example-s.html)\n", "shapes/example-s.html": "<html></html>"}), [])
+        self.assertEqual(len(self.run_on({"shapes/s.md": "# S\n\n[template](s.tex)\n", "shapes/s.tex": "% skeleton"})), 1)
+
+    def test_inline_example(self):
+        self.assertEqual(self.run_on({"shapes/s.md": "# S\n\n## Worked example\n\nA filled one.\n"}), [])
+
+    def test_a_derived_shape_is_not_an_example(self):
+        found = self.run_on({"shapes/base.md": "# Base\n\n[derived](derived.md)\n",
+                             "shapes/derived.md": "# Derived\n\nDerives from [base](base.md).\n\n## Worked example\n\nx\n"})
+        self.assertEqual([f.path for f in found], ["shapes/base.md"])
+
+
 class Examples(unittest.TestCase):
     def test_examples_pass(self):
         folder = ROOT / "shapes" / "examples"

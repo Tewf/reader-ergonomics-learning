@@ -71,3 +71,9 @@ summary_labels = ["summary", "abstract", "short description", "decision"]
 summary_within = 4   # PROVISIONAL
 typed = []
 shapes = { lesson = ["shapes/examples/*-lesson.md"], exercise-sheet = ["shapes/examples/*-sheet.md"], deck = ["shapes/examples/*-deck.md"], study-guide = ["shapes/examples/*-guide.md"] }
+
+# Each shape links a filled example of itself (checks/local/shape_example.py); proposed to reader-ergonomics.
+[shape_example]
+files = ["shapes/*.md"]
+exempt = ["shapes/README.md", "shapes/question-block.md", "shapes/examples/"]   # the question block is a part, shown in the lesson
+# example; the examples are instances, not shapes ("shapes/*.md" also matches files in subfolders)

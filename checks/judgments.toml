@@ -252,3 +252,17 @@ path = "evidence/README.md"
 question = "103 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
 file = "fa606bf58ddb"
 answer = "One role: the index of the four reviews, which opens by listing them under `Contents` and then gives what they share, from `Rules the four reviews share` to `Audit` and `Second rater`. Each part is about all four reviews at once. It stays whole."
+
+[[answer]]
+check = "co-change"
+path = "checks/local/learning_markup.py"
+question = "changed together with checks/test_learning.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "176b32ac42b6"
+answer = "Neither: the tests sit in checks/, beside local/, where unittest discover finds them; in local/ the standard's run.py would load a test file as a candidate check. This module changes with its tests because each rule it reads has one, and its own docstring names its readers: `lesson.py, sheet.py and deck.py import it`."
+
+[[answer]]
+check = "co-change"
+path = "checks/local/lesson.py"
+question = "changed together with checks/test_learning.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "f5d5eb1ec193"
+answer = "Neither: a check and its tests change together by the rule that every rule gets a test, and the tests stay in checks/, out of local/, so run.py never loads them as checks. The module says where else its rules run: `questions.py calls it for notes`."

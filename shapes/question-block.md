@@ -54,6 +54,8 @@ items. It has no title or summary of its own, so it is checked inside the docume
 | `lesson` | a multiple-choice item has three or four options, none "all" or "none of the above" | heuristic |
 | judgment | whether a part has an item beyond recall: a question's level depends on what was taught | judgment |
 
+An example of two blocks, one with a multiple-choice item: the [binary search lesson](examples/binary-search-lesson.md#check-yourself).
+
 ## See also
 
 [Shapes](README.md), the folder this shape heads; the [lesson](lesson.md) and the [study guide](study-guide.md) that
