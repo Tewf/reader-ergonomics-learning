@@ -19,8 +19,8 @@ reader-ergonomics, with the evidence behind each block and the checks a program 
 ![Five shapes. The lesson extends the core note; the exercise sheet's worked examples are core reports. The question block sits inside the lesson and the study guide; the deck derives from a lesson; the study guide draws on all four.](shapes.svg)
 
 - **Built on, not copied.** The lesson keeps every block of the core
-  [note](https://github.com/Tewf/reader-ergonomics/blob/7431bb8bcfbaefd47ee44d93b55208e47da92817/shapes/note.md); a
-  worked example is the core [report](https://github.com/Tewf/reader-ergonomics/blob/7431bb8bcfbaefd47ee44d93b55208e47da92817/shapes/report.md),
+  [note](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/shapes/note.md); a
+  worked example is the core [report](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/shapes/report.md),
   with its plan, its steps named by their goal and its fading.
 - Every shape is a topic: a title, a summary, a body, contents and see also
   ([topic](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/shapes/topic.md)).

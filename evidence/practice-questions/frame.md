@@ -19,7 +19,7 @@ Decide how the questions inside a study text are written, placed and answered, s
 | **recognition** | choose the answer among given ones; multiple choice is the common case |
 | **covert** and **overt retrieval** | answering in one's head; answering by writing, typing or speaking |
 | **question level** | the kind of thinking a question asks, usually named by Bloom's taxonomy: remember, understand, apply, analyse, evaluate, create |
-| **transfer** | answering a new question that the practice question did not ask (core [frame](https://github.com/Tewf/reader-ergonomics/blob/7431bb8bcfbaefd47ee44d93b55208e47da92817/evidence/learning-science/frame.md)) |
+| **transfer** | answering a new question that the practice question did not ask (core [frame](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/evidence/learning-science/frame.md)) |
 | **KR**, **KCR**, **EF** | feedback types: knowledge of result (right or wrong), knowledge of correct response (the answer), elaborated feedback (an explanation) |
 | **AUC** | answer-until-correct: the learner keeps choosing until the key is found |
 | **immediate** and **delayed feedback** | feedback right after each answer; feedback after a set of answers or a time gap |
@@ -75,10 +75,10 @@ Decide how the questions inside a study text are written, placed and answered, s
 
 ## Not reviewed here, linked instead
 
-- Whether testing works at all, and how much: [learning-science](https://github.com/Tewf/reader-ergonomics/blob/7431bb8bcfbaefd47ee44d93b55208e47da92817/evidence/learning-science/review.md) (Rowland 2014, Yang 2021, Adesope 2017); this review reads only their moderators of format and feedback.
+- Whether testing works at all, and how much: [learning-science](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/evidence/learning-science/review.md) (Rowland 2014, Yang 2021, Adesope 2017); this review reads only their moderators of format and feedback.
 - Prequestions before a text (St. Hilaire 2023), self-explanation prompts (Bisra 2018), erroneous examples (Alemdag 2025): same core file.
 - Folded content and how often readers open it: [progressive-disclosure](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/evidence/progressive-disclosure/review.md).
 - Typed blocks such as a "trap" box: [information-typing](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/evidence/information-typing/review.md).
-- Models as writers in general: [llm-readers](https://github.com/Tewf/reader-ergonomics/blob/7431bb8bcfbaefd47ee44d93b55208e47da92817/evidence/llm-readers/review.md); only generated questions are reviewed here.
+- Models as writers in general: [llm-readers](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/evidence/llm-readers/review.md); only generated questions are reviewed here.
 - Live questions in a lecture, clickers: [presentations](https://github.com/Tewf/reader-ergonomics-presentations/blob/master/evidence/presentations/review.md).
 - Spaced review of detached prompts: the flashcards review. Exercise sequences, answer keys of problem sets and solution manuals: the exercise-sets review. Objectives aligned with questions: the instructional-text review.

@@ -81,9 +81,9 @@ Decide how the exercises of one sheet, homework or problem set are chosen, order
 
 | Already reviewed in | What this folder takes from it |
 |---|---|
-| reader-ergonomics [learning-science](https://github.com/Tewf/reader-ergonomics/blob/7431bb8bcfbaefd47ee44d93b55208e47da92817/evidence/learning-science/review.md) | interleaving meta-analysis (Brunmair 2019), fading (Renkl 2004), worked examples (Barbieri 2023), 4C/ID (Costa 2022), varied examples (Paas 1994), spacing (Latimier 2021, Cepeda 2008), expertise reversal (Tetzlaff 2025), mastery (Kulik 1990) |
-| reader-ergonomics [reading-order](https://github.com/Tewf/reader-ergonomics/blob/7431bb8bcfbaefd47ee44d93b55208e47da92817/evidence/reading-order/review.md) | example then problem (van Gog 2011), the cluster trial (Rohrer 2020), category order (Carvalho 2014), part-task training (Wickens 2013) |
+| reader-ergonomics [learning-science](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/evidence/learning-science/review.md) | interleaving meta-analysis (Brunmair 2019), fading (Renkl 2004), worked examples (Barbieri 2023), 4C/ID (Costa 2022), varied examples (Paas 1994), spacing (Latimier 2021, Cepeda 2008), expertise reversal (Tetzlaff 2025), mastery (Kulik 1990) |
+| reader-ergonomics [reading-order](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/evidence/reading-order/review.md) | example then problem (van Gog 2011), the cluster trial (Rohrer 2020), category order (Carvalho 2014), part-task training (Wickens 2013) |
 | the practice-questions review (sibling folder) | feedback content and timing, question format, answers folded under a question |
 | the instructional-text review (sibling folder) | the worked-solution book as a genre, end-of-chapter apparatus |
 | the flashcards review (sibling folder) | spaced review of single prompts |
-| principle [worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/7431bb8bcfbaefd47ee44d93b55208e47da92817/principles/document/worked-examples-with-subgoals.md) | the rule this review extends from one example to a whole set |
+| principle [worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/principles/document/worked-examples-with-subgoals.md) | the rule this review extends from one example to a whole set |
