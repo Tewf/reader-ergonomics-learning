@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: >-
+  If this repository helps you, you may cite it as below. It is an informal,
+  work-in-progress synthesis of published research, written with Claude, an AI
+  assistant by Anthropic. It is not an official standard, not peer-reviewed,
+  and not a new result.
+title: "reader-ergonomics-learning (work in progress)"
+abstract: >-
+  How to write material meant to be learned (a lesson, worked examples, an
+  exercise sheet, a study guide, flashcards, and the questions inside them) so
+  that someone who studies it alone retains it and uses it on new problems. It
+  extends reader-ergonomics and derives its shapes from reader-ergonomics-topic.
+  The scope is set; four multivocal literature reviews are under way.
+type: software
+authors:
+  - name: "Tewf"
+repository-code: "https://github.com/Tewf/reader-ergonomics-learning"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+keywords:
+  - learning materials
+  - instructional design
+  - retrieval practice
+  - flashcards
+  - worked examples
+  - literature review

@@ -1,0 +1,17 @@
+# Merged onto reader-ergonomics' own config, table by table; a value here wins (extending.md, the interface).
+# Only the values that change are written.
+extends = "reader-ergonomics"
+
+# The standard's generated files, and the answers file: it changes with every file it answers for, so it co-changes
+# by construction, as the bibliography changes with every review.
+[co_change]
+exempt = ["standard.md", "llms.txt", "evidence/bibliography.md", "checks/judgments.toml"]
+
+# The site loads the standard's own stylesheet (_standard/site.css, checked out in pages.yml), so there is none here
+# to measure; reader-ergonomics extending.md asks such an extension to list none.
+[readable_measure]
+stylesheets = []
+
+[sufficient_contrast]
+stylesheets = []
+
