@@ -67,4 +67,4 @@ This file gathers the evidence against the rules on the apparatus of a study tex
 
 - This search found no replication of the summary-position studies after 1981.
 - No replication of the concept-list result (Cushen 2019) was found.
-- Reder 1980, the classic comparison of texts and summaries, could not be read: its author's copy is a scan without text.
+- Reder 1980, the classic comparison of texts and summaries, read in full: its summary advantage closed when the text had three times the study time (Experiment 3). After 6 to 12 months it was not significant (Experiment 7).

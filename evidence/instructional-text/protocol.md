@@ -140,7 +140,7 @@ Strings IT1 to IT13 ran on 2026-10-29, one reviewer, grey tier 2, by the [shared
   - language course books, glossaries of course manuals and other word collisions;
   - sources whose abstract could not be read and whose title does not settle relevance (kept as located only).
 - Leads named in the commission and their status:
-  - Verified and cited: Hartley 1976, Gurung 2003, Weiten 1996 (located), Marek 1999, Biggs 1996, Cohen 1987, Mager 1962, Reder 1980 (located), Guzzetti 1993. Also cited: Tippett 2010, Schroeder 2022, Konrad 2009, Dickson 2005b, Wilson 2019, the Carpentries template, the Quality Matters rubric;
+  - Verified and cited: Hartley 1976, Gurung 2003, Weiten 1996 (located), Marek 1999, Biggs 1996, Cohen 1987, Mager 1962, Reder 1980 (located; read in full after the audit), Guzzetti 1993. Also cited: Tippett 2010, Schroeder 2022, Konrad 2009, Dickson 2005b, Wilson 2019, the Carpentries template, the Quality Matters rubric;
   - Dickson and Miller 2005 is the core's key Dickson 2005, linked; its DOI in the core bibliography resolves to another item (handoff.md);
   - Hartley's Designing Instructional Text: found as the 1978 book (ERIC record); a 2004 version was not located;
   - Wiggins and McTighe 2005: catalogue record found, book not opened;

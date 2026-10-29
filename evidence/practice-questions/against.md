@@ -20,7 +20,7 @@ This file gathers the evidence against the rules on questions in study material:
 
 - High-information feedback has the largest pooled effect (Wisniewski 2020), but heterogeneity is high, I2 = 83.4%.
 - Immediate explanation feedback on demanding questions lowered effort and learning in one study of 59 students (Roelle 2016).
-- A simpler correct-answer feedback beat more complex versions in an older study reported by Hattie 2007.
+- A simpler correct-answer feedback beat more complex versions in a 1985 study by Kulhavy and colleagues, as Hattie 2007 reports it (read).
 - Explanation feedback helped only new inference questions, not repeated ones (Butler 2013).
 - Answer-until-correct equalled standard feedback (Butler 2007).
 

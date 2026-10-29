@@ -88,7 +88,7 @@ Levels as in review.md. "abstract" means only the abstract was read; "read" mean
 | Sadaf 2019 | formal | F34 | D, abstract | review 3 |
 | Hartley 1979 | formal | F9 | E, abstract | review 4; state-of-the-art; position; against |
 | Cook 1981 | formal | F9 | E, abstract | review 4; state-of-the-art; position; against |
-| Reder 1980 | formal | lead (Crossref) | E, located (scan without text) | review 4; against |
+| Reder 1980 | formal | lead (Crossref) | E, read in full (through the university, 2026-10-29) | review 4; against |
 | Mayer 1996 | formal | F9; F30 | E, abstract | review 4; state-of-the-art; position; baseline |
 | van der Meij 2012 | formal | F9 | E, abstract (secondary) | review 4; state-of-the-art; against |
 | Stewart 1991 | formal | F21 | E, abstract | review 4; against |

@@ -122,8 +122,10 @@ one auditor per review, none of whom wrote it. Counts of each README and flow we
   - an indexer's summary of Paas 1992 reversed the author's own finding;
   - one textbook's question count was given for every chapter, from its first;
   - a count of screened titles disagrees with the review's own rule, and both are now stated.
-- The five unverifiable rows rest on Rowland 2014, Yang 2021 and Hattie 2007, which are behind publishers' paywalls;
-  they keep their marks until the papers are read through the university.
+- The five unverifiable rows rested on three paywalled papers, sent to the university. Hattie 2007 came back and its
+  two rows are correct, Table 1 giving 40 effects for Bangert-Drowns 1991. Rowland 2014 and Yang 2021 are published by
+  APA, to which the university has no subscription: their three rows stay marked as not checked. Reder 1980, read
+  the same way, now gives the result the review could not state before.
 - The audit also lowered three grades to what their evidence allows and restored missing "(secondary)" marks.
 - It found 28 rows of one protocol table shifted by the script that added the OpenAlex column; they were rebuilt
   from the recorded counts.

@@ -34,8 +34,8 @@ This file reads the literature on questions written into study material, by stra
 
 | Source | Setting | Result |
 |---|---|---|
-| Rowland 2014 (core, full text) | lab meta-analysis | initial cued recall g = 0.61 [0.52, 0.69]; free recall 0.29; recognition 0.29; with high exposure, recognition 0.36, cued 0.72, free 0.82 |
-| Yang 2021 (core, full text) | 222 classroom studies | format moderated, Q(8) = 61.333: short answer 0.638, multiple choice 0.567, free recall 0.238; recall 0.541 against recognition 0.607 with feedback |
+| Rowland 2014 (core; not checked in the paper, APA, no subscription) | lab meta-analysis | initial cued recall g = 0.61 [0.52, 0.69]; free recall 0.29; recognition 0.29; with high exposure, recognition 0.36, cued 0.72, free 0.82 |
+| Yang 2021 (core; the published values not checked, APA, no subscription) | 222 classroom studies | format moderated, Q(8) = 61.333: short answer 0.638, multiple choice 0.567, free recall 0.238; recall 0.541 against recognition 0.607 with feedback. The author manuscript (223 studies) gives Q(8) = 60.678, 0.629, 0.569, 0.238, and 0.534 against 0.610 |
 | Smith 2013c | 4 experiments, N = 372, texts | short-answer and hybrid questions little or no better than multiple choice in three experiments; better when initial recall succeeded (abstract) |
 | Lawson 2021 | introductory psychology course | multiple-choice and fill-in-the-blank quizzes raised exam scores equally (abstract) |
 | Little 2012; Little 2014 | lab | items with competitive options improved recall of the tested fact and of facts behind the wrong options; cued recall did not (abstracts) |
@@ -61,9 +61,9 @@ This file reads the literature on questions written into study material, by stra
 ## 4. Q4: feedback content and timing
 
 - Content, meta-analyses: high-information feedback d = 0.99, corrective 0.46, reinforcement or punishment 0.24 (Wisniewski 2020, Table 3). On items, EF 0.49, KCR 0.32, KR 0.05, and EF more effective for higher-order outcomes (Van der Kleij 2015, secondary). EF most likely best for lower- and higher-order outcomes, KR worst (Mertens 2022, secondary).
-- Bangert-Drowns 1991: 40 reports, effect 0.28 (as listed in Hattie 2007, Table 1); feedback corrected errors when learners were led to attend to it (abstract).
+- Bangert-Drowns 1991: effect 0.28 over 40 effects, as Hattie 2007 lists it in Table 1 (read). Its own abstract gives 40 reports and 58 effects; feedback corrected errors when learners were led to attend to it (abstract).
 - Single studies: explanation feedback equalled correct-answer feedback on repeated questions and beat it on new inference questions (Butler 2013). Also: correct answer after an error raised final retention by 494% in word learning, after a correct answer it changed little (Pashler 2005).
-- Against more content: immediate explanation feedback on demanding adjunct questions cut time and accuracy on the next questions, then learning (Roelle 2016, N = 59). Also: a less complex feedback outperformed more complex versions in a 1985 study by Kulhavy and colleagues (as reported in Hattie 2007).
+- Against more content: immediate explanation feedback on demanding adjunct questions cut time and accuracy on the next questions, then learning (Roelle 2016, N = 59). Also: the correct answer alone gave higher later performance than more complex feedback, in Kulhavy, White, Topp, Chan and Adams (1985), on reading passages with multiple-choice items, as Hattie 2007 reports it (read).
 - Timing: classroom studies favoured immediate feedback, lab studies of test content delayed (Kulik 1988, abstract); with a 1988 to 2024 pool, timing made no average difference, g = 0.03 [-0.08, 0.13] (Kandemir 2026, abstract).
 - Single studies of timing: delayed beat immediate on multiple-choice tests, and AUC equalled standard feedback (Butler 2007). Delayed beat immediate for children, not for adults once the lag to test was equated (Metcalfe 2009). Delayed elaborated feedback did not beat immediate (Candel 2021, N = 133). Yet 95.33% of 599 learners chose immediate feedback (Lefevre 2016).
 - Classroom moderator: corrective feedback after quizzes g = 0.537 against 0.374 without (Yang 2021, full text).

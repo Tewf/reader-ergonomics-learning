@@ -65,7 +65,7 @@ Levels: **MA** meta-analysis, **SR** systematic review, **R** review without poo
 |---|---|---|
 | Hartley 1979; Cook 1981 | an end summary gave better recall than one at the start of the same page, or none; in Cook, 40 students, an opening summary on a separate page did as well (abstracts) | E |
 | Mayer 1996 | three experiments, 163 students: a summary of captions and simple drawings matched or beat the full text on recall and transfer (abstract) | E |
-| Reder 1980 | compares texts with their summaries; the author's copy is a scan without text, so no result is claimed | E |
+| Reder 1980 | studying only a summary beat reading the whole chapter on true-or-false statements of main points and inferences, 75.2% against 65.3% (Experiments 1 and 2, N = 63), at 20 minutes and at a week. The gap closed when the text had three times the study time, and was not significant after 6 to 12 months; a summary studied first did not hurt learning related new material (read in full, pp. 125-132) | E |
 | van der Meij 2012 | numbered summaries inside the text against a structured abstract: recall d = 1.57, 40 students (secondary) | E |
 | Yanagisawa 2020 | 42 studies, N = 3,802: glossed reading taught 45.3% of words at once and 33.4% later, against 26.6% and 19.8%; in-text glosses and glossaries were the least effective forms (secondary) | MA |
 | Abraham 2008 | 11 studies: computer glosses had a medium effect on comprehension and a large one on incidental vocabulary (secondary) | MA |
