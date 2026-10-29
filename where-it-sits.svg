@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 364" role="img" aria-labelledby="t d">
 <title id="t">Where reader-ergonomics-learning sits</title><desc id="d">reader-ergonomics-learning to reader-ergonomics-topic: derives its shapes from the topic, pinned v0.4.0; reader-ergonomics-topic to reader-ergonomics: obeys the principles; reader-ergonomics-learning to reader-ergonomics: obeys the principles; CI runs their checks here, pinned v1.4.3.</desc>
 <style>
-  .box { fill: #FFFFFF; stroke: #10101459; stroke-width: 1.5; }
+  .box { fill: #FFFFFF; stroke: #6A6D77; stroke-width: 1.5; }
   .this { fill: #EFEFF3; stroke: #101014; stroke-width: 2.5; }
   .tag { font: 600 11px 'JetBrains Mono', ui-monospace, monospace; fill: #6A6D77; letter-spacing: 0.06em; }
   .name { font: 600 15px 'JetBrains Mono', ui-monospace, monospace; fill: #101014; }
@@ -11,7 +11,7 @@
   .arrow { stroke: #55575F; stroke-width: 1.5; fill: none; marker-end: url(#tip); }
   #tip path { fill: #55575F; }
   @media (prefers-color-scheme: dark) {
-    .box { fill: #1A1A20; stroke: #F7F7F966; }
+    .box { fill: #1A1A20; stroke: #9A9CA4; }
     .this { fill: #26262E; stroke: #F7F7F9; }
     .name { fill: #F7F7F9; }
     .tag, .legend { fill: #9A9CA4; }

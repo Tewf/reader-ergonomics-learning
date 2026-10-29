@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 618 480" role="img" aria-labelledby="t d"><title id="t">Practice questions: how the pool of sources was built</title>
 <desc id="d">Returned by the strings: Formal 7,908, Grey None; Screened: Formal 832, Grey 226; Included as new: Formal 73, Grey 23; Carried from the core or a sibling review: Formal 9, Grey 2; In the review: 107.</desc>
 <style>
-  .box { fill: #FFFFFF; stroke: #10101459; stroke-width: 1.5; }
+  .box { fill: #FFFFFF; stroke: #6A6D77; stroke-width: 1.5; }
   .total { fill: #EFEFF3; stroke: #101014; stroke-width: 1.5; }
   .n { font: 600 20px 'JetBrains Mono', ui-monospace, monospace; fill: #101014; }
   .label { font: 400 13px Archivo, system-ui, sans-serif; fill: #55575F; }
@@ -10,7 +10,7 @@
   .arrow { stroke: #55575F; stroke-width: 1.5; fill: none; marker-end: url(#tip); }
   #tip path { fill: #55575F; }
   @media (prefers-color-scheme: dark) {
-    .box { fill: #1A1A20; stroke: #F7F7F966; }
+    .box { fill: #1A1A20; stroke: #9A9CA4; }
     .total { fill: #26262E; stroke: #F7F7F9; }
     .n, .head { fill: #F7F7F9; }
     .label { fill: #B8BAC2; }
