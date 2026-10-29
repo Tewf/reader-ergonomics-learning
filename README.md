@@ -7,7 +7,7 @@ How to write material meant to be learned, so that someone who studies it alone 
 problems, at the least cost. The material is the lesson, the worked example, the exercise sheet, the study guide, the
 flashcards, and the questions inside them.
 
-It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/README.md).
+It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/c08433c4d868d9b38ac1441f58ae7602c399db6d/README.md).
 The principles, their grades and the checks live there and are not repeated here. So do the learning effects
 themselves: retrieval, spacing, worked examples, multimedia. This repository adds what the genre changes: how each of
 these documents is built, and what a program can check in it.
@@ -25,7 +25,7 @@ This page in French: [README.fr.md](README.fr.md).
 
 ## Where it sits
 
-![Three levels: this repository uses reader-ergonomics-topic (pinned v0.4.0) and reader-ergonomics (pinned v1.9.0); the topic uses reader-ergonomics.](where-it-sits.svg)
+![Three levels: this repository uses reader-ergonomics-topic (pinned v0.4.0) and reader-ergonomics (pinned v1.10.0); the topic uses reader-ergonomics.](where-it-sits.svg)
 
 <details>
 <summary>Graphviz source</summary>
@@ -40,14 +40,14 @@ digraph levels {
   R [label=<<font point-size="10" color="#55575F">LEVEL 0</font><br/><b>reader-ergonomics</b><br/><font point-size="11" color="#55575F">how any text serves its reader; learning science</font>>, fillcolor="#FFFFFF", color="#3D434B"];
   L -> T [label=<  derives its shapes from the topic,<br/>  pinned v0.4.0>];
   T -> R [label=<  obeys the principles>];
-  L -> R [label=<  obeys the principles; CI runs<br/>  their checks here, pinned v1.9.0>, constraint=false];
+  L -> R [label=<  obeys the principles; CI runs<br/>  their checks here, pinned v1.10.0>, constraint=false];
 }
 ```
 
 </details>
 
 - **It obeys reader-ergonomics** and runs its checks, as every extension does
-  ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/extending.md)).
+  ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/c08433c4d868d9b38ac1441f58ae7602c399db6d/extending.md)).
 - **Its shapes derive from the
   [topic](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/shapes/topic.md)**:
   a title, a summary that stands for the document, a body, its contents, and what it points to. A lesson or an
@@ -61,7 +61,7 @@ a learner studies, and a program that checks them.
 
 | What exists | Where | What it leaves out |
 |---|---|---|
-| the learning effects, each with its grade and its effect size | reader-ergonomics, [learning science](https://github.com/Tewf/reader-ergonomics/tree/e8864477a53d713251ba42a4cf7b7a0d761243a2/evidence/learning-science) | how a question, a card or an exercise sheet is written |
+| the learning effects, each with its grade and its effect size | reader-ergonomics, [learning science](https://github.com/Tewf/reader-ergonomics/tree/c08433c4d868d9b38ac1441f58ae7602c399db6d/evidence/learning-science) | how a question, a card or an exercise sheet is written |
 | guides in prose for teachers and authors | practice guides and books, placed by the reviews | a check a program can run |
 | lesson templates checked by a program | [The Carpentries Workbench](https://github.com/carpentries/pegboard) | its checks read headings, blocks and links, not what the lesson teaches |
 
@@ -120,7 +120,7 @@ Each review's `baseline.md` gives the design of the comparison: matched time, a 
 
 ## Brought from the sibling repositories
 
-Linked at a pinned commit, never copied ([one place per fact](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/principles/collection/one-place-per-fact.md)).
+Linked at a pinned commit, never copied ([one place per fact](https://github.com/Tewf/reader-ergonomics/blob/c08433c4d868d9b38ac1441f58ae7602c399db6d/principles/collection/one-place-per-fact.md)).
 
 | From | What | Used for |
 |---|---|---|

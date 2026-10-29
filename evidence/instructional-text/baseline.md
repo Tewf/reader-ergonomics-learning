@@ -10,7 +10,7 @@ This file names the baseline a proposed shape of study text must beat, and says 
 | A lesson for one sitting | the Carpentries episode: questions and objectives at the top, challenges with nested solutions, key points at the end (Carpentries 2026a) | a template with required parts; the project counts 45 lessons and 4,980 workshops since 2012 (Carpentries 2025) |
 
 - The first is the primary baseline: it is what a learner studying alone holds.
-- The plain linear text of the core's [learning-science baseline](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/evidence/learning-science/baseline.md) is the floor below both.
+- The plain linear text of the core's [learning-science baseline](https://github.com/Tewf/reader-ergonomics/blob/c08433c4d868d9b38ac1441f58ae7602c399db6d/evidence/learning-science/baseline.md) is the floor below both.
 - The baseline sources score OpenStax 2026b 10.5, Carpentries 2026a 14.5 and Carpentries 2025 11.5 of 20 (sources.md).
 
 ## Candidate variant to test
