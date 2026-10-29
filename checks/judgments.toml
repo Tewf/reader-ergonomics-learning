@@ -263,6 +263,6 @@ answer = "How-to, for whoever runs the comparison: `The named baselines`, then `
 [[answer]]
 check = "co-change"
 path = ".github/workflows/checks.yml"
-question = "changed together with AGENTS.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+question = "changed together with AGENTS.md in 5 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "6c5455a13fa9"
-answer = "Neither: this file runs the checks in CI and AGENTS.md gives the same commands for a local run, so a change to what CI runs touches both on purpose. The four shared commits moved a pinned release (`# v1.12.0`) or added a check, the topic check copied at `# v0.4.0 (decision 0003)`. Decision 0003 pins both by commit."
+answer = "Neither: this file runs the checks in CI and AGENTS.md gives the same commands for a local run, so a change to what CI runs touches both on purpose. The five shared commits moved a pinned release (`# v1.12.0`) or added a step that a local run repeats: the topic check copied at `# v0.4.0 (decision 0003)`, and `Clone the family beside this repository, for bibliography-keys`. Decision 0003 pins both by commit."
