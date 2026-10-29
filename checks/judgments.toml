@@ -135,13 +135,6 @@ file = "176b32ac42b6"
 answer = "Neither: the tests sit in checks/, beside local/, where unittest discover finds them; in local/ the standard's run.py would load a test file as a candidate check. This module changes with its tests because each rule it reads has one, and its own docstring names its readers: `lesson.py, sheet.py and deck.py import it`."
 
 [[answer]]
-check = "co-change"
-path = "checks/local/lesson.py"
-question = "changed together with checks/test_learning.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "f5d5eb1ec193"
-answer = "Neither: a check and its tests change together by the rule that every rule gets a test, and the tests stay in checks/, out of local/, so run.py never loads them as checks. The module says where else its rules run: `questions.py calls it for notes`."
-
-[[answer]]
 check = "logical-lines"
 path = "evidence/instructional-text/protocol.md"
 question = "127 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
@@ -252,3 +245,17 @@ path = "evidence/instructional-text/baseline.md"
 question = "reads about equally as tutorial and how-to: one mode per document?"
 file = "04ba7528f555"
 answer = "How-to, for whoever runs the comparison: `The named baselines`, then `How a comparison would be measured` and `A checklist in the baseline's own terms`. The checklist is the procedure; the rest names its inputs."
+
+[[answer]]
+check = "co-change"
+path = "checks/local/lesson.py"
+question = "changed together with checks/test_learning.py in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "21b93857959f"
+answer = "Neither: a check and its tests change together by the rule that every rule gets a test, and the tests stay in checks/, out of local/, so run.py never loads them as checks. The module says where else its rules run: `questions.py calls it for notes`."
+
+[[answer]]
+check = "section-cohesion"
+path = "shapes/question-block.md"
+question = "section 'Skeleton' is far from every other section (0.24): a second role?"
+file = "ec0f01d162eb"
+answer = "One role: the skeleton is the shape itself, written as a template under `## Skeleton`, and the other sections grade its items and say how they are checked (`## The items`, `## Checked by`). It reads far from them because it is mostly markup, not prose. It stays."

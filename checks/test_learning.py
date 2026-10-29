@@ -187,14 +187,15 @@ class Lesson(unittest.TestCase):
 
     def test_trap_without_refutation(self):
         text = GOOD_LESSON.replace("> **Why not:** the reason, then the right idea.\n", "")
-        self.assertTrue(any("a trap with no Why not" in m for m in messages(self.run_on(text), "error")))
+        self.assertTrue(any("a trap with no Why not" in m for m in messages(self.run_on(text), "warning")))
+        self.assertFalse(messages(self.run_on(text), "error"))
 
     def test_trap_callouts(self):
         quarto = '::: {.callout-warning title="Trap"}\nA wrong idea.\n:::\n'
         obsidian = "> [!warning] Trap\n> A wrong idea.\n"
         for block in (quarto, obsidian):
             text = GOOD_LESSON.replace("> **Trap:** a wrong idea.\n> **Why not:** the reason, then the right idea.\n", block)
-            self.assertTrue(any("a trap with no Why not" in m for m in messages(self.run_on(text), "error")), block)
+            self.assertTrue(any("a trap with no Why not" in m for m in messages(self.run_on(text), "warning")), block)
             refuted = block.replace("A wrong idea.", "A wrong idea. **Why not:** the reason.")
             text = GOOD_LESSON.replace("> **Trap:** a wrong idea.\n> **Why not:** the reason, then the right idea.\n", refuted)
             self.assertFalse(any("a trap" in m for m in messages(self.run_on(text))), refuted)
@@ -208,7 +209,7 @@ class Lesson(unittest.TestCase):
         self.assertTrue(any("only a key" in m for m in messages(questions.check_text("n.md", bare, LESSON, align=False), "warning")))
         piege = vault + "\n> [!WARNING] Piège\n> Une idée fausse.\n"
         found = questions.check_text("n.md", piege, {**LESSON, "trap_labels": ["Piège"], "why_labels": ["Pourquoi non"]}, align=False)
-        self.assertTrue(any("a trap with no Pourquoi non" in m for m in messages(found, "error")))
+        self.assertTrue(any("a trap with no Pourquoi non" in m for m in messages(found, "warning")))
 
     def test_notes_need_no_objectives(self):
         text = GOOD_LESSON.replace("- **O1** Compute a thing.\n- **O2** Explain a thing.\n", "").replace("**O1** ", "").replace("**O2** ", "")

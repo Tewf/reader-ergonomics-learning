@@ -67,7 +67,8 @@ and a method sheet the learner writes from memory.
 
 | Check | What it verifies | Kind |
 |---|---|---|
-| `lesson` | objectives tested, answers folded, traps refuted, as in a lesson | exact |
+| `lesson` | objectives tested, answers folded, as in a lesson | exact |
+| `lesson` | traps carry a Why not | heuristic, a warning, as in a lesson |
 | standard | the headings How to use, Error grid, Redo on, Method sheet, See also | exact |
 | judgment | whether each part solves one problem in full before its variants | judgment |
 

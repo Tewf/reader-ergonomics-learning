@@ -13,15 +13,17 @@ gives; it is read by learning_markup.py, outside fenced blocks and inline code.
 - options: a question with two or more lettered options has between `options` bounds, and none reads "all of the
   above" or "none of the above" (heuristic: the item-writing rules are a convention, tested for exams, not learning);
 - refuted: a trap, a quote opening with a `trap_labels` label or a callout titled with one, holds a `why_labels`
-  label (exact);
+  label (heuristic, a warning: a trap can refute in prose without the label, as all 134 traps of the held-out books
+  did, so a program sees the label and not the refutation);
 - callout questions: a question written as a callout (`> [!QUESTION]- Check: ...`, the S7 vault's form) is folded
   (exact) and its answer explains (heuristic); in a lesson it also names an objective.
 
 questions.py runs the same rules on notes with `align` off: no objectives are asked for, and questions need no tag.
 
-What a run with no error guarantees, for the declared files: objectives and questions are aligned both ways, every
-question's answer is out of the line of sight, every trap carries its refutation. What it does not: that a question
-tests its objective, that an answer is right, that a trap names the misconception learners actually hold (judgment).
+What a run with no error guarantees, for the declared files: objectives and questions are aligned both ways, and
+every question's answer is out of the line of sight. What it does not: that a trap refutes its idea (a warning reads
+only the label), that a question tests its objective, that an answer is right, that a trap names the misconception
+learners actually hold (judgment).
 Time O(lines) per file.
 """
 from __future__ import annotations
@@ -147,6 +149,7 @@ def question(path: str, lines: list[str], index: int, stop: int, objectives: dic
 def traps(path: str, lines: list[str], settings: dict) -> list[Finding]:
     trap_labels = settings.get("trap_labels", ["Trap"])
     why_labels = settings.get("why_labels", ["Why not"])
-    return [Finding(NAME, path, line, f"a trap with no {why_labels[0]}: state why the idea is wrong, then the "
-                                      "accepted one, since refutation is what teaches")
+    return [Finding(NAME, path, line, f"a trap with no {why_labels[0]}: label the refutation, or write it, saying "
+                                      "why the idea is wrong and then the accepted one, since refutation is what "
+                                      "teaches", "warning")
             for line, body in markup.traps(lines, trap_labels) if not markup.holds_label(body, why_labels)]

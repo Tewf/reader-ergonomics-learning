@@ -67,7 +67,7 @@ and corrects the usual wrong idea; then it checks each aim with a question whose
 |---|---|---|
 | `lesson` | every objective is tested; every question names an objective that exists | exact |
 | `lesson` | every question has a folded answer | exact |
-| `lesson` | every Trap, a quote or a callout titled Trap, holds a Why not | exact |
+| `lesson` | every Trap, a quote or a callout titled Trap, holds a Why not | heuristic, a warning: a refutation written in prose carries no label |
 | `lesson` | an answer gives a reason, not only the key; multiple-choice items follow the [question block](question-block.md) | heuristic |
 | standard | the headings Objectives, Check yourself, Key points, See also | exact |
 

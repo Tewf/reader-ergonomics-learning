@@ -97,6 +97,9 @@ goes with them.
 - **The vault, checked with the `questions` check** (no objectives asked of a note): 757 questions in 93 of 1,197
   notes, every one folded; 10 answers are only a key. Its 48 traps, written as callouts titled Piège, refute in
   prose and carry no Pourquoi non label, the one difference between its convention and these shapes'.
+- **What changed after the count:** since neither body labelled a single refutation, a trap with no Why not is a
+  warning, not an error: the program sees the label, not the refutation. The vault has since given its 48 traps a
+  Pourquoi non line.
 
 ## Declaring the documents to check
 

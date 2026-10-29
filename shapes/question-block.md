@@ -49,7 +49,8 @@ items. It has no title or summary of its own, so it is checked inside the docume
 | Check | What it verifies | Kind |
 |---|---|---|
 | `lesson` | each item has a folded answer, and its objective exists | exact |
-| `questions` | the same rules in a note, which states no objectives: folded answers, refuted traps | exact |
+| `questions` | the same rules in a note, which states no objectives: folded answers | exact |
+| `questions` | traps carry a Why not | heuristic, a warning, as in a lesson |
 | `lesson` | an answer holds a reason, more words than a bare key | heuristic |
 | `lesson` | a multiple-choice item has three or four options, none "all" or "none of the above" | heuristic |
 | judgment | whether a part has an item beyond recall: a question's level depends on what was taught | judgment |
