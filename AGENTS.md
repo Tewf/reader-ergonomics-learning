@@ -1,13 +1,13 @@
 # Contributing to this repository
 
 For anyone changing this repository, person or language model. To apply the reader-ergonomics standard elsewhere,
-read its [standard.md](https://github.com/Tewf/reader-ergonomics/blob/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/standard.md);
+read its [standard.md](https://github.com/Tewf/reader-ergonomics/blob/d17ee8e9bc07e0bd06e8ec7734cecd570b4e3b37/standard.md);
 this file is about this repository only.
 
 ## Before writing
 
-1. Read the standard at the release this repository checks against (v1.3.0), then its
-   [learning-science review](https://github.com/Tewf/reader-ergonomics/tree/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/evidence/learning-science),
+1. Read the standard at the release this repository checks against (v1.3.1), then its
+   [learning-science review](https://github.com/Tewf/reader-ergonomics/tree/d17ee8e9bc07e0bd06e8ec7734cecd570b4e3b37/evidence/learning-science),
    then the [topic](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/shapes/topic.md)
    every shape here derives from.
 2. Ask of every new claim whether it is about the document or about the technique. A claim about whether a technique
@@ -37,10 +37,10 @@ this file is about this repository only.
 ## Before handing back
 
 Run the checks against the release CI uses, not a checkout that may have moved on: extract it once with
-`git -C ../reader-ergonomics archive d408349 | tar -x -C ../re-v1.3.0`.
+`git -C ../reader-ergonomics archive d17ee8e | tar -x -C ../re-v1.3.1`.
 
 ```sh
-python3 ../re-v1.3.0/checks/run.py . --tiers program,meaning --judge flag   # the repository, as CI runs it
+python3 ../re-v1.3.1/checks/run.py . --tiers program,meaning --judge flag   # the repository, as CI runs it
 ```
 
 - Fix every error. Read every warning.
