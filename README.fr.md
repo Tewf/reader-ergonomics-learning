@@ -4,7 +4,7 @@ Comment écrire un support fait pour être appris, pour que la personne qui l'é
 sur des problèmes nouveaux, au moindre coût. Le support, c'est la leçon, l'exemple résolu, la feuille d'exercices, la
 fiche de révision, les cartes mémoire, et les questions qu'ils contiennent.
 
-Il étend [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/6d4e324157b17862aa5c5158fde0ba02db992729/README.md).
+Il étend [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/README.md).
 Les principes, leurs niveaux de preuve et les vérifications vivent là-bas et ne sont pas répétés ici. Les effets
 d'apprentissage eux-mêmes aussi : récupération en mémoire, espacement, exemples résolus, multimédia. Ce dépôt ajoute
 ce que le genre change : comment chacun de ces documents est construit, et ce qu'un programme peut y vérifier.
@@ -30,12 +30,12 @@ Cette page en anglais : [README.md](README.md). Les deux versions suivent le mê
                    ▼  dérive ses gabarits du topic, épinglé à v0.4.0
  niveau 1   reader-ergonomics-topic      un gabarit, le topic, imbriqué à toute profondeur, et sa vérification
                    │
-                   ▼  obéit aux principes ; la CI y lance leurs vérifications, épinglé à v1.2.0
+                   ▼  obéit aux principes ; la CI y lance leurs vérifications, épinglé à v1.3.0
  niveau 0   reader-ergonomics            comment un texte sert son lecteur, et sa revue des sciences de l'apprentissage
 ```
 
 - **Il obéit à reader-ergonomics** et lance ses vérifications, comme toute extension
-  ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/6d4e324157b17862aa5c5158fde0ba02db992729/extending.md)).
+  ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/extending.md)).
 - **Ses gabarits dériveront du
   [topic](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/shapes/topic.md)** :
   un titre, un résumé qui tient lieu du document, un corps, son contenu, et ce vers quoi il pointe. Une leçon ou une
@@ -49,7 +49,7 @@ documents qu'un apprenant étudie, et un programme qui les vérifie.
 
 | Ce qui existe | Où | Ce qui manque |
 |---|---|---|
-| les effets d'apprentissage, chacun avec son niveau de preuve et sa taille d'effet | reader-ergonomics, [learning science](https://github.com/Tewf/reader-ergonomics/tree/6d4e324157b17862aa5c5158fde0ba02db992729/evidence/learning-science) | comment s'écrit une question, une carte ou une feuille d'exercices |
+| les effets d'apprentissage, chacun avec son niveau de preuve et sa taille d'effet | reader-ergonomics, [learning science](https://github.com/Tewf/reader-ergonomics/tree/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/evidence/learning-science) | comment s'écrit une question, une carte ou une feuille d'exercices |
 | des guides en prose pour enseignants et auteurs | guides de pratique et livres, situés par les revues | une vérification qu'un programme peut lancer |
 | des gabarits de leçon vérifiés par programme | [The Carpentries Workbench](https://github.com/carpentries/pegboard) | ses vérifications lisent les titres, les blocs et les liens, pas ce que la leçon enseigne |
 
@@ -84,12 +84,12 @@ Pourquoi quatre, et où chaque travail est passé en revue : [décision 0002](de
 
 ## Repris des dépôts voisins
 
-Liés à un commit épinglé, jamais copiés ([one place per fact](https://github.com/Tewf/reader-ergonomics/blob/6d4e324157b17862aa5c5158fde0ba02db992729/principles/collection/one-place-per-fact.md)).
+Liés à un commit épinglé, jamais copiés ([one place per fact](https://github.com/Tewf/reader-ergonomics/blob/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/principles/collection/one-place-per-fact.md)).
 
 | De | Quoi | Sert à |
 |---|---|---|
-| reader-ergonomics | les principes, la revue des sciences de l'apprentissage, les vérifications, la feuille de style, le contrat des extensions | chaque document d'ici ; la CI |
-| reader-ergonomics-topic | le topic et son premier gabarit dérivé, la fiche de décision ; la méthode de revue de ses trois revues | les gabarits à venir ; [decisions](decisions/) ; les quatre revues |
+| reader-ergonomics | les principes, la revue des sciences de l'apprentissage, les vérifications, la feuille de style, le contrat des extensions, le gabarit de fiche de décision | chaque document d'ici ; [decisions](decisions/) ; la CI |
+| reader-ergonomics-topic | le topic, base de chaque gabarit à venir ; la méthode de revue de ses trois revues | les gabarits à venir ; les quatre revues |
 | reader-ergonomics-software-design | la méthode de lecture des sites de questions-réponses | le volet Q/R de chaque revue |
 | reader-ergonomics-presentations | l'enseignement en direct, qui reste là-bas ; des contextes qui surchargent une base pour un public | la frontière ; un modèle pour les vitesses de lecture d'une fiche de révision, à tester |
 

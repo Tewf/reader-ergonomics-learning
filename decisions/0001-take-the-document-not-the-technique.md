@@ -1,15 +1,15 @@
-# 0001 Take the document, not the technique
+# 0001: Take the document, not the technique
 
 **Decision:** this repository covers how study documents are written and checked; whether a learning technique works
 stays in reader-ergonomics and is linked from here.
 
-Status: accepted, 2026-10-29. Shape: [decision record](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/shapes/decision-record.md).
+**Status:** accepted, 2026-10-29. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/shapes/decision-record.md).
 
 ## Context
 
 - reader-ergonomics already reviews learning science: about 60 sources in eight strands, from retrieval and spacing
   to worked examples and multimedia
-  ([learning science](https://github.com/Tewf/reader-ergonomics/tree/6d4e324157b17862aa5c5158fde0ba02db992729/evidence/learning-science)).
+  ([learning science](https://github.com/Tewf/reader-ergonomics/tree/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/evidence/learning-science)).
 - Two of its principles apply only to material meant to be learned: retrieval prompts, and worked examples with
   subgoals. They hold for a note or a report as well, so they belong to the standard.
 - The genre's own sources were cited nowhere in the family on 2026-10-29: how a question is written, how a card is
@@ -22,7 +22,7 @@ Status: accepted, 2026-10-29. Shape: [decision record](https://github.com/Tewf/r
 - **Out:** the effects of the techniques, teaching live, scheduling algorithms, tutoring systems, exam statistics,
   and programme design. The README gives the reason for each.
 - A rule that turns out to hold for any reader, not only a learner, moves up to the standard, as
-  [decision 0001 of reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/6d4e324157b17862aa5c5158fde0ba02db992729/decisions/0001-extensions-depend-one-way.md)
+  [decision 0001 of reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/decisions/0001-extensions-depend-one-way.md)
   requires.
 
 ## Consequences

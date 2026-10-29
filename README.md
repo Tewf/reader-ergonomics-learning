@@ -7,7 +7,7 @@ How to write material meant to be learned, so that someone who studies it alone 
 problems, at the least cost. The material is the lesson, the worked example, the exercise sheet, the study guide, the
 flashcards, and the questions inside them.
 
-It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/6d4e324157b17862aa5c5158fde0ba02db992729/README.md).
+It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/README.md).
 The principles, their grades and the checks live there and are not repeated here. So do the learning effects
 themselves: retrieval, spacing, worked examples, multimedia. This repository adds what the genre changes: how each of
 these documents is built, and what a program can check in it.
@@ -32,12 +32,12 @@ This page in French: [README.fr.md](README.fr.md).
                   ▼  derives its shapes from the topic, pinned at v0.4.0
  level 1   reader-ergonomics-topic      one topic shape, nested to any depth, and its check
                   │
-                  ▼  obeys the principles; CI runs their checks here, pinned at v1.2.0
+                  ▼  obeys the principles; CI runs their checks here, pinned at v1.3.0
  level 0   reader-ergonomics            how any text serves its reader, and its review of learning science
 ```
 
 - **It obeys reader-ergonomics** and runs its checks, as every extension does
-  ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/6d4e324157b17862aa5c5158fde0ba02db992729/extending.md)).
+  ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/extending.md)).
 - **Its shapes will derive from the
   [topic](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/shapes/topic.md)**:
   a title, a summary that stands for the document, a body, its contents, and what it points to. A lesson or an
@@ -51,7 +51,7 @@ a learner studies, and a program that checks them.
 
 | What exists | Where | What it leaves out |
 |---|---|---|
-| the learning effects, each with its grade and its effect size | reader-ergonomics, [learning science](https://github.com/Tewf/reader-ergonomics/tree/6d4e324157b17862aa5c5158fde0ba02db992729/evidence/learning-science) | how a question, a card or an exercise sheet is written |
+| the learning effects, each with its grade and its effect size | reader-ergonomics, [learning science](https://github.com/Tewf/reader-ergonomics/tree/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/evidence/learning-science) | how a question, a card or an exercise sheet is written |
 | guides in prose for teachers and authors | practice guides and books, placed by the reviews | a check a program can run |
 | lesson templates checked by a program | [The Carpentries Workbench](https://github.com/carpentries/pegboard) | its checks read headings, blocks and links, not what the lesson teaches |
 
@@ -85,12 +85,12 @@ Why four, and where each work is reviewed: [decision 0002](decisions/0002-four-r
 
 ## Brought from the sibling repositories
 
-Linked at a pinned commit, never copied ([one place per fact](https://github.com/Tewf/reader-ergonomics/blob/6d4e324157b17862aa5c5158fde0ba02db992729/principles/collection/one-place-per-fact.md)).
+Linked at a pinned commit, never copied ([one place per fact](https://github.com/Tewf/reader-ergonomics/blob/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/principles/collection/one-place-per-fact.md)).
 
 | From | What | Used for |
 |---|---|---|
-| reader-ergonomics | the principles, the learning-science review, the checks, the stylesheet, the extension contract | every document here; CI |
-| reader-ergonomics-topic | the topic and its first derived shape, the decision record; the review method its three reviews share | the shapes to come; [decisions](decisions/); the four reviews |
+| reader-ergonomics | the principles, the learning-science review, the checks, the stylesheet, the extension contract, the decision-record shape | every document here; [decisions](decisions/); CI |
+| reader-ergonomics-topic | the topic, base of every shape to come; the review method its three reviews share | the shapes to come; the four reviews |
 | reader-ergonomics-software-design | the method for reading question-and-answer sites | the Q/A strand of each review |
 | reader-ergonomics-presentations | teaching live, which stays there; contexts that override a base for one audience | the boundary; a model for the reading speeds of a study guide, to be tested |
 

@@ -1,9 +1,9 @@
-# 0002 Four reviews, one per kind of study document
+# 0002: Four reviews, one per kind of study document
 
 **Decision:** the evidence is split into four multivocal reviews: practice questions, flashcards, exercise sets and
 instructional text, each owning the works no other review in the family holds.
 
-Status: accepted, 2026-10-29. Shape: [decision record](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/shapes/decision-record.md).
+**Status:** accepted, 2026-10-29. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/shapes/decision-record.md).
 
 ## Context
 

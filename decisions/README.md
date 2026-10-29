@@ -1,8 +1,8 @@
 # Decisions
 
-One record per choice that shapes this repository. Each is a topic in the decision-record shape of
-reader-ergonomics-topic: the decision in one sentence under its title, then its status, context, decision and
-consequences.
+One record per choice that shapes this repository. Each follows the standard's
+[decision-record shape](https://github.com/Tewf/reader-ergonomics/blob/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/shapes/decision-record.md):
+the decision in one sentence under its title, then its status, context, decision and consequences.
 
 ## Contents
 

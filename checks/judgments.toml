@@ -7,3 +7,10 @@ path = "checks"
 question = "2 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
 file = ""
 answer = "It stays: `checks` is the folder the extension contract names for `config.toml`, and this file of answers sits beside it; the local checks will join them with the first shape."
+
+[[answer]]
+check = "document-mode"
+path = "README.fr.md"
+question = "reads about equally as explanation and how-to: one mode per document?"
+file = "3a108e287cc0"
+answer = "One mode: it is the front page, read to learn what the repository is and is not, in `## Périmètre` and `## Où il se place`. The how-to is the two commands of `## Le vérifier`, which the standard's README shape asks every front page to carry; the English page holds the same sections and reads as one mode."
