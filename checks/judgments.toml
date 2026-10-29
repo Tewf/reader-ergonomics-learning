@@ -10,20 +10,6 @@ answer = "It stays: `checks` is the folder the extension contract names for `con
 
 [[answer]]
 check = "logical-lines"
-path = "README.fr.md"
-question = "82 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "6dbb57167c0d"
-answer = "One role: the French front page, kept in step with `README.md`, which tells a reader what this repository is, from `Périmètre` to `Suite`. It stays whole."
-
-[[answer]]
-check = "logical-lines"
-path = "README.md"
-question = "81 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "6763df31a872"
-answer = "One role: the front page, which tells a reader what this repository is, from `Where it sits` to `Next`. One line past the trigger, it stays whole."
-
-[[answer]]
-check = "logical-lines"
 path = "evidence/exercise-sets/protocol.md"
 question = "136 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
 file = "56a6d18f0be9"
@@ -150,13 +136,6 @@ answer = "No: the two Q/A strands open with the same sentence frame, but the fac
 
 [[answer]]
 check = "document-mode"
-path = "README.fr.md"
-question = "reads about equally as explanation and how-to: one mode per document?"
-file = "6dbb57167c0d"
-answer = "One mode: the front page, read to learn what the repository is and is not, in `Périmètre` and `Où il se place`. The how-to is the two commands of `Le vérifier`, which the standard's README shape asks every front page to carry."
-
-[[answer]]
-check = "document-mode"
 path = "evidence/exercise-sets/position.md"
 question = "reads about equally as reference and how-to: one mode per document?"
 file = "d7cc3ae5c219"
@@ -224,3 +203,38 @@ path = "evidence/practice-questions/position.md"
 question = "reads about equally as explanation and reference: one mode per document?"
 file = "a59f32cb48e8"
 answer = "Reference: findings sorted under `Known`, `Known with caveat`, `Not known` and `What this repository adds`, looked up by question. Each finding is one line, not an argument."
+
+[[answer]]
+check = "logical-lines"
+path = "README.fr.md"
+question = "82 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "b215d97e4472"
+answer = "One role: the French front page, kept in step with `README.md`, which tells a reader what this repository is, from `Périmètre` to `Suite`. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "README.md"
+question = "81 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "1af8915816f9"
+answer = "One role: the front page, which tells a reader what this repository is, from `Where it sits` to `Next`. One line past the trigger, it stays whole."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/checks.yml"
+question = "changed together with AGENTS.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "733537b98341"
+answer = "Neither: they change together because each names the pinned release of reader-ergonomics, this file to check it out (`# v1.3.1`), AGENTS.md to link it and to extract it for a local run. Decision 0003 pins both by commit, so every move of the pin touches both, on purpose."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/pages.yml"
+question = "changed together with AGENTS.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "f9007a71cfc0"
+answer = "Neither: this file checks out the standard's stylesheet at the pinned release (`# v1.3.1`), and AGENTS.md names the same release; decision 0003 pins both by commit, so a move of the pin touches both, on purpose."
+
+[[answer]]
+check = "document-mode"
+path = "README.fr.md"
+question = "reads about equally as explanation and how-to: one mode per document?"
+file = "b215d97e4472"
+answer = "One mode: the front page, read to learn what the repository is and is not, in `Périmètre` and `Où il se place`. The how-to is the two commands of `Le vérifier`, which the standard's README shape asks every front page to carry."

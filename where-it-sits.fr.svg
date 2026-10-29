@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 364" role="img" aria-labelledby="t d">
+<title id="t">Où se place reader-ergonomics-learning</title><desc id="d">reader-ergonomics-learning to reader-ergonomics-topic: dérive ses gabarits du topic, épinglé à v0.4.0; reader-ergonomics-topic to reader-ergonomics: obéit aux principes; reader-ergonomics-learning to reader-ergonomics: obéit aux principes ; la CI y lance leurs vérifications, v1.3.1.</desc>
+<style>
+  .box { fill: #FFFFFF; stroke: #10101459; stroke-width: 1.5; }
+  .this { fill: #EFEFF3; stroke: #101014; stroke-width: 2.5; }
+  .tag { font: 600 11px 'JetBrains Mono', ui-monospace, monospace; fill: #6A6D77; letter-spacing: 0.06em; }
+  .name { font: 600 15px 'JetBrains Mono', ui-monospace, monospace; fill: #101014; }
+  .text { font: 400 13px Archivo, system-ui, sans-serif; fill: #55575F; }
+  .edge { font: 400 12.5px Archivo, system-ui, sans-serif; fill: #55575F; }
+  .legend { font: 400 12.5px Archivo, system-ui, sans-serif; fill: #6A6D77; }
+  .arrow { stroke: #55575F; stroke-width: 1.5; fill: none; marker-end: url(#tip); }
+  #tip path { fill: #55575F; }
+  @media (prefers-color-scheme: dark) {
+    .box { fill: #1A1A20; stroke: #F7F7F966; }
+    .this { fill: #26262E; stroke: #F7F7F9; }
+    .name { fill: #F7F7F9; }
+    .tag, .legend { fill: #9A9CA4; }
+    .text, .edge { fill: #B8BAC2; }
+    .arrow { stroke: #B8BAC2; }
+    #tip path { fill: #B8BAC2; }
+  }
+</style>
+<defs><marker id="tip" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z"/></marker></defs>
+<text class="legend" x="16" y="22">Chaque flèche pointe vers ce dont un dépôt dépend.</text>
+<rect class="this" x="16" y="40" width="330" height="68" rx="12"/>
+<text class="tag" x="30" y="58">NIVEAU 2</text>
+<text class="name" x="30" y="79">reader-ergonomics-learning</text>
+<text class="text" x="30" y="97">les gabarits d&#x27;étude et leurs vérifications</text>
+<rect class="box" x="16" y="160" width="330" height="68" rx="12"/>
+<text class="tag" x="30" y="178">NIVEAU 1</text>
+<text class="name" x="30" y="199">reader-ergonomics-topic</text>
+<text class="text" x="30" y="217">un gabarit, le topic, imbriqué à toute profondeur</text>
+<rect class="box" x="16" y="280" width="330" height="68" rx="12"/>
+<text class="tag" x="30" y="298">NIVEAU 0</text>
+<text class="name" x="30" y="319">reader-ergonomics</text>
+<text class="text" x="30" y="337">comment un texte sert son lecteur ; l&#x27;apprentissage</text>
+<path class="arrow" d="M181.0,110 L181.0,158"/>
+<text class="edge" x="193.0" y="131.0">dérive ses gabarits du</text>
+<text class="edge" x="193.0" y="145.0">topic, épinglé à v0.4.0</text>
+<path class="arrow" d="M181.0,230 L181.0,278"/>
+<text class="edge" x="193.0" y="258.0">obéit aux principes</text>
+<path class="arrow" d="M348,74.0 C398,74.0 398,314.0 350,314.0"/>
+<text class="edge" x="398" y="184.0">obéit aux principes ;</text>
+<text class="edge" x="398" y="199.0">la CI y lance leurs</text>
+<text class="edge" x="398" y="214.0">vérifications, v1.3.1</text>
+</svg>

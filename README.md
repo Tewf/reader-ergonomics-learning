@@ -24,17 +24,7 @@ This page in French: [README.fr.md](README.fr.md).
 
 ## Where it sits
 
-```text
-        uses ──▶ (points to what it depends on)
-
- level 2   reader-ergonomics-learning   the shapes of study documents, and their checks
-                  │
-                  ▼  derives its shapes from the topic, pinned at v0.4.0
- level 1   reader-ergonomics-topic      one topic shape, nested to any depth, and its check
-                  │
-                  ▼  obeys the principles; CI runs their checks here, pinned at v1.3.1
- level 0   reader-ergonomics            how any text serves its reader, and its review of learning science
-```
+![Three levels: this repository uses reader-ergonomics-topic (pinned v0.4.0) and reader-ergonomics (pinned v1.3.1); the topic uses reader-ergonomics.](where-it-sits.svg)
 
 - **It obeys reader-ergonomics** and runs its checks, as every extension does
   ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/d17ee8e9bc07e0bd06e8ec7734cecd570b4e3b37/extending.md)).

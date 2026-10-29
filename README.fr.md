@@ -22,17 +22,7 @@ Cette page en anglais : [README.md](README.md). Les deux versions suivent le mê
 
 ## Où il se place
 
-```text
-        utilise ──▶ (pointe vers ce dont il dépend)
-
- niveau 2   reader-ergonomics-learning   les gabarits des documents d'étude, et leurs vérifications
-                   │
-                   ▼  dérive ses gabarits du topic, épinglé à v0.4.0
- niveau 1   reader-ergonomics-topic      un gabarit, le topic, imbriqué à toute profondeur, et sa vérification
-                   │
-                   ▼  obéit aux principes ; la CI y lance leurs vérifications, épinglé à v1.3.1
- niveau 0   reader-ergonomics            comment un texte sert son lecteur, et sa revue des sciences de l'apprentissage
-```
+![Trois niveaux : ce dépôt utilise reader-ergonomics-topic (épinglé à v0.4.0) et reader-ergonomics (épinglé à v1.3.1) ; le topic utilise reader-ergonomics.](where-it-sits.fr.svg)
 
 - **Il obéit à reader-ergonomics** et lance ses vérifications, comme toute extension
   ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/d17ee8e9bc07e0bd06e8ec7734cecd570b4e3b37/extending.md)).
