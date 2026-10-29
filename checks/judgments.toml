@@ -205,64 +205,64 @@ file = "4c8c8479e55c"
 answer = "Reference: counter-evidence looked up by part of the apparatus, under `Objectives and alignment`, `Refutation text` and `Explained solutions`. It teaches no skill and gives no steps."
 
 [[answer]]
-check = "document-mode"
-path = "README.fr.md"
-question = "reads about equally as how-to and explanation: one mode per document?"
-file = "105ca0ac135b"
-answer = "One mode: the front page, read to learn what the repository is and is not, in `Périmètre` and `Où il se place`. The how-to is the two commands of `Le vérifier`, which the standard's README shape asks every front page to carry."
-
-[[answer]]
 check = "logical-lines"
 path = "README.fr.md"
 question = "84 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "8e067c274d10"
+file = "4ab692106d46"
 answer = "One role: the French front page, kept in step with `README.md`, which tells a reader what this repository is, from `Périmètre` to `Suite`. It stays whole."
 
 [[answer]]
 check = "logical-lines"
 path = "README.md"
 question = "84 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "ed3d8a79cfc6"
+file = "a210b94d82e2"
 answer = "One role: the front page, which tells a reader what this repository is, from `Where it sits` to `Next`. One line past the trigger, it stays whole."
 
 [[answer]]
 check = "logical-lines"
 path = "evidence/README.md"
 question = "105 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "cefce9470853"
+file = "91191d6ca6db"
 answer = "One role: the index of the four reviews, which opens by listing them under `Contents` and then gives what they share, from `Rules the four reviews share` to `Audit` and `Second rater`. Each part is about all four reviews at once. It stays whole."
 
 [[answer]]
 check = "logical-lines"
 path = "evidence/flashcards/review.md"
 question = "83 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "39ed69132192"
+file = "36e2a9a2d28c"
 answer = "One role: the reading log of the literature, which opens by saying it `reads the literature on how flashcards are written, made, used and kept`. Its sections, from `0. Existing reviews` to `8. Practice and adoption (Q6)`, are the strands. It stays whole."
 
 [[answer]]
 check = "figures-present"
 path = "evidence/flashcards/review.md"
 question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
-file = "39ed69132192"
+file = "36e2a9a2d28c"
 answer = "Not now: it is a log by strand, from `2. Card formulation (Q1)` to `8. Practice and adoption (Q6)`, one finding per bullet. The measured effects, checked by the audit, are drawn once for the four reviews, in the evidence README's effects.svg."
-
-[[answer]]
-check = "co-change"
-path = ".github/workflows/pages.yml"
-question = "changed together with AGENTS.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ed856fff56bf"
-answer = "Neither: this file checks out the standard's stylesheet at the pinned release (`# v1.12.0`), and AGENTS.md names the same release; decision 0003 pins both by commit, so a move of the pin touches both, on purpose."
-
-[[answer]]
-check = "document-mode"
-path = "evidence/instructional-text/baseline.md"
-question = "reads about equally as tutorial and how-to: one mode per document?"
-file = "83258184420c"
-answer = "How-to, for whoever runs the comparison: `The named baselines`, then `How a comparison would be measured` and `A checklist in the baseline's own terms`. The checklist is the procedure; the rest names its inputs."
 
 [[answer]]
 check = "co-change"
 path = ".github/workflows/checks.yml"
 question = "changed together with AGENTS.md in 5 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "6c5455a13fa9"
-answer = "Neither: this file runs the checks in CI and AGENTS.md gives the same commands for a local run, so a change to what CI runs touches both on purpose. The five shared commits moved a pinned release (`# v1.12.0`) or added a step that a local run repeats: the topic check copied at `# v0.4.0 (decision 0003)`, and `Clone the family beside this repository, for bibliography-keys`. Decision 0003 pins both by commit."
+file = "2eb646e7b455"
+answer = "Neither: this file runs the checks in CI and AGENTS.md gives the same commands for a local run, so a change to what CI runs touches both on purpose. The five shared commits moved a pinned release (`# v1.13.0`) or added a step that a local run repeats: the topic check copied at `# v0.4.0 (decision 0003)`, and `Clone the family beside this repository, for bibliography-keys`. Decision 0003 pins both by commit."
+
+[[answer]]
+check = "co-change"
+path = ".github/workflows/pages.yml"
+question = "changed together with AGENTS.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "89ca70b656c1"
+answer = "Neither: this file checks out the standard's stylesheet at the pinned release (`# v1.13.0`), and AGENTS.md names the same release; decision 0003 pins both by commit, so a move of the pin touches both, on purpose."
+
+[[answer]]
+check = "document-mode"
+path = "README.fr.md"
+question = "reads about equally as explanation and how-to: one mode per document?"
+file = "4ab692106d46"
+answer = "One mode: the front page, read to learn what the repository is and is not, in `Périmètre` and `Où il se place`. The how-to is the two commands of `Le vérifier`, which the standard's README shape asks every front page to carry."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/instructional-text/baseline.md"
+question = "reads about equally as tutorial and how-to: one mode per document?"
+file = "04ba7528f555"
+answer = "How-to, for whoever runs the comparison: `The named baselines`, then `How a comparison would be measured` and `A checklist in the baseline's own terms`. The checklist is the procedure; the rest names its inputs."

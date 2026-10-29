@@ -40,13 +40,13 @@ and a method sheet the learner writes from memory.
 | Block | Rule | Grade | Evidence |
 |---|---|---|---|
 | How to use | three ways in, by the time left before the exam | convention, untested: no study of revision guides was found | [instructional text](../evidence/instructional-text/position.md) |
-| Method | each type solved once in full, in the core report's form | measured, for novices | [worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/principles/document/worked-examples-with-subgoals.md) |
+| Method | each type solved once in full, in the core report's form | measured, for novices | [worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/principles/document/worked-examples-with-subgoals.md) |
 | Trap | the usual wrong move, refuted | measured for refutation text, g = 0.36 | [instructional text](../evidence/instructional-text/review.md), strand 5 |
 | Check yourself | variants answered before their folded answers | measured (core): practice testing beats rereading | [question block](question-block.md) |
-| If you meet this again | the rule that transfers to a new problem of the type | convention, from the core report | the core [report](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/shapes/report.md) |
+| If you meet this again | the rule that transfers to a new problem of the type | convention, from the core report | the core [report](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/shapes/report.md) |
 | Error grid | the kind of each error, logged by the learner | convention, untested | none found |
-| Redo on | the variants again, a day or more later | measured (core): spaced retrieval beats massed; the best gap grows with how long the material must last | [learning science](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/evidence/learning-science/review.md), strand 2 |
-| Method sheet | written from memory, then compared | supported with caveat: recall from memory beat elaborative study at a week (core) | [learning science](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/evidence/learning-science/review.md), strand 4 |
+| Redo on | the variants again, a day or more later | measured (core): spaced retrieval beats massed; the best gap grows with how long the material must last | [learning science](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/evidence/learning-science/review.md), strand 2 |
+| Method sheet | written from memory, then compared | supported with caveat: recall from memory beat elaborative study at a week (core) | [learning science](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/evidence/learning-science/review.md), strand 4 |
 
 - **A guide to work through, not to reread.** Study guides handed to students help in some studies and hurt in others,
   and making a crib sheet does not teach ([against](../evidence/instructional-text/against.md)). Every part of this

@@ -6,7 +6,7 @@ Question: how is a set of prompts for spaced review written and kept, so that re
 - It holds 69 formal sources, all new to the reader-ergonomics repositories.
 - It scores 31 grey sources out of 20 (12 from the web, 19 threads from Q/A sites); 6 are used as examples only, one of them after the second rater scored it below 10.
 - A number read only in an abstract or a summary is marked "(secondary)".
-- Whether retrieval and spacing work, and how a scheduler is chosen, is not reviewed here: see the [core learning-science review](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/evidence/learning-science/review.md).
+- Whether retrieval and spacing work, and how a scheduler is chosen, is not reviewed here: see the [core learning-science review](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/evidence/learning-science/review.md).
 
 ## Files
 
@@ -54,7 +54,7 @@ Question: how is a set of prompts for spaced review written and kept, so that re
 
 ## Linked, not reviewed again
 
-- Retrieval, spacing and successive relearning: [learning science](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/evidence/learning-science/review.md), strand 2.
+- Retrieval, spacing and successive relearning: [learning science](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/evidence/learning-science/review.md), strand 2.
 - Schedulers and the FSRS benchmark: the same file, strand 8.
 - Folded answers: [progressive disclosure](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/evidence/progressive-disclosure/README.md).
 - The principles of the standard this review serves: [the list](../README.md#the-principles-of-the-standard-these-reviews-serve).
