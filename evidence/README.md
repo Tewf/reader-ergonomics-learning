@@ -31,6 +31,15 @@ standard.
 - Each review keeps the form most used in practice apart from the best tested one. Practice counts as evidence only
   where a study measured its effect.
 
+## The measured effects
+
+![Seventeen measured effects of the four reviews, as standardised mean differences against each study's own control. They run from 0.01 for open against commercial textbooks to 1.05 for mixed homework tested at two weeks; feedback timing sits near zero.](effects.svg)
+
+- A filled dot was read in the full text, an open one only in an abstract or a summary; a bar is the 95% interval,
+  where the source gives one. Small, medium and large are 0.2, 0.5 and 0.8.
+- Each effect is against its own study's control, so the rows are not a ranking: 0.99 for informative feedback and
+  0.79 for mixed homework answer different questions. The values and their keys are those of the audited reviews.
+
 ## Method
 
 Each review is a **multivocal literature review**: research and **grey literature** (standards, publishers' and
