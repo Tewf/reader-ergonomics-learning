@@ -36,15 +36,16 @@ this file is about this repository only.
 
 ## Before handing back
 
-Run the checks against the release CI uses, not a checkout that may have moved on. The first line unpacks it into
-`_standard/`, a folder git ignores and the site reads its stylesheet from; it is emptied first, so a new pin leaves
-no file of the old release behind.
+Run the checks against the release CI uses, not a checkout that may have moved on. The first two lines unpack it
+into `checks/out/standard`, inside the `checks/out/` that git ignores, as reader-ergonomics extending.md (Versions)
+gives it; emptied first, so a new pin leaves no file of the old release behind.
 
 ```sh
-rm -rf _standard && mkdir _standard && git -C ../reader-ergonomics archive adb53c5 | tar -x -C _standard   # the pinned release
+rm -rf checks/out/standard && mkdir -p checks/out/standard
+git -C ../reader-ergonomics archive adb53c5 | tar -x -C checks/out/standard   # the pinned release
 git -C ../reader-ergonomics-topic show 1220def:checks/local/topic.py > checks/local/topic.py   # as CI does; never committed
-python3 _standard/checks/run.py . --tiers program,meaning --judge flag   # the repository, as CI runs it
-READER_ERGONOMICS_CHECKS=_standard/checks python3 -m unittest discover -s checks   # the checks of the shapes
+python3 checks/out/standard/checks/run.py . --tiers program,meaning --judge flag   # the repository, as CI runs it
+READER_ERGONOMICS_CHECKS=checks/out/standard/checks python3 -m unittest discover -s checks   # the checks of the shapes
 ```
 
 - Fix every error. Read every warning.
