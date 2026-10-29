@@ -1,7 +1,7 @@
 # Decisions
 
 One record per choice that shapes this repository. Each follows the standard's
-[decision-record shape](https://github.com/Tewf/reader-ergonomics/blob/6980fa64583912922d6f5b5c01316749d654345f/shapes/decision-record.md):
+[decision-record shape](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/shapes/decision-record.md):
 the decision in one sentence under its title, then its status, context, decision and consequences.
 
 ## Contents

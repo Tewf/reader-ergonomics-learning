@@ -37,7 +37,7 @@ every problem offers a hint before its answer and its solution, all folded.
 | Block | Rule | Grade | Evidence |
 |---|---|---|---|
 | Types | named, with ids; every item carries its type | convention, needed by the checks below | [exercise sets](../evidence/exercise-sets/shapes-and-checks.md) |
-| Worked example first | the first item of a new type is solved in full, in the core report's form | measured, for novices | [exercise sets](../evidence/exercise-sets/review.md), strand 3; [worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/6980fa64583912922d6f5b5c01316749d654345f/principles/document/worked-examples-with-subgoals.md) |
+| Worked example first | the first item of a new type is solved in full, in the core report's form | measured, for novices | [exercise sets](../evidence/exercise-sets/review.md), strand 3; [worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/principles/document/worked-examples-with-subgoals.md) |
 | Complete | completion problems leave the last steps before whole problems | measured: fading steps beats example-problem pairs; Parsons problems are a completion format for code | [exercise sets](../evidence/exercise-sets/review.md), strand 3 |
 | A short block | a few problems of the new type, not a long run | measured for the number in one lab study only: nine problems did no better than three | [exercise sets](../evidence/exercise-sets/review.md), strand 6 |
 | Mixed review | problems of earlier types, in mixed order | measured in classroom trials, mostly mathematics; a year-long trial found no gain on the final test | [exercise sets](../evidence/exercise-sets/review.md), strand 2; [against](../evidence/exercise-sets/against.md) |
@@ -74,5 +74,5 @@ An example that passes every check: [binary search](examples/binary-search-sheet
 
 ## See also
 
-[Shapes](README.md), the folder this shape heads; the core [report](https://github.com/Tewf/reader-ergonomics/blob/6980fa64583912922d6f5b5c01316749d654345f/shapes/report.md),
+[Shapes](README.md), the folder this shape heads; the core [report](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/shapes/report.md),
 the form of every worked example here.

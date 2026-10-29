@@ -1,7 +1,7 @@
 # Review
 
 This file reads the literature on how flashcards are written, made, used and kept, strand by strand.
-Whether retrieval and spacing work is settled in the [core review](https://github.com/Tewf/reader-ergonomics/blob/6980fa64583912922d6f5b5c01316749d654345f/evidence/learning-science/review.md) and is not repeated.
+Whether retrieval and spacing work is settled in the [core review](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/evidence/learning-science/review.md) and is not repeated.
 "(secondary)" marks a number read in an abstract or a summary. Grey scores are in [sources](sources.md), and a source under 10 of 20 is "example only".
 
 ## 0. Existing reviews
