@@ -1,6 +1,6 @@
 # Learning materials
 
-> How to write material meant to be learned (a lesson, worked examples, an exercise sheet, a study guide, flashcards, and the questions inside them) so that someone who studies it alone retains it and uses it on new problems. It extends the reader-ergonomics standard; four multivocal reviews are under way, and no shape is written yet.
+> How to write material meant to be learned (a lesson, worked examples, an exercise sheet, a study guide, flashcards, and the questions inside them) so that someone who studies it alone retains it and uses it on new problems. It extends the reader-ergonomics standard; four multivocal reviews (420 sources) give the evidence; no shape is written yet.
 
 Each page's markdown source is served at the same path with a .md extension. This index is written by hand; AGENTS.md says to keep it in step.
 
@@ -12,6 +12,10 @@ Each page's markdown source is served at the same path with a .md extension. Thi
 ## Evidence
 
 - [Evidence](https://tewf.github.io/reader-ergonomics-learning/evidence/README.md): the four reviews and the method they share
+- [Practice questions](https://tewf.github.io/reader-ergonomics-learning/evidence/practice-questions/README.md): how the questions inside study material are written, placed and answered
+- [Flashcards](https://tewf.github.io/reader-ergonomics-learning/evidence/flashcards/README.md): how prompts for spaced review are written, made and kept
+- [Exercise sets](https://tewf.github.io/reader-ergonomics-learning/evidence/exercise-sets/README.md): how a set of exercises is ordered and supported, from worked example to problem
+- [Instructional text](https://tewf.github.io/reader-ergonomics-learning/evidence/instructional-text/README.md): how an explanatory text is built around its content: objectives, terms, summaries, boxes
 - [Bibliography](https://tewf.github.io/reader-ergonomics-learning/evidence/bibliography.md): every cited work, once
 
 ## Contributing

@@ -3,7 +3,7 @@
 **Decision:** the evidence is split into four multivocal reviews: practice questions, flashcards, exercise sets and
 instructional text, each owning the works no other review in the family holds.
 
-**Status:** accepted, 2026-10-29. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/shapes/decision-record.md).
+**Status:** accepted, 2026-10-29. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/d17ee8e9bc07e0bd06e8ec7734cecd570b4e3b37/shapes/decision-record.md).
 
 ## Context
 
@@ -19,7 +19,7 @@ instructional text, each owning the works no other review in the family holds.
 | Review | Owns |
 |---|---|
 | practice-questions | the kind, level and format of a question, item writing and flawed items, feedback, where answers sit, generated questions |
-| flashcards | card formulation, granularity and interference, who makes the cards, how learners use and drop them, text with embedded prompts |
+| flashcards | card [formulation and granularity](../evidence/flashcards/frame.md), interference, who makes the cards, how learners use and drop them, text with embedded prompts |
 | exercise-sets | blocked or interleaved sheets, the passage from worked example to problem, difficulty and variability, hints, keys and solutions |
 | instructional-text | objectives and their alignment with the checks, key terms, summaries, boxes, refutation text, guided notes and study guides, textbook aids |
 
@@ -31,6 +31,7 @@ instructional text, each owning the works no other review in the family holds.
 ## Consequences
 
 - Four agents work at once, so a key chosen by one is checked against the other three before the merge.
+- 420 sources in the four, with no work reviewed twice in the family; the pool of each is in [evidence](../evidence/README.md).
 - A study guide uses all four: its shape will draw on every review, and each block will cite the one it rests on.
 - The cost: a reader of one review follows links to the others and to the siblings for what is held there.
 

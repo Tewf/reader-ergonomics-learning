@@ -1,0 +1,43 @@
+reader-ergonomics-learning	instructional-text	F1	"pedagogical aids"
+reader-ergonomics-learning	instructional-text	F2	textbook AND ("study aids" OR "learning aids" OR "textbook features")
+reader-ergonomics-learning	instructional-text	F3	"instructional text" AND design
+reader-ergonomics-learning	instructional-text	F4	"constructive alignment"
+reader-ergonomics-learning	instructional-text	F5	"backward design"
+reader-ergonomics-learning	instructional-text	F6	"instructional alignment"
+reader-ergonomics-learning	instructional-text	F7	("instructional objectives" OR "behavioral objectives" OR "learning objectives") AND (text OR prose OR textbook) AND learning
+reader-ergonomics-learning	instructional-text	F8	"meta-analysis" AND ("learning objectives" OR "instructional objectives" OR "behavioral objectives")
+reader-ergonomics-learning	instructional-text	F9	summaries AND recall
+reader-ergonomics-learning	instructional-text	F10	glossary AND (learning OR comprehension) AND text
+reader-ergonomics-learning	instructional-text	F11	"refutation text"
+reader-ergonomics-learning	instructional-text	F12	"refutational text" OR "refutational texts"
+reader-ergonomics-learning	instructional-text	F13	"conceptual change text" OR "conceptual change texts"
+reader-ergonomics-learning	instructional-text	F14	"guided notes"
+reader-ergonomics-learning	instructional-text	F15	("study guide" OR "study guides") AND ("exam performance" OR "test performance" OR "exam scores")
+reader-ergonomics-learning	instructional-text	F16	"crib sheet" OR "cheat sheet" OR "crib sheets" OR "cheat sheets"
+reader-ergonomics-learning	instructional-text	F17	"Quality Matters"
+reader-ergonomics-learning	instructional-text	F18	"course design rubric" OR "online course rubric"
+reader-ergonomics-learning	instructional-text	F19	"instructional explanations"
+reader-ergonomics-learning	instructional-text	F20	"worked solutions" OR "solutions manual" OR "solution manual"
+reader-ergonomics-learning	instructional-text	F21	"marginal notes" OR "marginal glosses" OR "margin notes"
+reader-ergonomics-learning	instructional-text	F22	textbook AND ("chapter summary" OR "chapter summaries" OR "end-of-chapter")
+reader-ergonomics-learning	instructional-text	F23	"textbook use" OR "textbook reading" OR "reading compliance"
+reader-ergonomics-learning	instructional-text	F24	"open textbook" OR "open textbooks"
+reader-ergonomics-learning	instructional-text	F25	"key terms" AND (textbook OR text) AND learning
+reader-ergonomics-learning	instructional-text	F26	"revision guide" OR "revision guides"
+reader-ergonomics-learning	instructional-text	F27	"textbook" AND "pedagogical features"
+reader-ergonomics-learning	instructional-text	F28	"chapter summaries" OR "chapter summary"
+reader-ergonomics-learning	instructional-text	F29	"learning objectives" AND textbook AND (students OR use)
+reader-ergonomics-learning	instructional-text	F30	"summaries" AND "textbook" AND (learning OR recall)
+reader-ergonomics-learning	instructional-text	F31	("sidebar" OR "sidebars" OR "boxed text" OR "text boxes") AND (textbook OR text) AND (learning OR reading)
+reader-ergonomics-learning	instructional-text	F32	"glossary" AND ("vocabulary learning" OR "comprehension") AND ("meta-analysis")
+reader-ergonomics-learning	instructional-text	F32b	(gloss OR glosses OR glossing) AND "meta-analysis"
+reader-ergonomics-learning	instructional-text	F32c	glosses AND "meta-analysis" AND Abraham
+reader-ergonomics-learning	instructional-text	F32d	"glossed" AND "reading comprehension"
+reader-ergonomics-learning	instructional-text	F33	"instructional explanations" AND "worked examples"
+reader-ergonomics-learning	instructional-text	F34	"Quality Matters" AND ("student achievement" OR "student outcomes" OR "final grades" OR "student learning")
+reader-ergonomics-learning	instructional-text	F35	"refutation" AND "meta-analysis"
+reader-ergonomics-learning	instructional-text	F36	("boldface" OR "bold type" OR "typographical cues" OR "typographic cueing") AND text AND (recall OR learning)
+reader-ergonomics-learning	instructional-text	F37	"chapter objectives" OR "chapter learning objectives"
+reader-ergonomics-learning	instructional-text	F38	glossary AND textbook AND (students OR learning)
+reader-ergonomics-learning	instructional-text	F39	misconceptions AND textbook AND (box OR boxes OR feature OR features)
+reader-ergonomics-learning	instructional-text	F40	"lesson template" OR "lesson templates"

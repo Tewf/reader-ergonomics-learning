@@ -1,0 +1,33 @@
+{
+  "title": "Practice questions: how the pool of sources was built",
+  "columns": [
+    "Formal",
+    "Grey"
+  ],
+  "rows": [
+    [
+      "Returned by the strings",
+      7908,
+      null
+    ],
+    [
+      "Screened",
+      832,
+      226
+    ],
+    [
+      "Included as new",
+      73,
+      23
+    ],
+    [
+      "Carried from the core or a sibling review",
+      9,
+      2
+    ]
+  ],
+  "total": [
+    "In the review",
+    107
+  ]
+}

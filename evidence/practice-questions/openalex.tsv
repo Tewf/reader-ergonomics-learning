@@ -1,0 +1,40 @@
+reader-ergonomics-learning	practice-questions	F1	"test-enhanced learning"
+reader-ergonomics-learning	practice-questions	F2	"retrieval practice" AND ("multiple-choice" OR "short-answer")
+reader-ergonomics-learning	practice-questions	F3	"testing effect" AND ("question format" OR "test format")
+reader-ergonomics-learning	practice-questions	F4	"adjunct questions"
+reader-ergonomics-learning	practice-questions	F5	("higher-order questions" OR "higher order questions" OR "higher-level questions") AND (text OR reading OR quiz)
+reader-ergonomics-learning	practice-questions	F6	"retrieval practice" AND Bloom
+reader-ergonomics-learning	practice-questions	F7	"item writing" AND (guidelines OR rules)
+reader-ergonomics-learning	practice-questions	F8	"item-writing flaws" OR "item writing flaws" OR "flawed items"
+reader-ergonomics-learning	practice-questions	F9	"multiple-choice" AND ("number of options" OR "three-option" OR "three options")
+reader-ergonomics-learning	practice-questions	F10	distractors AND misconceptions AND "multiple-choice"
+reader-ergonomics-learning	practice-questions	F11	"elaborated feedback" OR "elaborative feedback"
+reader-ergonomics-learning	practice-questions	F12	"delayed feedback" AND (test OR quiz OR testing)
+reader-ergonomics-learning	practice-questions	F13	feedback AND "meta-analysis" AND (achievement OR learning)
+reader-ergonomics-learning	practice-questions	F14	"answer-until-correct" OR "answer until correct"
+reader-ergonomics-learning	practice-questions	F15	"automatic question generation" OR "automated question generation"
+reader-ergonomics-learning	practice-questions	F16	"question generation" AND ("large language model" OR "large language models" OR ChatGPT OR "GPT-4") AND "multiple-choice"
+reader-ergonomics-learning	practice-questions	F16b	ChatGPT AND "multiple-choice questions" AND (generated OR generation)
+reader-ergonomics-learning	practice-questions	F16c	("large language model" OR "large language models" OR GPT) AND ("generated questions" OR "question generation")
+reader-ergonomics-learning	practice-questions	F16d	"automatically generated questions" OR "machine-generated questions" OR "AI-generated questions" OR "AI-generated multiple-choice"
+reader-ergonomics-learning	practice-questions	F17	"review questions" AND (textbook OR textbooks)
+reader-ergonomics-learning	practice-questions	F18	"testing effect" AND transfer AND "meta-analysis"
+reader-ergonomics-learning	practice-questions	F18b	("testing effect" OR "retrieval practice" OR "test-enhanced learning") AND transfer AND ("meta-analysis" OR "meta-analytic")
+reader-ergonomics-learning	practice-questions	F19	"multiple-choice" AND ("negative suggestion" OR lures) AND testing
+reader-ergonomics-learning	practice-questions	F20	feedback AND ("programmed instruction" OR "written instruction") AND (peeking OR "presearch availability" OR "answer availability")
+reader-ergonomics-learning	practice-questions	F20b	Kulhavy AND feedback
+reader-ergonomics-learning	practice-questions	F20c	feedback AND ("programmed instruction" OR "written instruction") AND (peek OR peeking OR "answers available" OR "answer availability" OR prompting)
+reader-ergonomics-learning	practice-questions	F21	"practice quizzes" OR "practice quiz" OR "online quizzes"
+reader-ergonomics-learning	practice-questions	F22	"Bloom's taxonomy" AND (textbook OR "exam questions" OR "test questions") AND (biology OR science OR chemistry)
+reader-ergonomics-learning	practice-questions	F23	distractors AND "multiple-choice" AND (review OR guidelines) AND (development OR writing)
+reader-ergonomics-learning	practice-questions	F24	"multiple-choice" AND ("competitive alternatives" OR "plausible alternatives") AND (learning OR retention)
+reader-ergonomics-learning	practice-questions	F25	("covert retrieval" OR "overt retrieval") AND practice
+reader-ergonomics-learning	practice-questions	F26	("free recall" OR "cued recall") AND ("retrieval practice" OR "testing effect") AND (format OR "multiple-choice")
+reader-ergonomics-learning	practice-questions	F27	"automatic item generation" OR "automated item generation"
+reader-ergonomics-learning	practice-questions	F28	feedback AND ("multiple-choice" OR quiz OR quizzes) AND ("correct answer" OR "explanation feedback" OR "knowledge of correct response")
+reader-ergonomics-learning	practice-questions	F29	("end-of-chapter questions" OR "end of chapter questions" OR "textbook questions") AND (cognitive OR Bloom OR level)
+reader-ergonomics-learning	practice-questions	F30	("practice questions" OR "practice tests") AND (exam OR examination) AND (performance OR learning) AND (university OR college OR medical)
+reader-ergonomics-learning	practice-questions	X1	"question generation" AND education AND students
+reader-ergonomics-learning	practice-questions	X2	"multiple-choice" AND "question generation" AND (GPT OR "language model")
+reader-ergonomics-learning	practice-questions	X3	"distractor generation"
+reader-ergonomics-learning	practice-questions	X4	"generated questions" AND "learning gains"

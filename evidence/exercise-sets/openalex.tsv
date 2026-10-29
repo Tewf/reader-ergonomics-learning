@@ -1,0 +1,42 @@
+reader-ergonomics-learning	exercise-sets	F1	("interleaved practice" OR interleaving) AND ("meta-analysis" OR "systematic review")
+reader-ergonomics-learning	exercise-sets	F2	"Parsons problems" OR "Parsons puzzles" OR "Parson's programming puzzles"
+reader-ergonomics-learning	exercise-sets	F3	homework AND "meta-analysis"
+reader-ergonomics-learning	exercise-sets	F4	"interleaved practice" AND mathematics
+reader-ergonomics-learning	exercise-sets	F5	"mixed review" OR "spiral review" OR "mixed practice"
+reader-ergonomics-learning	exercise-sets	F6	"blocked practice" AND (mathematics OR classroom OR homework)
+reader-ergonomics-learning	exercise-sets	F7	"backward fading" OR "faded worked examples" OR "faded examples" OR "fading worked"
+reader-ergonomics-learning	exercise-sets	F8	"completion problems" OR "completion strategy"
+reader-ergonomics-learning	exercise-sets	F9	"example-problem pairs" OR "problem-example pairs" OR "example-problem sequences"
+reader-ergonomics-learning	exercise-sets	F10	"worked examples" AND ("problem solving" OR "practice problems") AND (classroom OR homework)
+reader-ergonomics-learning	exercise-sets	F11	"variability of practice" OR "variable practice" OR "variability effect"
+reader-ergonomics-learning	exercise-sets	F12	("easy-to-hard" OR "difficulty sequencing" OR "problem difficulty") AND (practice OR exercises) AND learning
+reader-ergonomics-learning	exercise-sets	F13	"desirable difficulties" AND (mathematics OR practice OR homework)
+reader-ergonomics-learning	exercise-sets	F14	"variation theory" AND mathematics AND (exercises OR tasks OR practice)
+reader-ergonomics-learning	exercise-sets	F15	"help seeking" AND ("intelligent tutoring" OR "interactive learning environments" OR hints)
+reader-ergonomics-learning	exercise-sets	F16	"bottom-out hint" OR "bottom-out hints" OR "on-demand hints" OR "hint abuse" OR "gaming the system"
+reader-ergonomics-learning	exercise-sets	F17	"homework copying" OR (copying AND homework AND (physics OR online))
+reader-ergonomics-learning	exercise-sets	F18	("solution manual" OR "solutions manual" OR "answer key" OR "worked solutions") AND (students OR learning)
+reader-ergonomics-learning	exercise-sets	F19	"online homework" AND (feedback OR "multiple attempts" OR "number of attempts")
+reader-ergonomics-learning	exercise-sets	F20	homework AND ("time spent" OR "amount of homework" OR "homework time") AND achievement
+reader-ergonomics-learning	exercise-sets	F21	overlearning AND (mathematics OR problems OR practice)
+reader-ergonomics-learning	exercise-sets	F22	ASSISTments AND (homework OR "randomized controlled trial" OR efficacy)
+reader-ergonomics-learning	exercise-sets	F23	WeBWorK
+reader-ergonomics-learning	exercise-sets	F24	"problem sets" AND (design OR sequencing OR order OR mixed)
+reader-ergonomics-learning	exercise-sets	F25	"programming exercises" AND (practice OR drill OR "problem sets")
+reader-ergonomics-learning	exercise-sets	F26	"exercise sets" OR "exercise sheets" OR "practice sets"
+reader-ergonomics-learning	exercise-sets	F27	("generative AI" OR ChatGPT) AND homework AND (learning OR hints OR performance)
+reader-ergonomics-learning	exercise-sets	F28	"Saxon Math" OR "Saxon mathematics"
+reader-ergonomics-learning	exercise-sets	F29	("textbook exercises" OR "practice problems") AND (textbooks OR analysis) AND mathematics
+reader-ergonomics-learning	exercise-sets	F30	("next-step hints" OR "automated hints" OR "hint generation") AND programming
+reader-ergonomics-learning	exercise-sets	F31	("spaced practice" OR "distributed practice" OR "spaced retrieval practice") AND (homework OR mathematics) AND (course OR classroom)
+reader-ergonomics-learning	exercise-sets	F32	"worked examples" AND programming
+reader-ergonomics-learning	exercise-sets	F33	homework AND (frequency OR effort) AND (multilevel OR "two-level" OR "three-level")
+reader-ergonomics-learning	exercise-sets	F34	(Chegg OR "contract cheating" OR "homework help websites") AND (STEM OR homework OR mathematics)
+reader-ergonomics-learning	exercise-sets	F35	(ChatGPT OR "generative AI" OR "GPT-4") AND (hints OR tutor OR help) AND mathematics AND learning
+reader-ergonomics-learning	exercise-sets	X1	"Parsons problems" OR "Parsons puzzles"
+reader-ergonomics-learning	exercise-sets	X2	hints AND programming AND ("large language model" OR LLM) AND students
+reader-ergonomics-learning	exercise-sets	X3	("generative AI" OR GPT) AND mathematics AND students AND learning AND randomized
+reader-ergonomics-learning	exercise-sets	X4	"homework copying"
+reader-ergonomics-learning	exercise-sets	X5	"generative AI" AND "harm learning"
+reader-ergonomics-learning	exercise-sets	X6	"optimal learning" AND difficulty AND ("error rate" OR "training accuracy")
+reader-ergonomics-learning	exercise-sets	X7	(ChatGPT OR GPT) AND hints AND mathematics AND learning

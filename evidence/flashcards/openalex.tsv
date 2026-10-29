@@ -1,0 +1,47 @@
+reader-ergonomics-learning	flashcards	F1	flashcard OR flashcards OR "flash cards" OR "flash card"
+reader-ergonomics-learning	flashcards	F2	"spaced repetition"
+reader-ergonomics-learning	flashcards	F3	"spaced repetition" AND (software OR app OR application OR system)
+reader-ergonomics-learning	flashcards	F4	Anki
+reader-ergonomics-learning	flashcards	F5	Quizlet
+reader-ergonomics-learning	flashcards	F6	SuperMemo
+reader-ergonomics-learning	flashcards	F7	"minimum information principle"
+reader-ergonomics-learning	flashcards	F8	flashcards AND (formulation OR wording OR "item complexity" OR "card design")
+reader-ergonomics-learning	flashcards	F9	cloze AND (flashcards OR "spaced repetition")
+reader-ergonomics-learning	flashcards	F10	"paired associates" AND (retrieval OR testing)
+reader-ergonomics-learning	flashcards	F11	"cue overload"
+reader-ergonomics-learning	flashcards	F12	"generation effect"
+reader-ergonomics-learning	flashcards	F13	flashcards AND ("learner generated" OR "self-generated" OR "user-generated" OR "student-generated" OR premade OR "pre-made")
+reader-ergonomics-learning	flashcards	F14	"mnemonic medium"
+reader-ergonomics-learning	flashcards	F15	flashcards AND ("self-regulated" OR dropping OR "study decisions" OR metacognition)
+reader-ergonomics-learning	flashcards	F16	flashcards AND (cramming OR spacing OR spaced)
+reader-ergonomics-learning	flashcards	F17	"semantic clustering" AND vocabulary
+reader-ergonomics-learning	flashcards	F18	flashcards AND (conceptual OR "higher-order" OR application OR understanding)
+reader-ergonomics-learning	flashcards	F19	flashcards AND (pictures OR images OR illustrations)
+reader-ergonomics-learning	flashcards	F20	("spaced repetition" OR Anki OR flashcards) AND ("medical students" OR "medical education")
+reader-ergonomics-learning	flashcards	F21	flashcards AND (automatic OR generated OR "language model") AND generation
+reader-ergonomics-learning	flashcards	F22	("spaced repetition" OR flashcards) AND ("systematic review" OR "meta-analysis" OR "scoping review")
+reader-ergonomics-learning	flashcards	F23	"word cards" OR "vocabulary cards"
+reader-ergonomics-learning	flashcards	F24	"digital flashcards" OR "electronic flashcards"
+reader-ergonomics-learning	flashcards	F25	"retrieval practice" AND flashcards
+reader-ergonomics-learning	flashcards	F26	"image occlusion"
+reader-ergonomics-learning	flashcards	F27	"paired-associate" AND (receptive OR productive) AND vocabulary
+reader-ergonomics-learning	flashcards	F28	"successive relearning"
+reader-ergonomics-learning	flashcards	F29	("spaced repetition" OR flashcards) AND (attrition OR adherence OR dropout OR "drop out")
+reader-ergonomics-learning	flashcards	F30	pictures AND vocabulary AND ("retrieval practice" OR "paired associates" OR flashcards)
+reader-ergonomics-learning	flashcards	F31	"generation effect" AND (meta-analysis OR "meta-analytic")
+reader-ergonomics-learning	flashcards	F32	flashcards AND (shared OR crowdsourced OR crowdsourcing OR "third-party")
+reader-ergonomics-learning	flashcards	F33	"question generation" AND (flashcards OR "spaced repetition")
+reader-ergonomics-learning	flashcards	F34	Wozniak AND ("spaced repetition" OR SuperMemo OR "repetition spacing")
+reader-ergonomics-learning	flashcards	F35	Kornell AND flashcards
+reader-ergonomics-learning	flashcards	F36	Nakata AND (flashcards OR "paired-associate" OR "word cards")
+reader-ergonomics-learning	flashcards	F37	"embedded questions" AND (text OR reading) AND retention
+reader-ergonomics-learning	flashcards	F38	"word cards" AND (self-constructed OR "ready-made" OR premade OR "learner-made")
+reader-ergonomics-learning	flashcards	F39	flashcards AND (bidirectional OR "both directions" OR reversed OR "direction of learning")
+reader-ergonomics-learning	flashcards	X1	flashcard AND generation
+reader-ergonomics-learning	flashcards	X2	flashcards AND ("language model" OR LLM)
+reader-ergonomics-learning	flashcards	X3	"spaced repetition" AND ("language model" OR LLM OR generation)
+reader-ergonomics-learning	flashcards	X4	"spaced repetition" AND flashcards
+reader-ergonomics-learning	flashcards	X5	"mnemonic medium"
+reader-ergonomics-learning	flashcards	X6	"Quantum Country"
+reader-ergonomics-learning	flashcards	X7	Matuschak AND "spaced repetition"
+reader-ergonomics-learning	flashcards	X8	"embedded questions" AND text AND memory

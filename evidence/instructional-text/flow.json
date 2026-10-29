@@ -1,0 +1,28 @@
+{
+  "title": "Instructional text: how the pool of sources was built",
+  "columns": [
+    "Formal",
+    "Grey"
+  ],
+  "rows": [
+    [
+      "Returned by the strings",
+      29189,
+      null
+    ],
+    [
+      "Screened",
+      1103,
+      325
+    ],
+    [
+      "Included as new",
+      69,
+      27
+    ]
+  ],
+  "total": [
+    "In the review",
+    96
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Exercise sets: how the pool of sources was built",
+  "columns": [
+    "Formal",
+    "Grey"
+  ],
+  "rows": [
+    [
+      "Returned by the strings",
+      91352,
+      null
+    ],
+    [
+      "Screened",
+      1374,
+      393
+    ],
+    [
+      "Included as new",
+      78,
+      39
+    ]
+  ],
+  "total": [
+    "In the review",
+    117
+  ]
+}
