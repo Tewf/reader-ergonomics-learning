@@ -7,8 +7,8 @@ What the exercise-sets evidence implies for the shape of an exercise set and for
 | # | Block | Grade | Rests on |
 |---|---|---|---|
 | 1 | For each new type: a worked example, then a problem of the same type | measured, for novices | review 48 (van Gog 2011, linked) |
-| 2 | Then completion problems that leave the last steps, before whole problems | measured, lab and tutor | review 52, 53, 58 |
-| 3 | A short block of same-type problems; a few are enough | measured, one lab study for the number | review 88, 35 |
+| 2 | Then completion problems that leave the last steps, before whole problems | measured, lab and tutor, read here only in summaries (secondary); the core's Renkl 2004 is the controlled trial read | review 52, 53, 58 |
+| 3 | A short block of same-type problems; a few are enough | supported with caveat: one lab study for the number, read in a summary (secondary) | review 88, 35 |
 | 4 | Interleaved review: problems of earlier types, from several earlier sets | measured, classroom trials, mathematics | review 31 to 35, 38; against.md for null results |
 | 5 | Per problem: a hint, then the answer, then the worked solution, each folded | convention, untested on paper; hints measured only in software | review 76 to 80 |
 | 6 | Solutions released after the attempt, not printed beside the problem | supported with caveat (one two-cohort study, practitioner consensus) | review 81, 82 |

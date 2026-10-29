@@ -46,7 +46,7 @@ hint_labels = ["Hint"]
 answer_labels = ["Answer"]
 solution_labels = ["Solution"]
 mixed_types = 2   # PROVISIONAL: no study sets the share of mixed review in a set
-max_block = 4     # PROVISIONAL: nine problems of a type did no better than three, in one lab study
+max_block = 4     # PROVISIONAL: nine problems of a type did no better than three, in one lab study (Rohrer 2006, secondary)
 
 [deck]
 files = ["shapes/examples/*.tsv"]
