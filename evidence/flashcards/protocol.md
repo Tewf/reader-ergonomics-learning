@@ -47,45 +47,45 @@ Scheduling algorithms are not a question here; they are linked to the core's ben
 
 | Id | String as run (ERIC syntax) | ERIC | Semantic Scholar form | Semantic Scholar | OpenAlex |
 | --- | --- | --- | --- | --- | --- |
-| F1 | flashcard OR flashcards OR "flash cards" OR "flash card" | 588 | `flashcard \ | flashcards \ | 10,238 | "flash cards" \ | "flash card"` | 7,302 |
+| F1 | flashcard OR flashcards OR "flash cards" OR "flash card" | 588 | `flashcard \| flashcards \| "flash cards" \| "flash card"` | 7,302 | 10,238 |
 | F2 | "spaced repetition" | 52 | `"spaced repetition"` | 831 | 1,298 |
-| F3 | "spaced repetition" AND (software OR app OR application OR system) | 26 | `"spaced repetition" + (software \ | app \ | 627 | application \ | system)` | 382 |
-| F4 | Anki | 12 | `Anki + (flashcards \ | "spaced repetition" \ | 750 | learning)` | 133 |
+| F3 | "spaced repetition" AND (software OR app OR application OR system) | 26 | `"spaced repetition" + (software \| app \| application \| system)` | 382 | 627 |
+| F4 | Anki | 12 | `Anki + (flashcards \| "spaced repetition" \| learning)` | 133 | 750 |
 | F5 | Quizlet | 78 | `Quizlet` | 1,066 | 1,539 |
 | F6 | SuperMemo | 1 | `SuperMemo` | 28 | 39 |
 | F7 | "minimum information principle" | 0 | `"minimum information principle"` | 21 (all off topic: information theory, transport) | 26 |
-| F8 | flashcards AND (formulation OR wording OR "item complexity" OR "card design") | 0 | `(flashcard \ | flashcards) + (formulation \ | 22 | wording \ | design)` | refused (HTTP 429) |
-| F9 | cloze AND (flashcards OR "spaced repetition") | 1 | `cloze + (flashcards \ | flashcard \ | 9 | "spaced repetition")` | 5 |
-| F10 | "paired associates" AND (retrieval OR testing) | 49 | `"paired associates" + (retrieval \ | testing)` | 3,279 | 3,008 |
+| F8 | flashcards AND (formulation OR wording OR "item complexity" OR "card design") | 0 | `(flashcard \| flashcards) + (formulation \| wording \| design)` | refused (HTTP 429) | 22 |
+| F9 | cloze AND (flashcards OR "spaced repetition") | 1 | `cloze + (flashcards \| flashcard \| "spaced repetition")` | 5 | 9 |
+| F10 | "paired associates" AND (retrieval OR testing) | 49 | `"paired associates" + (retrieval \| testing)` | 3,008 | 3,279 |
 | F11 | "cue overload" | 8 | `"cue overload"` | 41 | 57 |
 | F12 | "generation effect" | 37 | `"generation effect"` | 1,582 | 1,765 |
-| F13 | flashcards AND ("learner generated" OR "self-generated" OR "user-generated" OR "student-generated" OR premade OR "pre-made") | 2 | `(flashcards \ | flashcard) + ("self-generated" \ | 42 | "user-generated" \ | "student-generated" \ | premade \ | "pre-made" \ | "learner-generated")` | 31 |
+| F13 | flashcards AND ("learner generated" OR "self-generated" OR "user-generated" OR "student-generated" OR premade OR "pre-made") | 2 | `(flashcards \| flashcard) + ("self-generated" \| "user-generated" \| "student-generated" \| premade \| "pre-made" \| "learner-generated")` | 31 | 42 |
 | F14 | "mnemonic medium" | 0 | `"mnemonic medium"` | 13 (all off topic: memory studies) | 13 |
-| F15 | flashcards AND ("self-regulated" OR dropping OR "study decisions" OR metacognition) | 10 | `(flashcards \ | flashcard) + ("self-regulated" \ | 56 | dropping \ | metacognitive)` | 63 |
-| F16 | flashcards AND (cramming OR spacing OR spaced) | 14 | `(flashcards \ | flashcard) + (cramming \ | 350 | spacing)` | 49 |
+| F15 | flashcards AND ("self-regulated" OR dropping OR "study decisions" OR metacognition) | 10 | `(flashcards \| flashcard) + ("self-regulated" \| dropping \| metacognitive)` | 63 | 56 |
+| F16 | flashcards AND (cramming OR spacing OR spaced) | 14 | `(flashcards \| flashcard) + (cramming \| spacing)` | 49 | 350 |
 | F17 | "semantic clustering" AND vocabulary | 7 | `"semantic clustering" + vocabulary` | refused (HTTP 429) | 136 |
-| F18 | flashcards AND (conceptual OR "higher-order" OR application OR understanding) | 37 | `(flashcards \ | flashcard) + (conceptual \ | 1,807 | "higher-order" \ | understanding)` | 621 |
-| F19 | flashcards AND (pictures OR images OR illustrations) | 19 | `(flashcards \ | flashcard) + (pictures \ | 682 | images)` | 425 |
-| F20 | ("spaced repetition" OR Anki OR flashcards) AND ("medical students" OR "medical education") | 6 | `("spaced repetition" \ | Anki \ | 318 | flashcards) + ("medical students" \ | "medical education")` | 214 |
-| F21 | flashcards AND (automatic OR generated OR "language model") AND generation | 3 | `(flashcards \ | flashcard) + generation + (automatic \ | 86 | "language model" \ | LLM)` | refused (HTTP 429) |
-| F22 | ("spaced repetition" OR flashcards) AND ("systematic review" OR "meta-analysis" OR "scoping review") | 5 | `("spaced repetition" \ | flashcards) + ("systematic review" \ | 79 | "meta-analysis" \ | "scoping review")` | refused (HTTP 429) |
-| F23 | "word cards" OR "vocabulary cards" | 98 | `"word cards" \ | "vocabulary cards"` | 693 | 505 |
-| F24 | "digital flashcards" OR "electronic flashcards" | 29 | `"digital flashcards" \ | "electronic flashcards"` | 471 | 351 |
-| F25 | "retrieval practice" AND flashcards | 7 | `"retrieval practice" + (flashcards \ | flashcard)` | 79 | 52 |
+| F18 | flashcards AND (conceptual OR "higher-order" OR application OR understanding) | 37 | `(flashcards \| flashcard) + (conceptual \| "higher-order" \| understanding)` | 621 | 1,807 |
+| F19 | flashcards AND (pictures OR images OR illustrations) | 19 | `(flashcards \| flashcard) + (pictures \| images)` | 425 | 682 |
+| F20 | ("spaced repetition" OR Anki OR flashcards) AND ("medical students" OR "medical education") | 6 | `("spaced repetition" \| Anki \| flashcards) + ("medical students" \| "medical education")` | 214 | 318 |
+| F21 | flashcards AND (automatic OR generated OR "language model") AND generation | 3 | `(flashcards \| flashcard) + generation + (automatic \| "language model" \| LLM)` | refused (HTTP 429) | 86 |
+| F22 | ("spaced repetition" OR flashcards) AND ("systematic review" OR "meta-analysis" OR "scoping review") | 5 | `("spaced repetition" \| flashcards) + ("systematic review" \| "meta-analysis" \| "scoping review")` | refused (HTTP 429) | 79 |
+| F23 | "word cards" OR "vocabulary cards" | 98 | `"word cards" \| "vocabulary cards"` | 505 | 693 |
+| F24 | "digital flashcards" OR "electronic flashcards" | 29 | `"digital flashcards" \| "electronic flashcards"` | 351 | 471 |
+| F25 | "retrieval practice" AND flashcards | 7 | `"retrieval practice" + (flashcards \| flashcard)` | 52 | 79 |
 | F26 | "image occlusion" | 0 | `"image occlusion"` | 233 (all off topic: computer vision) | 260 |
-| F27 | "paired-associate" AND (receptive OR productive) AND vocabulary | 4 | `("paired-associate" \ | flashcards) + receptive + productive + vocabulary` | 13 | refused (HTTP 429) |
+| F27 | "paired-associate" AND (receptive OR productive) AND vocabulary | 4 | `("paired-associate" \| flashcards) + receptive + productive + vocabulary` | refused (HTTP 429) | 13 |
 | F28 | "successive relearning" | 7 | `"successive relearning"` | 22 | 24 |
-| F29 | ("spaced repetition" OR flashcards) AND (attrition OR adherence OR dropout OR "drop out") | 0 | `("spaced repetition" \ | flashcards) + (attrition \ | 31 | adherence \ | dropout)` | 23 |
-| F30 | pictures AND vocabulary AND ("retrieval practice" OR "paired associates" OR flashcards) | 9 | `pictures + "foreign language" + vocabulary + (retrieval \ | flashcards)` | 130 | 19 |
-| F31 | "generation effect" AND (meta-analysis OR "meta-analytic") | 12 | `"generation effect" + (meta-analysis \ | "meta-analytic")` | 17 | 14 |
-| F32 | flashcards AND (shared OR crowdsourced OR crowdsourcing OR "third-party") | 3 | `(flashcards \ | Anki) + (shared \ | 212 | crowdsourced \ | crowdsourcing \ | "third-party")` | 152 |
-| F33 | "question generation" AND (flashcards OR "spaced repetition") | 0 | `("question generation" \ | "flashcard generation") + (flashcards \ | 9 | flashcard \ | "spaced repetition")` | 17 |
-| F34 | Wozniak AND ("spaced repetition" OR SuperMemo OR "repetition spacing") | 0 | `Wozniak + ("repetition spacing" \ | SuperMemo \ | 3 | "spaced repetition")` | 4 (none on card writing) |
+| F29 | ("spaced repetition" OR flashcards) AND (attrition OR adherence OR dropout OR "drop out") | 0 | `("spaced repetition" \| flashcards) + (attrition \| adherence \| dropout)` | 23 | 31 |
+| F30 | pictures AND vocabulary AND ("retrieval practice" OR "paired associates" OR flashcards) | 9 | `pictures + "foreign language" + vocabulary + (retrieval \| flashcards)` | 19 | 130 |
+| F31 | "generation effect" AND (meta-analysis OR "meta-analytic") | 12 | `"generation effect" + (meta-analysis \| "meta-analytic")` | 14 | 17 |
+| F32 | flashcards AND (shared OR crowdsourced OR crowdsourcing OR "third-party") | 3 | `(flashcards \| Anki) + (shared \| crowdsourced \| crowdsourcing \| "third-party")` | 152 | 212 |
+| F33 | "question generation" AND (flashcards OR "spaced repetition") | 0 | `("question generation" \| "flashcard generation") + (flashcards \| flashcard \| "spaced repetition")` | 17 | 9 |
+| F34 | Wozniak AND ("spaced repetition" OR SuperMemo OR "repetition spacing") | 0 | `Wozniak + ("repetition spacing" \| SuperMemo \| "spaced repetition")` | 4 (none on card writing) | 3 |
 | F35 | Kornell AND flashcards | 0 | `Kornell + flashcards` | 5 | 1 |
-| F36 | Nakata AND (flashcards OR "paired-associate" OR "word cards") | 3 | `Nakata + (flashcard \ | flashcards \ | 2 | "word cards")` | 3 |
-| F37 | "embedded questions" AND (text OR reading) AND retention | 1 | `"embedded questions" + (text \ | reading) + (retention \ | 7 | recall)` | 13 |
-| F38 | "word cards" AND (self-constructed OR "ready-made" OR premade OR "learner-made") | 6 | `"word cards" + ("self-constructed" \ | "ready-made" \ | 7 | premade)` | 4 |
-| F39 | flashcards AND (bidirectional OR "both directions" OR reversed OR "direction of learning") | 1 | `(flashcards \ | "paired associates") + (bidirectional \ | 9 | "direction of learning" \ | reversed)` | refused (HTTP 429) |
+| F36 | Nakata AND (flashcards OR "paired-associate" OR "word cards") | 3 | `Nakata + (flashcard \| flashcards \| "word cards")` | 3 | 2 |
+| F37 | "embedded questions" AND (text OR reading) AND retention | 1 | `"embedded questions" + (text \| reading) + (retention \| recall)` | 13 | 7 |
+| F38 | "word cards" AND (self-constructed OR "ready-made" OR premade OR "learner-made") | 6 | `"word cards" + ("self-constructed" \| "ready-made" \| premade)` | 4 | 7 |
+| F39 | flashcards AND (bidirectional OR "both directions" OR reversed OR "direction of learning") | 1 | `(flashcards \| "paired associates") + (bidirectional \| "direction of learning" \| reversed)` | refused (HTTP 429) | 9 |
 
 | Id | arXiv string as run | Returned |
 |---|---|---|
