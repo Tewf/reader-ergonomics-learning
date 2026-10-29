@@ -270,13 +270,13 @@ answer = "Neither: the shapes state the rules of the markup for authors, and thi
 [[answer]]
 check = "logical-lines"
 path = "README.fr.md"
-question = "104 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "bf4760c9eef8"
+question = "114 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "c597c8cf1315"
 answer = "One role: the French front page, kept in step with `README.md`, which tells a reader how to start and what this repository is, from `Écrire une leçon` to `Suite`. It grew by the first steps a reader asked for; the detail stays in shapes/ and evidence/. It stays whole."
 
 [[answer]]
 check = "logical-lines"
 path = "README.md"
-question = "103 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "2303d2de9ca4"
+question = "113 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "d1c106e0196f"
 answer = "One role: the front page, which tells a reader how to start and what this repository is, from `Write a lesson` to `Next`. It grew by the first steps a reader asked for; the detail stays in shapes/ and evidence/. It stays whole."

@@ -12,7 +12,8 @@ This page in French: [README.fr.md](README.fr.md).
 ## Write a lesson
 
 1. **Copy** the [example lesson](shapes/examples/binary-search-lesson.md) and keep its headings: Objectives, Terms,
-   each part with its Trap and Check yourself, Key points, See also.
+   each part with its Trap and Check yourself, Key points, See also. Point its Shape line at the lesson shape by URL,
+   `https://github.com/Tewf/reader-ergonomics-learning/blob/<commit>/shapes/lesson.md`, and its See also at your own files.
 2. **Declare it** in your repository: copy this repository's [checks/local/](checks/local/) into yours, and name the
    file in `checks/config.toml`:
 
@@ -21,12 +22,24 @@ This page in French: [README.fr.md](README.fr.md).
    files = ["lesson.md"]
    ```
 
-3. **Run one command,** with [reader-ergonomics](https://github.com/Tewf/reader-ergonomics) cloned beside it:
-   `python3 ../reader-ergonomics/checks/run.py .` An objective no question tests, or an answer left in sight, is an
-   error.
+3. **Run one command,** with [reader-ergonomics](https://github.com/Tewf/reader-ergonomics) cloned beside it at the
+   release below: `python3 ../reader-ergonomics/checks/run.py .` An objective no question tests, or an answer left in
+   sight, is an error.
 
 The other four work the same way: [shapes](shapes/README.md) gives the exercise sheet, the deck, the question block
 and the study guide, each with its own example.
+
+### Take it and keep your own
+
+- **Copy at a commit** of this repository, and note it: what you copied is yours, and nothing done here later
+  changes it.
+- **Pin the standard by commit,** as this repository does, and move the pin when you choose:
+  `git clone https://github.com/Tewf/reader-ergonomics ../reader-ergonomics && git -C ../reader-ergonomics checkout 7a76cc6`
+  (v1.13.0).
+- **Run the checks:** the command above. A run with no error is the result; the questions it leaves for judgment, in
+  `checks/out/needs-judgment.md`, never block it.
+- **A disagreement,** a rule that stops a real writer or a grade you doubt, goes to
+  [this repository's issues](https://github.com/Tewf/reader-ergonomics-learning/issues).
 
 ## The five rules that matter
 
@@ -180,7 +193,7 @@ Linked at a pinned commit, never copied ([one place per fact](https://github.com
 ## Check it
 
 ```sh
-git clone https://github.com/Tewf/reader-ergonomics
+git clone https://github.com/Tewf/reader-ergonomics && git -C reader-ergonomics checkout 7a76cc6   # the pinned release
 python3 reader-ergonomics/checks/run.py path/to/this/repository
 ```
 

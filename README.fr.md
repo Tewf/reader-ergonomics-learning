@@ -12,7 +12,8 @@ Cette page en anglais : [README.md](README.md). Les deux versions suivent le mê
 ## Écrire une leçon
 
 1. **Copier** la [leçon d'exemple](shapes/examples/binary-search-lesson.md) et garder ses titres : Objectives, Terms,
-   chaque partie avec son Trap et son Check yourself, Key points, See also.
+   chaque partie avec son Trap et son Check yourself, Key points, See also. Faire pointer sa ligne Shape vers le
+   gabarit de leçon par URL, `https://github.com/Tewf/reader-ergonomics-learning/blob/<commit>/shapes/lesson.md`, et son See also vers ses propres fichiers.
 2. **La déclarer** dans son dépôt : y copier le dossier [checks/local/](checks/local/) de celui-ci, et nommer le
    fichier dans `checks/config.toml` :
 
@@ -21,12 +22,24 @@ Cette page en anglais : [README.md](README.md). Les deux versions suivent le mê
    files = ["lesson.md"]
    ```
 
-3. **Lancer une commande,** avec [reader-ergonomics](https://github.com/Tewf/reader-ergonomics) cloné à côté :
-   `python3 ../reader-ergonomics/checks/run.py .` Un objectif qu'aucune question ne teste, ou une réponse laissée
-   sous les yeux, est une erreur.
+3. **Lancer une commande,** avec [reader-ergonomics](https://github.com/Tewf/reader-ergonomics) cloné à côté, à la
+   version ci-dessous : `python3 ../reader-ergonomics/checks/run.py .` Un objectif qu'aucune question ne teste, ou une
+   réponse laissée sous les yeux, est une erreur.
 
 Les quatre autres se font de la même façon : [shapes](shapes/README.md) donne la feuille d'exercices, le paquet de
 cartes, le bloc de questions et la fiche de révision, chacun avec son exemple.
+
+### Le prendre et garder sa version
+
+- **Copier à un commit** de ce dépôt, et le noter : ce qui est copié est à soi, et rien de ce qui se fait ici ensuite
+  ne le change.
+- **Épingler le standard par commit,** comme ce dépôt, et déplacer l'épingle quand on le choisit :
+  `git clone https://github.com/Tewf/reader-ergonomics ../reader-ergonomics && git -C ../reader-ergonomics checkout 7a76cc6`
+  (v1.13.0).
+- **Lancer les vérifications :** la commande ci-dessus. Un passage sans erreur est le résultat ; les questions laissées
+  au jugement, dans `checks/out/needs-judgment.md`, ne le bloquent jamais.
+- **Un désaccord,** une règle qui arrête un vrai rédacteur ou un niveau de preuve dont on doute, va dans
+  [les issues de ce dépôt](https://github.com/Tewf/reader-ergonomics-learning/issues).
 
 ## Les cinq règles qui comptent
 
@@ -185,7 +198,7 @@ Liés à un commit épinglé, jamais copiés ([one place per fact](https://githu
 ## Le vérifier
 
 ```sh
-git clone https://github.com/Tewf/reader-ergonomics
+git clone https://github.com/Tewf/reader-ergonomics && git -C reader-ergonomics checkout 7a76cc6   # la version épinglée
 python3 reader-ergonomics/checks/run.py chemin/vers/ce/depot
 ```
 
