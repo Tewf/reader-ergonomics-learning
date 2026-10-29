@@ -46,6 +46,9 @@ READER_ERGONOMICS_CHECKS=../re-v1.12.0/checks python3 -m unittest discover -s ch
 ```
 
 - Fix every error. Read every warning.
+- A key names one work across the family: `bibliography-keys` compares
+  [evidence/bibliography.md](evidence/bibliography.md) with each repository its config names, cloned beside this one
+  as CI does; a sibling not found is a warning, never a pass.
 - Answer the questions in `checks/out/needs-judgment.md` in `checks/judgments.toml`. A model does not review its own
   text in place of the checks; its answers are advice until the maintainer has read them.
 - Keep [llms.txt](llms.txt) in step when a page is added, moved or removed: nothing generates it.
