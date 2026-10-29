@@ -105,7 +105,7 @@ Each line links the review that holds its evidence; "(secondary)" marks a number
 | instructional text | a text that states a misconception and refutes it beats plain exposition (g = 0.36 over 30 comparisons); guided notes raise college achievement (d = 0.55); open textbooks teach as much as commercial ones (g = 0.01) | measured | aligning objectives with the checks, in a controlled trial; revision guides |
 
 Every review ends in proposals for the shapes and the checks, each with its grade (`shapes-and-checks.md` in each
-folder). They are proposals: the shapes will be written from them.
+folder). The five [shapes](shapes/README.md) were written from them, and each block names the review it rests on.
 
 ## The baselines the shapes must beat
 
@@ -139,9 +139,10 @@ Linked at a pinned commit, never copied ([one place per fact](https://github.com
 
 ## Next
 
-1. Read the five paywalled sources through the university, for the rows the audit could not verify.
-2. Test the shapes on real study material: the explained solution books of
-   [University-Coursework](https://github.com/Tewf/University-Coursework).
+1. Read Rowland 2014 and Yang 2021, published by APA, to which the university has no subscription: their three rows
+   are marked as not checked. The other two paywalled papers were read ([audit](evidence/README.md#audit)).
+2. Test the shapes on learners, against the baseline each review names. The test on the explained solution books of
+   [University-Coursework](https://github.com/Tewf/University-Coursework) was against written material, not learners.
 
 ## Check it
 

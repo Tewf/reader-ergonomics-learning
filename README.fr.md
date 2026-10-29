@@ -104,7 +104,8 @@ Chaque ligne renvoie à la revue qui porte ses preuves ; « (secondary) » marqu
 | texte explicatif | un texte qui énonce une idée fausse et la réfute bat l'exposé simple (g = 0,36 sur 30 comparaisons) ; les notes guidées relèvent la réussite à l'université (d = 0,55) ; les manuels libres enseignent autant que les manuels commerciaux (g = 0,01) | mesuré | aligner les objectifs sur les vérifications, dans un essai contrôlé ; les fiches de révision |
 
 Chaque revue se termine par des propositions de gabarits et de vérifications, chacune avec son niveau
-(`shapes-and-checks.md` dans chaque dossier). Ce sont des propositions : les gabarits seront écrits à partir d'elles.
+(`shapes-and-checks.md` dans chaque dossier). Les cinq [gabarits](shapes/README.md) en ont été écrits, et chaque bloc
+nomme la revue sur laquelle il repose.
 
 ## Les références que les gabarits doivent battre
 
@@ -138,9 +139,11 @@ Liés à un commit épinglé, jamais copiés ([one place per fact](https://githu
 
 ## Suite
 
-1. Lire par l'université les cinq sources payantes, pour les lignes que l'audit n'a pas pu vérifier.
-2. Les tester sur de vrais supports d'étude : les livres de solutions expliquées de
-   [University-Coursework](https://github.com/Tewf/University-Coursework).
+1. Lire Rowland 2014 et Yang 2021, publiés par l'APA, à laquelle l'université n'est pas abonnée : leurs trois lignes
+   sont marquées non vérifiées. Les deux autres articles payants ont été lus ([audit](evidence/README.md#audit)).
+2. Tester les gabarits auprès d'apprenants, contre la référence que nomme chaque revue. Le test sur les livres de
+   solutions expliquées de [University-Coursework](https://github.com/Tewf/University-Coursework) portait sur des
+   supports écrits, pas sur des apprenants.
 
 ## Le vérifier
 
