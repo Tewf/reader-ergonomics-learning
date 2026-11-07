@@ -3,7 +3,7 @@
 **Decision:** the evidence is split into four multivocal reviews: practice questions, flashcards, exercise sets and
 instructional text, each owning the works no other review in the family holds.
 
-**Status:** accepted, 2026-10-29. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/shapes/decision-record.md).
+**Status:** accepted, 2026-10-29. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/shapes/decision-record.md).
 
 ## Context
 

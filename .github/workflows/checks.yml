@@ -33,12 +33,12 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: Tewf/reader-ergonomics
-          ref: bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f   # v1.18.2 (reader-ergonomics extending.md, Versions)
+          ref: a67087a2cf4c9a552b6ec4bd96e90bec838e8859   # v1.21.1 (reader-ergonomics extending.md, Versions)
           path: standard
       - uses: actions/checkout@v4
         with:
           repository: Tewf/reader-ergonomics-topic
-          ref: 1220def7863b5e977a3edd1e30bd168fff1523a5   # v0.4.0 (decision 0003)
+          ref: 86e14fe9a1a9877d6a87a2f8b4e8713f98724b5a   # v0.6.1 (decision 0003)
           path: topic
           sparse-checkout: checks/local/topic.py
           sparse-checkout-cone-mode: false
@@ -81,7 +81,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: Tewf/reader-ergonomics
-          ref: bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f   # v1.18.2 (reader-ergonomics extending.md, Versions)
+          ref: a67087a2cf4c9a552b6ec4bd96e90bec838e8859   # v1.21.1 (reader-ergonomics extending.md, Versions)
           path: standard
       - uses: actions/setup-python@v5
         with:

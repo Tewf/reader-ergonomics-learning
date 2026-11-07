@@ -1,7 +1,7 @@
 # Evidence
 
 Four literature reviews, one per kind of study document, each in the steps reader-ergonomics uses for its own
-[evidence](https://github.com/Tewf/reader-ergonomics/tree/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/evidence): frame,
+[evidence](https://github.com/Tewf/reader-ergonomics/tree/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/evidence): frame,
 review, state of the art, position, the case against, baseline. Written and audited on 2026-10-29.
 
 ## Contents
@@ -45,7 +45,7 @@ standard.
 Each review is a **multivocal literature review**: research and **grey literature** (standards, publishers' and
 open textbook guides, practitioner books, tools, question-and-answer sites) in one review, built to a written protocol
 after Garousi 2019. The rules the four share are those of the reviews of reader-ergonomics-topic, linked rather than
-repeated: [its method](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/evidence/README.md#method).
+repeated: [its method](https://github.com/Tewf/reader-ergonomics-topic/blob/86e14fe9a1a9877d6a87a2f8b4e8713f98724b5a/evidence/README.md#method).
 
 Two rules differ here:
 
@@ -89,12 +89,12 @@ Linked here once; a review names them without repeating the links.
 
 | Principle | Served by |
 |---|---|
-| [retrieval prompts](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/principles/document/retrieval-prompts.md) | all four |
-| [worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/principles/document/worked-examples-with-subgoals.md) | exercise-sets, practice-questions, instructional-text |
-| [define before use](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/principles/document/define-before-use.md) | instructional-text |
-| [overview first](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/principles/document/overview-first.md) | instructional-text |
-| [signal the structure](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/principles/page/signal-the-structure.md) | instructional-text |
-| [one place per fact](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/principles/collection/one-place-per-fact.md) | instructional-text |
+| [retrieval prompts](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/principles/document/retrieval-prompts.md) | all four |
+| [worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/principles/document/worked-examples-with-subgoals.md) | exercise-sets, practice-questions, instructional-text |
+| [define before use](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/principles/document/define-before-use.md) | instructional-text |
+| [overview first](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/principles/document/overview-first.md) | instructional-text |
+| [signal the structure](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/principles/page/signal-the-structure.md) | instructional-text |
+| [one place per fact](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/principles/collection/one-place-per-fact.md) | instructional-text |
 
 ## What these reviews do not repeat
 
