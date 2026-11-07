@@ -2,7 +2,7 @@
 
 **Decision:** the repository holds a sixth shape, the recognition guide, which tells the types a sheet drills apart by their signals and refutes the look-alikes. It defines nothing and links the lesson of each type.
 
-**Status:** accepted, 2026-11-07. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/shapes/decision-record.md).
+**Status:** accepted, 2026-11-07. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/shapes/decision-record.md).
 
 ## Context
 

@@ -5,7 +5,7 @@ message: >-
   Anthropic. It is not an official standard, not peer-reviewed, and not a new
   result.
 title: "reader-ergonomics-learning"
-version: 1.1.0
+version: 1.1.1
 date-released: 2026-11-07
 abstract: >-
   How to write material meant to be learned (a lesson, worked examples, an

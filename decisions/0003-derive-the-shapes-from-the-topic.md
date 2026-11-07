@@ -4,7 +4,7 @@
 are linked and run at a release's commit: reader-ergonomics v1.21.1 and reader-ergonomics-topic v0.6.1.
 
 **Status:** accepted, 2026-10-29; its last point superseded by [0004](0004-five-shapes-and-a-markup.md), which runs
-the topic check in CI. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/shapes/decision-record.md).
+the topic check in CI. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/shapes/decision-record.md).
 
 ## Context
 
@@ -14,14 +14,14 @@ the topic check in CI. **Shape:** [decision record](https://github.com/Tewf/read
 - Its first derived shape was the decision record. Since v1.3.0 the standard holds a general one, which this
   repository's records follow.
 - The extension contract asks an extension to pin the standard by commit, never by tag
-  ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/extending.md)).
+  ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/extending.md)).
 
 ## Decision
 
 - A lesson, an exercise sheet, a study guide or a deck will be a topic with blocks of its own.
 - Each block takes a name from the topic's table of accepted names, and each document links the shape it follows.
 - Links down to either parent carry the release's commit. CI checks out reader-ergonomics at
-  `a67087a` (v1.21.1).
+  `0206e69` (v1.21.1).
 - The topic check is not run here yet: it reads the shapes, and none is written. It joins CI with the first shape.
   (Superseded: [0004](0004-five-shapes-and-a-markup.md) wrote the shapes, and CI has run the check since.)
 

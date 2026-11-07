@@ -4,6 +4,12 @@ Every release of this repository, newest first, in the form of
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). A move of the standard's pin is one line under Changed, as
 the standard's extending.md (Versions) gives it.
 
+## [1.1.1] - 2026-11-07
+
+### Changed
+
+- Pinned reader-ergonomics v1.22.1 (`0206e69`), from v1.21.1 (`a67087a`): LaTeX maths blanked by the sentence checks, escaped-pipe wikilinks resolved, and `standard-pin` moves a pin.
+
 ## [1.1.0] - 2026-11-07
 
 ### Added

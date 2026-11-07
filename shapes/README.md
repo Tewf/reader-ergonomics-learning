@@ -53,8 +53,8 @@ digraph shapes {
 </details>
 
 - **Built on, not copied.** The lesson keeps every block of the core
-  [note](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/shapes/note.md); a
-  worked example is the core [report](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/shapes/report.md),
+  [note](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/shapes/note.md); a
+  worked example is the core [report](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/shapes/report.md),
   with its plan, its steps named by their goal and its fading.
 - Every shape is a topic: a title, a summary, a body, contents and see also
   ([topic](https://github.com/Tewf/reader-ergonomics-topic/blob/86e14fe9a1a9877d6a87a2f8b4e8713f98724b5a/shapes/topic.md)).

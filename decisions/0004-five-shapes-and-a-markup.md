@@ -3,7 +3,7 @@
 **Decision:** the repository holds five shapes (lesson, question block, exercise sheet, deck, study guide), built on
 the core's note and report, and one plain Markdown markup for objectives, questions, folds, traps and types.
 
-**Status:** accepted, 2026-10-29. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/shapes/decision-record.md).
+**Status:** accepted, 2026-10-29. **Shape:** [decision record](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/shapes/decision-record.md).
 
 ## Context
 
