@@ -36,7 +36,7 @@ question_prefixes = ["Check:"]   # a callout question, as the S7 vault writes it
 
 # The same rules on notes, which state no objectives (checks/local/questions.py); this repository declares none.
 [questions]
-files = []
+files = ["shapes/examples/*-recognition.md"]   # the recognition guide: answers folded, more than a key
 
 [sheet]
 files = ["shapes/examples/*-sheet.md"]
@@ -62,6 +62,7 @@ shapes = [
   { name = "exercise sheet", files = ["shapes/examples/*-sheet.md"], required = ["Types", "Mixed review", "See also"] },
   { name = "deck", files = ["shapes/examples/*-deck.md"], required = ["Use", "Sections", "See also"] },
   { name = "study guide", files = ["shapes/examples/*-guide.md"], required = ["How to use", "Objectives", "Check yourself", "Error grid", "Redo on", "Method sheet", "See also"] },
+  { name = "recognition guide", files = ["shapes/examples/*-recognition.md"], required = ["Types", "Signals", "Decision", "Not one of them", "Check yourself", "See also"] },
 ]
 
 # The topic check of reader-ergonomics-topic, copied from its pinned commit at run time (checks.yml), never committed:
@@ -76,7 +77,7 @@ listing_words = 3    # PROVISIONAL
 summary_labels = ["summary", "abstract", "short description", "decision"]
 summary_within = 4   # PROVISIONAL
 typed = []
-shapes = { lesson = ["shapes/examples/*-lesson.md"], exercise-sheet = ["shapes/examples/*-sheet.md"], deck = ["shapes/examples/*-deck.md"], study-guide = ["shapes/examples/*-guide.md"] }
+shapes = { lesson = ["shapes/examples/*-lesson.md"], exercise-sheet = ["shapes/examples/*-sheet.md"], deck = ["shapes/examples/*-deck.md"], study-guide = ["shapes/examples/*-guide.md"], recognition-guide = ["shapes/examples/*-recognition.md"] }
 
 # Each shape shows a filled example of itself: the standard's shape-example check, from v1.7.0; the shapes of this
 # repository exempt two files more than the standard does.

@@ -9,8 +9,9 @@ digraph shapes {
   block  [label=<<b>question block</b>>];
   sheet  [label=<<b>exercise sheet</b>>];
   guide  [label=<<b>study guide</b>>];
+  recog  [label=<<b>recognition guide</b>>];
   { rank=same; note; report; }
-  { rank=same; deck; lesson; block; sheet; }
+  { rank=same; deck; lesson; block; sheet; recog; }
   lesson -> note   [label=<  extends>];
   sheet  -> report [label=<  worked examples>];
   lesson -> block  [label=<  holds>, constraint=false];
@@ -19,4 +20,6 @@ digraph shapes {
   guide  -> lesson;
   guide  -> block;
   guide  -> sheet;
+  recog  -> sheet  [label=<  shares the types of>, constraint=false];
+  guide  -> recog;
 }

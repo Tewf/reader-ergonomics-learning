@@ -5,14 +5,14 @@ message: >-
   Anthropic. It is not an official standard, not peer-reviewed, and not a new
   result.
 title: "reader-ergonomics-learning"
-version: 1.0.1
-date-released: 2026-11-04
+version: 1.1.0
+date-released: 2026-11-07
 abstract: >-
   How to write material meant to be learned (a lesson, worked examples, an
   exercise sheet, a study guide, flashcards, and the questions inside them) so
   that someone who studies it alone retains it and uses it on new problems. It
   extends reader-ergonomics and derives its shapes from reader-ergonomics-topic.
-  Four audited multivocal literature reviews (420 sources) support five shapes
+  Four audited multivocal literature reviews (420 sources) support six shapes
   of study documents, with checks a program runs on them.
 type: software
 authors:

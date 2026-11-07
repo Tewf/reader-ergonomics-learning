@@ -23,21 +23,21 @@ This page in French: [README.fr.md](README.fr.md).
    ```
 
 3. **Run one command,** with [reader-ergonomics](https://github.com/Tewf/reader-ergonomics) cloned beside it at the
-   release this repository pins, v1.18.2 (`bfbe9f7`): `python3 ../reader-ergonomics/checks/run.py .` An objective no
+   release this repository pins, v1.21.1 (`a67087a`): `python3 ../reader-ergonomics/checks/run.py .` An objective no
    question tests, or an answer left in sight, is an error.
 
-The other four work the same way: [shapes](shapes/README.md) gives the exercise sheet, the deck, the question block
+The other five work the same way: [shapes](shapes/README.md) gives the exercise sheet, the deck, the question block, the recognition guide
 and the study guide, each with its own example.
 
 ### Take it and keep your own
 
-The family's form is the standard's [Take your own version](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/README.md#take-your-own-version); for these shapes:
+The family's form is the standard's [Take your own version](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/README.md#take-your-own-version); for these shapes:
 
 - **Copy at a commit** of this repository, and note it: what you copied is yours, and nothing done here later
   changes it.
 - **Pin the standard by commit,** as this repository does, and move the pin when you choose:
-  `git clone https://github.com/Tewf/reader-ergonomics ../reader-ergonomics && git -C ../reader-ergonomics checkout bfbe9f7`
-  (v1.18.2).
+  `git clone https://github.com/Tewf/reader-ergonomics ../reader-ergonomics && git -C ../reader-ergonomics checkout a67087a`
+  (v1.21.1).
 - **Run the checks:** the command above. A run with no error is the result; the questions it leaves for judgment, in
   `checks/out/needs-judgment.md`, never block it.
 - **A disagreement** about a study document, a rule that stops a real writer or a grade you doubt, goes to
@@ -49,7 +49,7 @@ The family's form is the standard's [Take your own version](https://github.com/T
 | Rule | Grade | Checked |
 |---|---|---|
 | every objective is tested by a question, and every question names its objective | convention: every template read does it, no trial tests it | error |
-| each part ends in questions answered from memory, the answers folded | measured, for [retrieval](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/principles/document/retrieval-prompts.md) | error |
+| each part ends in questions answered from memory, the answers folded | measured, for [retrieval](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/principles/document/retrieval-prompts.md) | error |
 | a trap states the wrong idea, marks it wrong, then gives the accepted one | measured: refutation beats plain exposition, g = 0.36 over 30 comparisons | warning, without a Why not |
 | a new type of problem opens with a worked example, then problems that leave the last steps, then whole problems | measured, for novices; reversed for experts | error without the example; warning without the completion problem |
 | practice brings earlier types back, in mixed order | measured in classroom trials, mostly mathematics; one year-long trial found no gain on the final test | warning |
@@ -69,12 +69,12 @@ trap, and none had objectives or a question block ([what it found](shapes/README
 
 ## Where it sits
 
-It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/README.md).
+It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/README.md).
 The principles, their grades and the checks live there and are not repeated here. So do the learning effects
 themselves: retrieval, spacing, worked examples, multimedia. This repository adds what the genre changes: how each of
 these documents is built, and what a program can check in it.
 
-![Three levels: this repository uses reader-ergonomics-topic (pinned v0.4.0) and reader-ergonomics (pinned v1.18.2); the topic uses reader-ergonomics.](where-it-sits.svg)
+![Three levels: this repository uses reader-ergonomics-topic (pinned v0.6.1) and reader-ergonomics (pinned v1.21.1); the topic uses reader-ergonomics.](where-it-sits.svg)
 
 <details>
 <summary>Graphviz source</summary>
@@ -87,18 +87,18 @@ digraph levels {
   L [label=<<font point-size="10" color="#55575F">LEVEL 2</font><br/><b>reader-ergonomics-learning</b><br/><font point-size="11" color="#55575F">the shapes of study documents, and their checks</font>>, fillcolor="#E8EEF8", color="#2F5DA8"];
   T [label=<<font point-size="10" color="#55575F">LEVEL 1</font><br/><b>reader-ergonomics-topic</b><br/><font point-size="11" color="#55575F">one topic shape, nested to any depth, its check</font>>, fillcolor="#FFFFFF", color="#3D434B"];
   R [label=<<font point-size="10" color="#55575F">LEVEL 0</font><br/><b>reader-ergonomics</b><br/><font point-size="11" color="#55575F">how any text serves its reader; learning science</font>>, fillcolor="#FFFFFF", color="#3D434B"];
-  L -> T [label=<  derives its shapes from the topic,<br/>  pinned v0.4.0>];
+  L -> T [label=<  derives its shapes from the topic,<br/>  pinned v0.6.1>];
   T -> R [label=<  obeys the principles>];
-  L -> R [label=<  obeys the principles; CI runs<br/>  their checks here, pinned v1.18.2>, constraint=false];
+  L -> R [label=<  obeys the principles; CI runs<br/>  their checks here, pinned v1.21.1>, constraint=false];
 }
 ```
 
 </details>
 
 - **It obeys reader-ergonomics** and runs its checks, as every extension does
-  ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/extending.md)).
+  ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/extending.md)).
 - **Its shapes derive from the
-  [topic](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/shapes/topic.md)**:
+  [topic](https://github.com/Tewf/reader-ergonomics-topic/blob/86e14fe9a1a9877d6a87a2f8b4e8713f98724b5a/shapes/topic.md)**:
   a title, a summary that stands for the document, a body, its contents, and what it points to. A lesson or an
   exercise sheet adds its own blocks and removes none.
 - **No level depends on a level above it.** Nothing below links up to this repository.
@@ -110,7 +110,7 @@ a learner studies, and a program that checks them.
 
 | What exists | Where | What it leaves out |
 |---|---|---|
-| the learning effects, each with its grade and its effect size | reader-ergonomics, [learning science](https://github.com/Tewf/reader-ergonomics/tree/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/evidence/learning-science) | how a question, a card or an exercise sheet is written |
+| the learning effects, each with its grade and its effect size | reader-ergonomics, [learning science](https://github.com/Tewf/reader-ergonomics/tree/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/evidence/learning-science) | how a question, a card or an exercise sheet is written |
 | guides in prose for teachers and authors | practice guides and books, placed by the reviews | a check a program can run |
 | lesson templates checked by a program | [The Carpentries Workbench](https://github.com/carpentries/pegboard) | its checks read headings, blocks and links, not what the lesson teaches |
 
@@ -154,7 +154,7 @@ Each line links the review that holds its evidence; "(secondary)" marks a number
 | instructional text | a text that states a misconception and refutes it beats plain exposition (g = 0.36 over 30 comparisons); guided notes raise college achievement (d = 0.55); open textbooks teach as much as commercial ones (g = 0.01) | measured | aligning objectives with the checks, in a controlled trial; revision guides |
 
 Every review ends in proposals for the shapes and the checks, each with its grade (`shapes-and-checks.md` in each
-folder). The five [shapes](shapes/README.md) were written from them, and each block names the review it rests on.
+folder). The first five [shapes](shapes/README.md) were written from them, and each block names the review it rests on.
 
 ## The baselines the shapes must beat
 
@@ -169,7 +169,7 @@ Each review's `baseline.md` gives the design of the comparison: matched time, a 
 
 ## Brought from the sibling repositories
 
-Linked at a pinned commit, never copied ([one place per fact](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/principles/collection/one-place-per-fact.md)).
+Linked at a pinned commit, never copied ([one place per fact](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/principles/collection/one-place-per-fact.md)).
 
 | From | What | Used for |
 |---|---|---|
@@ -182,7 +182,7 @@ Linked at a pinned commit, never copied ([one place per fact](https://github.com
 
 | Part | Holds |
 |---|---|
-| [shapes](shapes/README.md) | the five shapes of study documents, each with the evidence behind its blocks, its checks and an example |
+| [shapes](shapes/README.md) | the six shapes of study documents, each with the evidence behind its blocks, its checks and an example |
 | [decisions](decisions/) | one record per choice that shapes this repository, each opening with the decision in one sentence |
 | [evidence](evidence/) | the four reviews, 420 sources, and the bibliography of 452 works |
 
@@ -196,7 +196,7 @@ Linked at a pinned commit, never copied ([one place per fact](https://github.com
 ## Check it
 
 ```sh
-git clone https://github.com/Tewf/reader-ergonomics && git -C reader-ergonomics checkout bfbe9f7   # the pinned release
+git clone https://github.com/Tewf/reader-ergonomics && git -C reader-ergonomics checkout a67087a   # the pinned release
 python3 reader-ergonomics/checks/run.py path/to/this/repository
 ```
 

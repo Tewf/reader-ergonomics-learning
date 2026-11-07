@@ -23,22 +23,22 @@ Cette page en anglais : [README.md](README.md). Les deux versions suivent le mê
    ```
 
 3. **Lancer une commande,** avec [reader-ergonomics](https://github.com/Tewf/reader-ergonomics) cloné à côté, à la
-   version que ce dépôt épingle, v1.18.2 (`bfbe9f7`) : `python3 ../reader-ergonomics/checks/run.py .` Un objectif
+   version que ce dépôt épingle, v1.21.1 (`a67087a`) : `python3 ../reader-ergonomics/checks/run.py .` Un objectif
    qu'aucune question ne teste, ou une réponse laissée sous les yeux, est une erreur.
 
-Les quatre autres se font de la même façon : [shapes](shapes/README.md) donne la feuille d'exercices, le paquet de
+Les cinq autres se font de la même façon : [shapes](shapes/README.md) donne la feuille d'exercices, le paquet de
 cartes, le bloc de questions et la fiche de révision, chacun avec son exemple.
 
 ### Le prendre et garder sa version
 
-La forme commune à la famille est la section [Take your own version](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/README.md#take-your-own-version) du standard ; pour ces
+La forme commune à la famille est la section [Take your own version](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/README.md#take-your-own-version) du standard ; pour ces
 gabarits :
 
 - **Copier à un commit** de ce dépôt, et le noter : ce qui est copié est à soi, et rien de ce qui se fait ici ensuite
   ne le change.
 - **Épingler le standard par commit,** comme ce dépôt, et déplacer l'épingle quand on le choisit :
-  `git clone https://github.com/Tewf/reader-ergonomics ../reader-ergonomics && git -C ../reader-ergonomics checkout bfbe9f7`
-  (v1.18.2).
+  `git clone https://github.com/Tewf/reader-ergonomics ../reader-ergonomics && git -C ../reader-ergonomics checkout a67087a`
+  (v1.21.1).
 - **Lancer les vérifications :** la commande ci-dessus. Un passage sans erreur est le résultat ; les questions laissées
   au jugement, dans `checks/out/needs-judgment.md`, ne le bloquent jamais.
 - **Un désaccord** sur un support d'étude, une règle qui arrête un vrai rédacteur ou un niveau de preuve dont on
@@ -50,7 +50,7 @@ gabarits :
 | Règle | Niveau | Vérifiée |
 |---|---|---|
 | chaque objectif est testé par une question, et chaque question nomme son objectif | convention : tous les gabarits lus le font, aucun essai ne le teste | erreur |
-| chaque partie se termine par des questions auxquelles on répond de mémoire, réponses repliées | mesuré, pour la [récupération en mémoire](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/principles/document/retrieval-prompts.md) | erreur |
+| chaque partie se termine par des questions auxquelles on répond de mémoire, réponses repliées | mesuré, pour la [récupération en mémoire](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/principles/document/retrieval-prompts.md) | erreur |
 | un piège énonce l'idée fausse, la marque fausse, puis donne l'idée admise | mesuré : la réfutation bat l'exposé simple, g = 0,36 sur 30 comparaisons | avertissement, sans Why not |
 | un nouveau type de problème s'ouvre sur un exemple résolu, puis des problèmes qui laissent les dernières étapes, puis des problèmes entiers | mesuré, pour les débutants ; inversé pour les experts | erreur sans l'exemple ; avertissement sans le problème à compléter |
 | l'entraînement fait revenir les types déjà vus, mêlés | mesuré en classe, surtout en mathématiques ; un essai d'un an n'a trouvé aucun gain à l'examen final | avertissement |
@@ -62,7 +62,7 @@ avec un piège, et aucune n'avait d'objectifs ni de bloc de questions
 
 > **État :** la revue de littérature est écrite et auditée (2026-10-29) : quatre revues multivocales, 420 sources,
 > dans [evidence](evidence/) ; 304 lignes vérifiées dans leurs sources, un second évaluateur sur une source grise
-> sur cinq. Cinq gabarits, leurs vérifications et un exemple de chacun sont écrits ; aucun n'a été testé auprès d'apprenants. C'est une lecture informelle de la
+> sur cinq. Six gabarits, leurs vérifications et un exemple de chacun sont écrits ; aucun n'a été testé auprès d'apprenants. C'est une lecture informelle de la
 > recherche et de la pratique publiées : ni une norme officielle, ni une étude évaluée par des pairs, ni un résultat
 > nouveau, ni une prétention à l'état de l'art.
 >
@@ -72,12 +72,12 @@ avec un piège, et aucune n'avait d'objectifs ni de bloc de questions
 
 ## Où il se place
 
-Il étend [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/README.md).
+Il étend [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/README.md).
 Les principes, leurs niveaux de preuve et les vérifications vivent là-bas et ne sont pas répétés ici. Les effets
 d'apprentissage eux-mêmes aussi : récupération en mémoire, espacement, exemples résolus, multimédia. Ce dépôt ajoute
 ce que le genre change : comment chacun de ces documents est construit, et ce qu'un programme peut y vérifier.
 
-![Trois niveaux : ce dépôt utilise reader-ergonomics-topic (épinglé à v0.4.0) et reader-ergonomics (épinglé à v1.18.2) ; le topic utilise reader-ergonomics.](where-it-sits.fr.svg)
+![Trois niveaux : ce dépôt utilise reader-ergonomics-topic (épinglé à v0.6.1) et reader-ergonomics (épinglé à v1.21.1) ; le topic utilise reader-ergonomics.](where-it-sits.fr.svg)
 
 <details>
 <summary>Source Graphviz</summary>
@@ -90,18 +90,18 @@ digraph niveaux {
   L [label=<<font point-size="10" color="#55575F">NIVEAU 2</font><br/><b>reader-ergonomics-learning</b><br/><font point-size="11" color="#55575F">les gabarits d'étude et leurs vérifications</font>>, fillcolor="#E8EEF8", color="#2F5DA8"];
   T [label=<<font point-size="10" color="#55575F">NIVEAU 1</font><br/><b>reader-ergonomics-topic</b><br/><font point-size="11" color="#55575F">un gabarit, le topic, imbriqué à toute profondeur</font>>, fillcolor="#FFFFFF", color="#3D434B"];
   R [label=<<font point-size="10" color="#55575F">NIVEAU 0</font><br/><b>reader-ergonomics</b><br/><font point-size="11" color="#55575F">comment un texte sert son lecteur ; l'apprentissage</font>>, fillcolor="#FFFFFF", color="#3D434B"];
-  L -> T [label=<  dérive ses gabarits du topic,<br/>  épinglé à v0.4.0>];
+  L -> T [label=<  dérive ses gabarits du topic,<br/>  épinglé à v0.6.1>];
   T -> R [label=<  obéit aux principes>];
-  L -> R [label=<  obéit aux principes ; la CI y lance<br/>  leurs vérifications, v1.18.2>, constraint=false];
+  L -> R [label=<  obéit aux principes ; la CI y lance<br/>  leurs vérifications, v1.21.1>, constraint=false];
 }
 ```
 
 </details>
 
 - **Il obéit à reader-ergonomics** et lance ses vérifications, comme toute extension
-  ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/extending.md)).
+  ([extending.md](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/extending.md)).
 - **Ses gabarits dérivent du
-  [topic](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/shapes/topic.md)** :
+  [topic](https://github.com/Tewf/reader-ergonomics-topic/blob/86e14fe9a1a9877d6a87a2f8b4e8713f98724b5a/shapes/topic.md)** :
   un titre, un résumé qui tient lieu du document, un corps, son contenu, et ce vers quoi il pointe. Une leçon ou une
   feuille d'exercices ajoute ses propres blocs et n'en retire aucun.
 - **Aucun niveau ne dépend d'un niveau au-dessus de lui.** Rien en dessous ne pointe vers ce dépôt.
@@ -113,7 +113,7 @@ documents qu'un apprenant étudie, et un programme qui les vérifie.
 
 | Ce qui existe | Où | Ce qui manque |
 |---|---|---|
-| les effets d'apprentissage, chacun avec son niveau de preuve et sa taille d'effet | reader-ergonomics, [learning science](https://github.com/Tewf/reader-ergonomics/tree/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/evidence/learning-science) | comment s'écrit une question, une carte ou une feuille d'exercices |
+| les effets d'apprentissage, chacun avec son niveau de preuve et sa taille d'effet | reader-ergonomics, [learning science](https://github.com/Tewf/reader-ergonomics/tree/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/evidence/learning-science) | comment s'écrit une question, une carte ou une feuille d'exercices |
 | des guides en prose pour enseignants et auteurs | guides de pratique et livres, situés par les revues | une vérification qu'un programme peut lancer |
 | des gabarits de leçon vérifiés par programme | [The Carpentries Workbench](https://github.com/carpentries/pegboard) | ses vérifications lisent les titres, les blocs et les liens, pas ce que la leçon enseigne |
 
@@ -158,7 +158,7 @@ Chaque ligne renvoie à la revue qui porte ses preuves ; « (secondary) » marqu
 | texte explicatif | un texte qui énonce une idée fausse et la réfute bat l'exposé simple (g = 0,36 sur 30 comparaisons) ; les notes guidées relèvent la réussite à l'université (d = 0,55) ; les manuels libres enseignent autant que les manuels commerciaux (g = 0,01) | mesuré | aligner les objectifs sur les vérifications, dans un essai contrôlé ; les fiches de révision |
 
 Chaque revue se termine par des propositions de gabarits et de vérifications, chacune avec son niveau
-(`shapes-and-checks.md` dans chaque dossier). Les cinq [gabarits](shapes/README.md) en ont été écrits, et chaque bloc
+(`shapes-and-checks.md` dans chaque dossier). Les cinq premiers [gabarits](shapes/README.md) en ont été écrits, et chaque bloc
 nomme la revue sur laquelle il repose.
 
 ## Les références que les gabarits doivent battre
@@ -174,7 +174,7 @@ Le `baseline.md` de chaque revue donne le plan de la comparaison : même temps, 
 
 ## Repris des dépôts voisins
 
-Liés à un commit épinglé, jamais copiés ([one place per fact](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/principles/collection/one-place-per-fact.md)).
+Liés à un commit épinglé, jamais copiés ([one place per fact](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/principles/collection/one-place-per-fact.md)).
 
 | De | Quoi | Sert à |
 |---|---|---|
@@ -187,7 +187,7 @@ Liés à un commit épinglé, jamais copiés ([one place per fact](https://githu
 
 | Partie | Contient |
 |---|---|
-| [shapes](shapes/README.md) | les cinq gabarits des documents d'étude, chacun avec les preuves de ses blocs, ses vérifications et un exemple |
+| [shapes](shapes/README.md) | les six gabarits des documents d'étude, chacun avec les preuves de ses blocs, ses vérifications et un exemple |
 | [decisions](decisions/) | une fiche par choix qui façonne ce dépôt, chacune ouverte par la décision en une phrase |
 | [evidence](evidence/) | les quatre revues, 420 sources, et la bibliographie de 452 travaux |
 
@@ -202,7 +202,7 @@ Liés à un commit épinglé, jamais copiés ([one place per fact](https://githu
 ## Le vérifier
 
 ```sh
-git clone https://github.com/Tewf/reader-ergonomics && git -C reader-ergonomics checkout bfbe9f7   # la version épinglée
+git clone https://github.com/Tewf/reader-ergonomics && git -C reader-ergonomics checkout a67087a   # la version épinglée
 python3 reader-ergonomics/checks/run.py chemin/vers/ce/depot
 ```
 

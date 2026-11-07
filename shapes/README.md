@@ -1,6 +1,6 @@
 # Shapes
 
-The five shapes of study documents, each derived from the topic of reader-ergonomics-topic and built on the shapes of
+The six shapes of study documents, each derived from the topic of reader-ergonomics-topic and built on the shapes of
 reader-ergonomics, with the evidence behind each block and the checks a program runs on it.
 
 ## Contents
@@ -12,11 +12,12 @@ reader-ergonomics, with the evidence behind each block and the checks a program 
 | [exercise sheet](exercise-sheet.md) | each new type opened by a worked example, then a completion problem and a few problems; a mixed review; hints before answers |
 | [deck](deck.md) | flashcards shipped with study material: a header page and a file of cards, one question and one answer, each linked to its section |
 | [study guide](study-guide.md) | worked through before an exam: one problem solved per type, traps, variants, an error grid, a date to redo, a method sheet from memory |
+| [recognition guide](recognition-guide.md) | which type a problem is, before solving it: the signals in the statement and in the model per type, the tool, the look-alikes refuted, statements to place |
 | [examples](examples/README.md) | one small document of each shape, on binary search, that passes every check |
 
 ## How they fit together
 
-![Five shapes. The lesson extends the core note; the exercise sheet's worked examples are core reports. The question block sits inside the lesson and the study guide; the deck derives from a lesson; the study guide draws on all four.](shapes.svg)
+![Six shapes. The lesson extends the core note; the exercise sheet's worked examples are core reports. The question block sits inside the lesson and the study guide; the deck derives from a lesson; the recognition guide shares the sheet's types; the study guide draws on all of them.](shapes.svg)
 
 <details>
 <summary>Graphviz source</summary>
@@ -33,8 +34,9 @@ digraph shapes {
   block  [label=<<b>question block</b>>];
   sheet  [label=<<b>exercise sheet</b>>];
   guide  [label=<<b>study guide</b>>];
+  recog  [label=<<b>recognition guide</b>>];
   { rank=same; note; report; }
-  { rank=same; deck; lesson; block; sheet; }
+  { rank=same; deck; lesson; block; sheet; recog; }
   lesson -> note   [label=<  extends>];
   sheet  -> report [label=<  worked examples>];
   lesson -> block  [label=<  holds>, constraint=false];
@@ -43,17 +45,19 @@ digraph shapes {
   guide  -> lesson;
   guide  -> block;
   guide  -> sheet;
+  recog  -> sheet  [label=<  shares the types of>, constraint=false];
+  guide  -> recog;
 }
 ```
 
 </details>
 
 - **Built on, not copied.** The lesson keeps every block of the core
-  [note](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/shapes/note.md); a
-  worked example is the core [report](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/shapes/report.md),
+  [note](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/shapes/note.md); a
+  worked example is the core [report](https://github.com/Tewf/reader-ergonomics/blob/a67087a2cf4c9a552b6ec4bd96e90bec838e8859/shapes/report.md),
   with its plan, its steps named by their goal and its fading.
 - Every shape is a topic: a title, a summary, a body, contents and see also
-  ([topic](https://github.com/Tewf/reader-ergonomics-topic/blob/1220def7863b5e977a3edd1e30bd168fff1523a5/shapes/topic.md)).
+  ([topic](https://github.com/Tewf/reader-ergonomics-topic/blob/86e14fe9a1a9877d6a87a2f8b4e8713f98724b5a/shapes/topic.md)).
   The question block alone is a part, not a document.
 
 ## The markup the checks read
@@ -68,7 +72,8 @@ Plain Markdown, so a document renders the same on GitHub, in Quarto and in Obsid
 | a trap | a quote opening `> **Trap:**`, or a callout titled Trap (`> [!warning] Trap`, `title="Trap"`), holding `**Why not:**` |
 | a type of problem | `- **T1** <type>` under `## Types` |
 | an item of a sheet | `### Worked example (T1): ...`, `### Complete (T1): ...`, `### Problem (T1): ...` |
-| a hint, an answer, a solution | folds whose summaries read Hint, Answer, Solution |
+| a hint, an answer, a solution | folds whose summaries read Hint, Answer, Solution; two folds in a row are separated by a blank line, since a run of quoted lines is read as one callout |
+| a signal of a type | a row of the Signals table of a recognition guide, under `## Signals` |
 | a card | a row of a TSV file: front, back, source, tags |
 | the shape a document follows | a line `**Shape:** [lesson](<link to the shape>)` under the summary |
 
@@ -125,4 +130,4 @@ why_labels = ["Pourquoi non"]
 ## See also
 
 The [repository's front page](../README.md), the parent of this folder; [decision 0004](../decisions/0004-five-shapes-and-a-markup.md),
-why these five and this markup.
+why the first five and this markup; [decision 0005](../decisions/0005-a-sixth-shape-the-recognition-guide.md), why the sixth.

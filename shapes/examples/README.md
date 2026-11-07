@@ -11,6 +11,7 @@ every check of this repository, and each is checked again in CI.
 | [exercise sheet](binary-search-sheet.md) | two types, each opened by a worked example and a completion problem, then a mixed review |
 | [deck](binary-search-deck.md) | seven cards in a file Anki imports, each linked to the section it tests |
 | [study guide](binary-search-guide.md) | one method with its trap, three variants, an error grid, a date to redo, a method sheet |
+| [recognition guide](binary-search-recognition.md) | three searches told apart by their signals, a two-question decision, three look-alikes refuted, three statements to place |
 
 ## See also
 
