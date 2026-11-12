@@ -26,7 +26,7 @@ also be a callout that holds its own answer, `> [!QUESTION]- Check: <question>`,
 
 | Item | Rule | Grade | Evidence |
 |---|---|---|---|
-| recall question | one key idea of the part, answered without the text | measured (core) | [retrieval prompts](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/principles/document/retrieval-prompts.md) |
+| recall question | one key idea of the part, answered without the text | measured (core) | [retrieval prompts](https://github.com/Tewf/reader-ergonomics/blob/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/principles/document/retrieval-prompts.md) |
 | higher-order question | at least one per part: application or inference on the same idea | measured: testing transfers to application and inference questions (d = 0.32), and higher-order quizzes raised higher-order scores | [practice questions](../evidence/practice-questions/review.md), strands 0 and 1 |
 | objective tag | the id of the objective the item tests | convention, untested | [lesson](lesson.md), alignment |
 | multiple-choice item | options built from known errors, three or four, no "all of the above" or "none of the above" | measured that competitive options induce retrieval; three options are best for tests, not shown for learning; the banned options are a convention of the item-writing guidelines | [practice questions](../evidence/practice-questions/review.md), strands 2 and 3 |

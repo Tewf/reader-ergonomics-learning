@@ -4,6 +4,12 @@ Every release of this repository, newest first, in the form of
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). A move of the standard's pin is one line under Changed, as
 the standard's extending.md (Versions) gives it.
 
+## [Unreleased]
+
+### Changed
+
+- Pinned reader-ergonomics v1.24.2 (`65e4247`), from v1.22.1 (`0206e69`): fixes that remove false findings in the sentence, term and figure checks, and `[defined_terms] cues`.
+
 ## [1.1.1] - 2026-11-07
 
 ### Changed
