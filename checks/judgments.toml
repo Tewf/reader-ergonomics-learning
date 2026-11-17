@@ -321,14 +321,14 @@ check = "co-change"
 path = ".github/workflows/checks.yml"
 question = "changed together with AGENTS.md in 5 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "b0fb44c888a8"
-answer = "Neither: this file runs the checks in CI and AGENTS.md gives the same commands for a local run, so a change to what CI runs touches both on purpose. The five shared commits moved a pinned release (`# v1.24.3`) or added a step that a local run repeats: the topic check copied at `# v0.6.1 (decision 0003)`, and `Clone the family beside this repository, for bibliography-keys`. Decision 0003 pins both by commit."
+answer = "Neither: this file runs the checks in CI and AGENTS.md gives the same commands for a local run, so a change to what CI runs touches both on purpose. The five shared commits moved a pinned release (`# v1.24.5`) or added a step that a local run repeats: the topic check copied at `# v0.6.1 (decision 0003)`, and `Clone the family beside this repository, for bibliography-keys`. Decision 0003 pins both by commit."
 
 [[answer]]
 check = "co-change"
 path = ".github/workflows/pages.yml"
 question = "changed together with AGENTS.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "b5445923416b"
-answer = "Neither: this file checks out the standard's stylesheet at the pinned release (`# v1.24.3`), and AGENTS.md names the same release; decision 0003 pins both by commit, so a move of the pin touches both, on purpose."
+answer = "Neither: this file checks out the standard's stylesheet at the pinned release (`# v1.24.5`), and AGENTS.md names the same release; decision 0003 pins both by commit, so a move of the pin touches both, on purpose."
 
 [[answer]]
 check = "logical-lines"
@@ -370,14 +370,14 @@ check = "co-change"
 path = ".github/workflows/checks.yml"
 question = "changed together with AGENTS.md in 5 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "94cfd2973346"
-answer = "Neither: this file runs the checks in CI and AGENTS.md gives the same commands for a local run, so a change to what CI runs touches both on purpose. The five shared commits moved a pinned release (`# v1.24.3`) or added a step that a local run repeats: the topic check copied at `# v0.6.1 (decision 0003)`, and `Clone the family beside this repository, for bibliography-keys`. Decision 0003 pins both by commit."
+answer = "Neither: this file runs the checks in CI and AGENTS.md gives the same commands for a local run, so a change to what CI runs touches both on purpose. The five shared commits moved a pinned release (`# v1.24.5`) or added a step that a local run repeats: the topic check copied at `# v0.6.1 (decision 0003)`, and `Clone the family beside this repository, for bibliography-keys`. Decision 0003 pins both by commit."
 
 [[answer]]
 check = "co-change"
 path = ".github/workflows/pages.yml"
 question = "changed together with AGENTS.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "968b8024ffff"
-answer = "Neither: this file checks out the standard's stylesheet at the pinned release (`# v1.24.3`), and AGENTS.md names the same release; decision 0003 pins both by commit, so a move of the pin touches both, on purpose."
+answer = "Neither: this file checks out the standard's stylesheet at the pinned release (`# v1.24.5`), and AGENTS.md names the same release; decision 0003 pins both by commit, so a move of the pin touches both, on purpose."
 
 [[answer]]
 check = "co-change"
@@ -433,14 +433,14 @@ check = "co-change"
 path = ".github/workflows/checks.yml"
 question = "changed together with AGENTS.md in 5 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "3790e8ae56f9"
-answer = "Neither: this file runs the checks in CI and AGENTS.md gives the same commands for a local run, so a change to what CI runs touches both on purpose. The five shared commits moved a pinned release (`# v1.24.3`) or added a step that a local run repeats: the topic check copied at `# v0.6.1 (decision 0003)`, and `Clone the family beside this repository, for bibliography-keys`. Decision 0003 pins both by commit."
+answer = "Neither: this file runs the checks in CI and AGENTS.md gives the same commands for a local run, so a change to what CI runs touches both on purpose. The five shared commits moved a pinned release (`# v1.24.5`) or added a step that a local run repeats: the topic check copied at `# v0.6.1 (decision 0003)`, and `Clone the family beside this repository, for bibliography-keys`. Decision 0003 pins both by commit."
 
 [[answer]]
 check = "co-change"
 path = ".github/workflows/pages.yml"
 question = "changed together with AGENTS.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "5ad896613144"
-answer = "Neither: this file checks out the standard's stylesheet at the pinned release (`# v1.24.3`), and AGENTS.md names the same release; decision 0003 pins both by commit, so a move of the pin touches both, on purpose."
+answer = "Neither: this file checks out the standard's stylesheet at the pinned release (`# v1.24.5`), and AGENTS.md names the same release; decision 0003 pins both by commit, so a move of the pin touches both, on purpose."
 
 [[answer]]
 check = "co-change"

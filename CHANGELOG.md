@@ -8,6 +8,7 @@ the standard's extending.md (Versions) gives it.
 
 ### Changed
 
+- Pinned reader-ergonomics v1.24.5 (`030e4f2`), from v1.24.3 (`722cfa4`): a server that refuses the checker (405, 406, or a connection closed without an answer, as ERIC does on GitHub's runner) is a warning, so the weekly online run no longer fails on a reference that exists; v1.24.4 also stops encoding an encoded DOI twice.
 - Pinned reader-ergonomics v1.24.3 (`722cfa4`), from v1.24.2 (`65e4247`): a SICI DOI is read whole and a server error is a warning, not an error. The links and version labels of the text move with the pin; several said v1.21.1 beside the commit of v1.24.2.
 - Pinned reader-ergonomics v1.24.2 (`65e4247`), from v1.22.1 (`0206e69`): fixes that remove false findings in the sentence, term and figure checks, and `[defined_terms] cues`.
 

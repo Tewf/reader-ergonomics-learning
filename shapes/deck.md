@@ -42,7 +42,7 @@ front	back	source	tags
 | Generated cards | tagged `generated`, and `checked` once a person has read them | supported with caveat: one error in 21 after tuning, in one preprint | [flashcards](../evidence/flashcards/review.md), strand 7 |
 
 - Scheduling is left to the review software: the schedulers are compared in the core
-  ([learning science](https://github.com/Tewf/reader-ergonomics/blob/722cfa4b0ad65968e2c7e6fdc07057c9bab0e172/evidence/learning-science/review.md), strand 8).
+  ([learning science](https://github.com/Tewf/reader-ergonomics/blob/030e4f21a151dca21366dc98923e6285f5f6e5ba/evidence/learning-science/review.md), strand 8).
 - **The baseline this shape must beat** is a learner-made Anki deck of question-and-answer cards under the default
   scheduler ([baseline](../evidence/flashcards/baseline.md)).
 
